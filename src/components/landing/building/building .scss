@@ -1,29 +1,46 @@
 .main-Building {
+    margin-bottom: 196px;
     margin-top: 196px;
+    .mainbuilding{
+        margin-left: 120px;
+        padding-right: 148px;
 
-.buldingheadingss {
-        font-family: "Gellix";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 120%;
-        color: #000a23;
-        flex: none;
-        order: 0;
-        align-self: stretch;
-        flex-grow: 0;
-        margin-bottom: 28px;
+        .buldingheadingss {
+            font-family: "Gellix";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 120%;
+            color: #000a23;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            margin-bottom: 28px;
+            margin-top: 196px;
+     
+        }
+        .buildingpara {
+            font-family: 'Gellix';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #66718F;
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+          
+        }
+
+
     }
-    .buildingpara {
-        font-family: 'Gellix';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-        color: #66718F;
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
+
+
+    .lastimmgg {
+        // margin-top: 161px;
+        margin-right: 120px;
+       
     }
 }

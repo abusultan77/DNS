@@ -34,17 +34,12 @@ const Banner = ({ supArr, objArr, setObjArr }) => {
             </div>
 
             <div class=" ">
-             
-              <div class="input-group-append">
-              <input type="text" class="form-control" placeholder="Search domain names" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                <button class="btn btn-common" type="button">
-                  <img
-                    src="\main-banner\search-normal.svg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  Button
-                </button>
+
+              <div class="input-group mb-3 text-center">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">Button</button>
+                </div>
               </div>
             </div>
           </div>

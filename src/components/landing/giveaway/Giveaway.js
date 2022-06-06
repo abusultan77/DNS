@@ -51,7 +51,7 @@ const Giveaway = () => {
                         <div className="col-sm-12 m-auto">
                             <div className='caarrddss'>
                                 <div class="row">
-                                <div className='col-sm-1 '></div>
+                    
                                     <div className='col-sm-3 '>
                                         <div className='inercards'>
                                             <img

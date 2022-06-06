@@ -6,8 +6,10 @@ import Banner from './main-banner/Banner.js';
 import Giveaway from './giveaway/Giveaway.js';
 // import Live from './live/Live.js';
 import Building from './building/Building ';
+import Computerb from './computerb/Computerb';
 import Getinvolved from '../getinvolved/Getinvolved';
 import Adress from './address/Adress';
+
 
 
 function Landing() {
@@ -20,8 +22,10 @@ function Landing() {
       <Banner />
       <Giveaway />
       <Building />
+      <Computerb/>
       <Adress/>
       <Getinvolved/>
+  
       {/* <Live/> */}
       {/* <About/>
        <Features/> */}

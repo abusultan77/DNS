@@ -4,46 +4,80 @@ import './footer.scss';
 const Footer = () => {
     return (
         <>
-            <section className="main-footer">
-                <div className="container">
-                    <div className='row mt-5 '>
-                        <div className='col-sm-8'>
-                            <div className='inner-logo '>
-                                <img src='\adress\Frame92.png' className='img-fluid'/>
-                                <div className='inner-footerheading'>
-                                    <Link className='' to='/'>
-                                        HOME
+            <section className="main-footer ptb20">
+
+
+                <div className="container-fluid p-0">
+                    <div className="row">
+                        <div className="col-xl-11 col-lg-11 m-auto ">
+                            <nav className="navbar  navbar-expand-xl ">
+
+                                <a href="#" className="navbar-brand ">
+                                    <Link to="/">
+                                        <img src="\dns-logo\DNS-logo.svg" alt="img" className="img-fluid footerimg" />
                                     </Link>
-                                    <Link className='' to='/'>
-                                    Marketplace
-                                    </Link>
-                                    <Link className='' to='/'>
-                                    About
-                                    </Link>
+                                </a>
+                                <button
+                                    className="navbar-toggler"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span className="togg">
+                                        <i class="fas fa-bars"></i>
+                                    </span>
+                                </button>
+                                <div
+                                    className="collapse navbar-collapse marg"
+                                    id="navbarSupportedContent"
+                                >
+                                    <ul className="navbar-nav mr-auto">
+                                        <li class="nav-item">
+
+                                            Home
+
+                                        </li>
+                                        <li className="nav-item ">
+
+                                            Marketplace
+
+                                        </li>
+                                        <li className="nav-item">
+
+                                            About
+
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                        </li>
+                                    </ul>
+                                    <button class="btn button-hedaer " type="button">
+
+                                        Connect Wallet
+                                    </button>
                                 </div>
-                            </div>
-
+                            </nav>
                         </div>
-                        <div className='col-sm-4'>
-                            <div className='inner-icon'>
-                                <img src='\adress\icon-1.png' className='img-fluid'/>
-                                <img src='\adress\icon2.png' className='img-fluid'/>
-                                <img src='\adress\icon3.png' className='img-fluid'/>
-                            </div>
+                    </div>
+                </div>
 
-                        </div>
-                        <div className="row">
-                        <div className="col-sm-12">
-                            <div className="inner-rights ptb">
-                                <p className="">© 2021 wordnftgenerator. All Rights  Reserved </p>
+            </section>
+            <section className="rights">
+                <div className="container-fluid p-0">
+                    <div className='row'>
+                        <div className='col-lg-11 m-auto'>
+                            <div className="inner-rightsscsd ">
+                                <p className="sdgvsgdv">© 2022 <span className='common dhdhdhbsh'>tomi</span>, All Rights Reserved</p>
+                                <p className='dvsgd'>Terms of use  |  Privacy policy</p>
                             </div>
                         </div>
                     </div>
-                    </div>
-                
                 </div>
             </section>
-          
+
         </>
     )
 }
