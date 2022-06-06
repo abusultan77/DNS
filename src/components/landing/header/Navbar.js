@@ -1,88 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.scss";
-import { useWeb3React } from "@web3-react/core";
 import { Link } from "react-router-dom";
-import useAuth from "../../../hooks/useAuth";
-import { toast } from 'react-toastify';
-import DumImage from "../../../Assets/user.png"
-import axios from "axios";
-import { API_URL } from "../../../utils/ApiUrl";
-// import $ from "jquery";
-// import WalletConnectProvider from "@walletconnect/web3-provider";
-import { WalletConnectConnector } from "@web3-react/walletconnect-connector";
-//  Create WalletConnect Provider
-// const provider = new WalletConnectProvider({
-//     infuraId: "27e484dcd9e3efcfd25a83a78777cdf1",
-// });
+// import DumImage from "../../../Assets/user.png"
+
 const Navbar = () => {
-  const { account } = useWeb3React();
-  const [image, setimage] = useState(null);
-  const { login, logout } = useAuth();
-  const connectwallet = () => {
-    window.$("#exampleModalLong").modal("show");
-  };
 
-  const connectMetamask = () => {
-      localStorage.setItem("connectorId", "injected");
-      login("injected");
-      localStorage.setItem('flag', 'true')
-  };
-
-  const logoutt = () => {
-    localStorage.setItem('flag', 'false')
-      logout();
-  };
-
-  const createUser = () => {
-    if (account) {
-      axios.post(API_URL + "v1/users/addUser", { walletAddress: account })
-        .then((response) => {
-          // setOpen(false)
-          toast.success(response.data.msg, {
-            position: "top-center",
-            autoClose: 2000,
-          });
-        }).catch((err) => {
-          toast.error(err.response.data.msg, {
-            position: "top-center",
-            autoClose: 2000,
-          });
-        })
-    }
-  }
-
-  const getUser = async (event) => {
-    axios
-      .post(API_URL + "v1/users/getUser", { walletAddress: account })
-      .then((response) => {
-        setimage(response.data.user.picture);
-        
-      })
-      .catch((err) => {
-        toast.error(err.response.data.msg, {
-          position: "top-center",
-          autoClose: 2000,
-        });
-      });
-  };
-
-  const trustWallet = async () => {
-    localStorage.setItem("connectorId", "walletconnect");
-    if (account) {
-      logout();
-    } else {
-      login("walletconnect");
-    }
-  };
-
-  useEffect(() => {
-    if (account) {
-      getUser()
-    } else {
-      setimage('')
-    }
-    createUser()
-  }, [account]);
 
   return (
     <section className="main-navbar">
@@ -120,62 +42,11 @@ const Navbar = () => {
                  <h6>EXPLORE</h6> 
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link grey2" href="#">
-                  ABOUT US
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link grey2" href="#">
-                  CONTACT
-                </a>
-              </li> */}
+          
             </ul>
             <form className="form-inline my-2 my-lg-0">
-              <Link className="" to="/profile">
-                {image ? (
-                  <img
-                    src={image}
-                    alt=""
-                    className="rounded-circle img-fluid"
-                    width={50}
-                    height={50}
-                  />
-                ):(
-                  <img
-                    src={DumImage}
-                    alt=""
-                    className="rounded-circle img-fluid"
-                    width={50}
-                    height={50}
-                  />
-                )}
-
-              </Link>
-
-              {account ? (
-                <button
-                  className="btn-common cursor-pointer my-2 my-sm-0"
-                  type="button"
-                  onClick={logoutt}
-                >
-                  Disconnect
-                </button>
-              ) : (
-                <button
-                  className="btn-common cursor-pointer my-2 my-sm-0"
-                  type="button"
-                  onClick={connectwallet}
-                >
-                  <img
-                    src="\wordnftgenerator-assets\waller-icon.svg"
-                    className="img-fluid"
-                    alt=""
-                  />{" "}
-                  CONNECT WALLET
-                </button>
-              )}
-              {/* <button className="btn-common my-2 my-sm-0" type="button" data-toggle="modal" data-target="#exampleModalLong" >CONNECT WALLET</button> */}
+            
+              <button className="btn-common my-2 my-sm-0" type="button" data-toggle="modal" data-target="#exampleModalLong" >CONNECT WALLET</button>
               <div className="row">
                 <div className="col-sm-12">
                   <div
@@ -210,7 +81,6 @@ const Navbar = () => {
                                         className="inner-tile cursor-pointer"
                                         data-dismiss="modal"
                                         type="button"
-                                        onClick={connectMetamask}
                                       >
                                         <img
                                           src="\wordnftgenerator-assets\Mask Group.svg"
@@ -228,7 +98,6 @@ const Navbar = () => {
                                         className="inner-tile cursor-pointer"
                                         data-dismiss="modal"
                                         type="button"
-                                        onClick={trustWallet}
                                       >
                                         <img
                                           src="\opencanvas-assets\pop-up\connect-wallet\trust-wallet.svg"
