@@ -68,12 +68,42 @@ const Navbar = () => {
                                 data-dismiss="modal"
                                 aria-label="Close"
                               >
-                                <span aria-hidden="true">&times;</span>
+                                <span aria-hidden="true"><img src="\adress\g3763.png"></img></span>
                               </button>
-                              <h3 className="white text-center bg-color py-4">
+                              <h3 className=" text-center bg-color py-4">
                                 CONNECT WALLET
                               </h3>
-                              <div className="pop-content ptb20 ">
+                              <div className="pop-content">
+                                <ul className="d-flex">
+                                  <li className="">
+                                    <button className="btnbtn"> <img
+                                          src="\wordnftgenerator-assets\Mask Group.svg"
+                                          className="img-fluid"
+                                          alt=""
+                                        /> <h3 className="modal-heading text-uppercase"><strong>metamask</strong></h3>
+                                        <p className="modal-para">Connect to your MetaMask wallet </p></button>
+                                       
+                                  </li>
+                                  <li className="">
+                                    <button className="btnbtn"> <img
+                                          src="\wordnftgenerator-assets\Mask Group.svg"
+                                          className="img-fluid"
+                                          alt=""
+                                        /><h3 className="modal-heading text-uppercase"><strong>metamask</strong></h3>
+                                        <p className="modal-para">Connect to your MetaMask wallet </p></button>
+                                        
+                                  </li>
+                                </ul>
+                                <div className="ptb20 text-center">
+                                  <a className="black" href="/">
+                                    By connecting, I accept
+                                    <span className="common">
+                                      Terms of Service
+                                    </span>{" "}
+                                  </a>
+                                </div>
+                              </div>
+                              {/* <div className="pop-content  ">
                                 <ul className="">
                                   <li className="">
                                     <div className="">
@@ -89,6 +119,7 @@ const Navbar = () => {
                                         />
                                         &nbsp;&nbsp;&nbsp;
                                         <div className="black">MetaMask</div>
+                                        <p className="grey">Connect to your MetaMask wallet </p>
                                       </button>
                                     </div>
                                   </li>
@@ -114,13 +145,13 @@ const Navbar = () => {
                                 </ul>
                                 <div className="ptb20">
                                   <a className="black" href="/">
-                                    By connecting, I accept Wordsnftgenerator
+                                    By connecting, I accept
                                     <span className="common">
                                       Terms of Service
                                     </span>{" "}
                                   </a>
                                 </div>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>
