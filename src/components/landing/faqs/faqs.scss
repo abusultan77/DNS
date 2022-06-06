@@ -1,0 +1,108 @@
+.main-faqs {
+    background-image: url("../../../Assets/faqs.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    .inner-upper{
+        z-index: 150;
+    }
+    .ptb {
+        padding: 80px 0 !important;
+    }
+    .inner-side {
+        .card {
+            border: none;
+            margin-bottom: 10px;
+            border-radius: 0px;
+            background: transparent;
+            // border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            &:first-child {
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            .card-header {
+                // background-color: #2F2272;
+                border-bottom: none;
+                .btn {
+                    color: #fff;
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 0;
+                    white-space: unset !important;
+                    text-decoration: none;
+                }
+                .fa-plus,
+                .fa-minus {
+                    color: #F88D21;
+                }
+                h5 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                }
+            }
+            .card-body {
+                // border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                // box-sizing: border-box;
+                // // backdrop-filter: blur(50px);
+                // color: #fff;
+            }
+        }
+    }
+    .main-tile {
+        margin-bottom: 10px;
+        margin-top: 40px;
+        background: #12273A;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        // backdrop-filter: blur(50px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 10px;
+        padding: 30px 20px;
+        border: transparent;
+        // height:301px;
+        &:hover {
+            box-shadow: 5px 5px 30px rgba(240, 122, 61, 0.2);
+            border: 1px solid rgba(30, 32, 41, 0.4);
+            border: 2px solid transparent;
+        }
+    }
+    .inner-content{
+        img{
+            border-radius: 10px;
+        }
+    }
+    .inner-side .card .card-header {
+  
+        background-color: #fff;
+        border: 0px 0px 38px 54px;
+        border-radius: 10px 10px 10px 10px;
+        h5{
+             color: #000;
+        }
+        p {
+
+            color: #000;
+        }
+       
+    }
+    .card-body{
+        background-color: #fff;
+        color: 
+        #A3A3A3 !important;
+        padding-top: 10px;
+        margin-top: -10px;
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 601px) {
+    .inner-side {
+        .card {
+            .card-header h5 {
+                font-size: 14px;
+            }
+        }
+    }
+}

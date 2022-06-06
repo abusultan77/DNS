@@ -1,0 +1,31 @@
+
+.main-live {  
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+    
+    input {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 20px;  }
+    .input-group-text {
+    background: linear-gradient(180deg, #8A56E1 0%, #D836F9 100%);
+    color: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0,0.25);
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 30px;
+
+}
+    
+
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    .main-live {
+        .text-right {
+            text-align: left !important;
+        }
+        .w-100 {
+            width: 100%;
+        }
+    }
+}
