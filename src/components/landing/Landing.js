@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import Banner from './main-banner/Banner.js';
 import Giveaway from './giveaway/Giveaway.js';
 import Live from './live/Live.js';
+import Building from './building/Building ';
 
 
 function Landing() {
@@ -16,6 +17,7 @@ function Landing() {
       {/* <Navbar/> */}
       <Banner />
       <Giveaway />
+      <Building />
       {/* <Live/> */}
       {/* <About/>
        <Features/> */}

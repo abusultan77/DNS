@@ -1,74 +1,115 @@
 .main-navbar {
-    box-shadow: 0px 11.3915px 25.4634px rgba(73, 116, 230, 0.04), 0px 6.38599px 14.2746px rgba(0, 0, 0, 0.035), 0px 3.39155px 7.58112px rgba(0, 0, 0, 0.0282725), 0px 1.4113px 3.15467px rgba(185, 202, 248, 0.06);
-   
+    // margin-top: 36px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 11.3915px 25.4634px rgba(73, 116, 230, 0.04), 0px 6.38599px 14.2746px rgba(0, 0, 0, 0.035),
+        0px 3.39155px 7.58112px rgba(0, 0, 0, 0.0282725), 0px 1.4113px 3.15467px rgba(185, 202, 248, 0.06);
+    .navbar-brand {
+        display: inline-block;
+        font-size: 1.25rem;
+        white-space: nowrap;
+    }
+    img.img-fluid {
+        margin-top: 36px;
+    }
+
     .navbar-nav {
-        margin: 0 auto;
+        margin-left: 79px;
+        margin-top: 42px;
+        font-family: 'Gellix'!important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        &:hover {
+
+            color: #ff0083 !important;
+        }
     }
 
     .bg-color {
-        background-color: #FA2189 !important;
+        background-color: #ff0083 !important;
     }
     .style-bar {
-        width: 35px;
-        height: 3px;
-        background-color: #FA2189;
-        margin: 6px 0;
+        // width: 35px;
+        // height: 3px;
+        background-color: #ff0083;
+        // margin: 6px 0;
         border-radius: 4px;
     }
     .modal-content {
-        background: #FA2189;
+        background: #ff0083;
         // background-color: yellowgreen;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: transparent;
-    border-radius: 20px;
-    border: none;
-    overflow: hidden;
-    .close {
-        float: right;
-        font-size: 1.5rem;
-        font-weight: 700;
-        line-height: 1;
-        color: #fff;
-        text-shadow: 0 1px 0 #fff;
-        opacity:1.5;
-    }
-    .cross{
-        position: absolute;
-        top: 27px;
-        right: 27px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: transparent;
+        border-radius: 20px;
+        border: none;
+        overflow: hidden;
+        .close {
+            float: right;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+            text-shadow: 0 1px 0 #fff;
+            opacity: 1.5;
+        }
+        .cross {
+            position: absolute;
+            top: 27px;
+            right: 27px;
+        }
 
-    }
-
-    .pop-content {
-        text-align: center;
-        background-color: #fff;
-        padding: 28px;
-       
-        .inner-tile {
-            background: transparent;
+        .pop-content {
+            text-align: center;
             background-color: #fff;
-            border: 1px solid  #FA2189;
-            box-sizing: border-box;
-            
-            border-radius: 20px;
-            margin: 10px 0px;
-            padding: 20px;
-            width: 100%;
+            padding: 28px;
 
-            &:hover {
-                background-color:   #FA2189;
-                color: #fff;
+            .inner-tile {
+                background: transparent;
+                background-color: #fff;
+                border: 1px solid #ff0083;
+                box-sizing: border-box;
+                border-radius: 20px;
+                margin: 10px 0px;
+                padding: 20px;
+                width: 100%;
+
+                &:hover {
+                    background-color: #ff0083;
+                    color: #fff;
+                }
             }
         }
-    }
     }
     .form-inline {
         a {
             color: black;
             padding: 0px 15px;
             display: inline-block;
+            
+        }
+
+        .btn-common-nav {
+            font-family: "Gellix" !important;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 100%;
+            color: #ffffff;
+            padding: 16px 40px;
+            background: #ff0083;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ff0083;
+            margin-top: 25px;
+            &:hover {
+                background-color: #ffffff;
+                color: #000000;
+                border: 1px solid #ff0083;
+            }
         }
     }
     .modal-body {
@@ -80,13 +121,11 @@
     }
 }
 
-
 @media (max-width: 360px) {
-    .navbar-brand{
+    .navbar-brand {
         width: 67%;
     }
-    .main-navbar .style-bar{
+    .main-navbar .style-bar {
         width: 28px;
     }
 }
-

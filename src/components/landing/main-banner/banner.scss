@@ -4,21 +4,50 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    .w30 {
-        width: 20px;
+    .inner-content.main-heading.text-center {
+        margin-top: 147px;
+        margin-bottom: 40px;
+        h3 {
+            font-family: "Goldman";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 120%;
+            text-align: center;
+            color: #121212;
+        }
     }
-    input {
-        background: #FFFFFF;
-        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
-        border-radius: 20px 0px 0px 20px;  }
-    .input-group-text {
-        background: #FA2189;
-    color: #FFFFFF;
-    box-shadow: 0px 0px 16px rgba(0, 0, 0,0.25);
-    border-radius: 0px 20px 20px 0px;
-    padding: 10px 30px;
+    .parafirst {
+        font-family: "Gellix";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #747474;
+        margin-bottom: 95px;
+    }
+    .input-group {
+        margin-bottom: 120px !important;
   
+        .input-group-append {
+            /* margin-left: -1px; */
+            width: 866px;
+            height: 84px;
+            left: 287px;
+            top: 504px;
+            background: #FFFFFF;
+            border: 1px solid #FFDBED;
+            box-shadow: 0px 10px 50px #0000000d;
+            border-radius: 10px;
+            align-items: center;
+            padding: 12px 12px 12px 20px;
+            gap: 406px;
+        }
     }
+
+
+
     .modal-content {
         border-radius: 20px;
         .for-padding {
@@ -26,26 +55,24 @@
         }
         .form-group {
             input {
-                background: #FFFFFF;
-    border: 1px solid #D4D4D4;
-    box-sizing: border-box;
-    border-radius: 10px;
-    height: 45px;
-    padding: 6px 12px;
-
+                background: #ffffff;
+                border: 1px solid #d4d4d4;
+                box-sizing: border-box;
+                border-radius: 10px;
+                height: 45px;
+                padding: 6px 12px;
             }
         }
         .btn-common {
             width: 100%;
         }
     }
-
 }
 
 .counter {
     background: #fff;
 }
-.cursor-pointer{
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -56,18 +83,16 @@
         }
 
         .input-group-text {
-            background: #FA2189;
-        color: #FFFFFF;
-        box-shadow: 0px 0px 16px rgba(0, 0, 0,0.25);
-        border-radius: 0px 20px 20px 0px;
-        padding: 10px 10px;
-      
+            background: #ff0083;
+            color: #ffffff;
+            box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+            border-radius: 0px 20px 20px 0px;
+            padding: 10px 10px;
         }
     }
 }
 
-.abb{
-    outline: none!important;
-    box-shadow: none!important;
+.abb {
+    outline: none !important;
+    box-shadow: none !important;
 }
-

@@ -14,21 +14,37 @@ const Banner = ({ supArr, objArr, setObjArr }) => {
   const [supArr2, setSupArr2] = useState([]);
   const [search, setSearch] = useState(false);
 
- 
+
 
   return (
     <>
-      <section className="main-banner ptb">
-        <div className="container">
+      <section className="main-banner ">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-sm-12">
-              <div className="inner-content ptb20 text-center">
+            <div className="col-sm-11">
+              <div className="inner-content main-heading text-center">
                 <ToastContainer />
-                <h1 className="bsdsd">
-                  MINT <span className="common">NFT WORDS</span> - THE WORLDS{" "}
-                  <br /> <span className="common">LARGEST</span> NFT WORDS{" "}
-                  <br /> <span className="common">COLLECTION</span>.
-                </h1>
+                <h3 className="">
+                  Decentralised naming for <br></br> wallets, websites, & more.
+                </h3>
+              </div>
+              <div className="parafirst">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br></br> laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+              </div>
+            </div>
+
+            <div class=" ">
+             
+              <div class="input-group-append">
+              <input type="text" class="form-control" placeholder="Search domain names" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                <button class="btn btn-common" type="button">
+                  <img
+                    src="\main-banner\search-normal.svg"
+                    className="img-fluid"
+                    alt=""
+                  />
+                  Button
+                </button>
               </div>
             </div>
           </div>
