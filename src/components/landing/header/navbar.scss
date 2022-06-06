@@ -12,6 +12,7 @@
     img.img-fluid {
         margin-top: 36px;
     }
+    box-shadow: 0px 11.3915px 25.4634px rgba(73, 116, 230, 0.04), 0px 6.38599px 14.2746px rgba(0, 0, 0, 0.035), 0px 3.39155px 7.58112px rgba(0, 0, 0, 0.0282725), 0px 1.4113px 3.15467px rgba(185, 202, 248, 0.06);
 
     .navbar-nav {
         margin-left: 79px;
@@ -30,6 +31,7 @@
     .bg-color {
         background-color: #ff0083 !important;
     }
+
     .style-bar {
         // width: 35px;
         // height: 3px;
@@ -37,9 +39,9 @@
         // margin: 6px 0;
         border-radius: 4px;
     }
+
     .modal-content {
-        background: #ff0083;
-        // background-color: yellowgreen;
+
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -47,6 +49,18 @@
         border-radius: 20px;
         border: none;
         overflow: hidden;
+        // width: 800px;
+        // height: 450px;
+        width: 746px;
+        height: 343px;
+        // left: 347px;
+        // top: 211px;
+
+        background: #FFFFFF;
+        border: 1px solid #F1F1F1;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+
         .close {
             float: right;
             font-size: 1.5rem;
@@ -56,30 +70,74 @@
             text-shadow: 0 1px 0 #fff;
             opacity: 1.5;
         }
+
         .cross {
             position: absolute;
             top: 27px;
             right: 27px;
+
         }
 
         .pop-content {
-            text-align: center;
+            // text-align: center;
             background-color: #fff;
             padding: 28px;
+
+            .btnbtn {
+                width: 373px;
+                height: 182px;
+                background-color: #fff;
+                border: 1px solid #FFF8FB;
+
+                &:hover {
+                    background-color: #FFF8FB;
+                    color: #000000;
+                }
+
+                .modal-heading {
+                    font-family: 'Gellix';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px !important;
+                    line-height: 120%;
+                    /* identical to box height, or 22px */
+
+                    text-align: center;
+
+                    color: #000000;
+                    margin-bottom: 8px;
+                }
+
+                .modal-para {
+                    font-family: 'Gellix';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 120%;
+                    /* identical to box height, or 17px */
+
+                    text-align: center;
+
+                    color: #ACACAC;
+                    margin-bottom: 32px;
+                }
+            }
 
             .inner-tile {
                 background: transparent;
                 background-color: #fff;
-                border: 1px solid #ff0083;
+                border: 1px solid #FA2189;
                 box-sizing: border-box;
+
                 border-radius: 20px;
                 margin: 10px 0px;
                 padding: 20px;
                 width: 100%;
 
                 &:hover {
-                    background-color: #ff0083;
-                    color: #fff;
+                    background-color: #FFF8FB;
+                    color: #000000;
+                    ;
                 }
             }
         }
@@ -112,6 +170,7 @@
             }
         }
     }
+
     .modal-body {
         position: relative;
         -webkit-box-flex: 1;
@@ -125,6 +184,7 @@
     .navbar-brand {
         width: 67%;
     }
+
     .main-navbar .style-bar {
         width: 28px;
     }
