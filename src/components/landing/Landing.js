@@ -18,7 +18,6 @@ function Landing() {
 
   return (
     <>
-      {/* <Navbar/> */}
       <Banner />
       <Giveaway />
       <Building />
@@ -26,13 +25,7 @@ function Landing() {
       <Adress/>
       <Getinvolved/>
   
-      {/* <Live/> */}
-      {/* <About/>
-       <Features/> */}
-      {/* <Roadmap/> */}
-      {/* <Team/> */}
-      {/* <Faqs /> */}
-      {/* <Footer/> */}
+     
     </>
   );
 }

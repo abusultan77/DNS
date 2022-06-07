@@ -1,32 +1,49 @@
-.main-give {
-    background-color: #fafafa;
-    margin-top: 120px;
-
-    .caarrddss {
+.main-give{
+    margin-top: 100px;
+    .all-cards{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
         padding: 40px;
-        background: #FFFFFF !important;
-        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05) !important;
-        img.img-fluid.w-100\% {
-            // margin-top: 40px;
-            margin-bottom: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+        .main-card{
+            
+            img{
+                margin-bottom: 30px;
+            }
+            h6{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 120%;
+                color: #000A23;
+                margin-bottom: 20px;
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #66718F;
+            }
+
         }
-        .headingss {
-            font-family: "Gellix" !important;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 22px;
-            line-height: 120%;
-            color: #000a23;
-            margin-bottom: 20px;
-        }
-        .cardpara {
-            font-family: "Gellix";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 140%;
-            color: #66718f;
+        .line{
+            margin: 0 55px;
         }
     }
-    
+}
+
+
+@media (max-width:991px){
+    .main-give .all-cards{
+        flex-direction: column;
+    }
+    .main-give .line{
+        display: none !important;
+    }
+    .main-give .all-cards .main-card{
+        margin-bottom: 30px;
+    }
 }

@@ -6,26 +6,25 @@
     }
     .heading{
         h2{
-            font-family: 'Gellix';
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-line-height: 120%;
-text-align: center;
-color: #000A23;
-margin-top: 50px;
-margin-bottom: 28px;
+            
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 120%;
+                text-align: center;
+                color: #000A23;
+                margin-top: 50px;
+                margin-bottom: 28px;
         }
         p{
-            font-family: 'Gellix';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-text-align: center;
-
-color: #66718F;
-margin-bottom: 60px;
+          
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                text-align: center;
+                color: #66718F;
+                margin-bottom: 60px;
         }
     }
     .parent-img{
@@ -36,5 +35,13 @@ margin-bottom: 60px;
             margin-right: 31px;
         }
        
+    }
+}
+
+@media(max-width:991px){
+    .main-adress .parent-img{
+        overflow-x: scroll;
+        justify-content: flex-start;
+
     }
 }
