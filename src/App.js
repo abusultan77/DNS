@@ -9,7 +9,8 @@ import Footer from './components/landing/footer/Footer.js';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Adress from './components/landing/address/Adress';
-
+import Minted from './components/landing/minted/Minted';
+import Opensea from './components/landing/opensea/Opensea';
 
 function App() {
   // useEagerConnect()
@@ -21,7 +22,10 @@ function App() {
             <Switch>
               <Route exact path='/' component={Landing} />
               <Route exact path='/adress' component={Adress} />
-           
+              <Route exact path='/minted' component={Minted} />
+              <Route exact path='/opensea' component={Opensea} />
+
+              
           
             </Switch>
             <Footer/>
