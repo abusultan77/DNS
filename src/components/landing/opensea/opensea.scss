@@ -1,6 +1,4 @@
 .main-opensea {
-
-
     .inner-content.main-heading.text-center {
         margin-top: 147px;
         margin-bottom: 40px;
@@ -137,6 +135,9 @@
             font-family: "Goldman";
         }
         .card {
+            background: #ffffff;
+            border: 1.5px solid #2081e2;
+            border-radius: 10px;
             .card-body {
                 display: flex;
                 justify-content: space-between;

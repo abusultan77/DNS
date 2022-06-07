@@ -1,4 +1,4 @@
-.main-Minted {
+.main-mintting {
     // background-image: url("../../../Assets/header-background.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -145,6 +145,10 @@
                 justify-content: space-between;
 
                 align-items: baseline;
+                background: #ffffff;
+                border: 1.5px solid #36ab61;
+                box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+                border-radius: 10px;
                 .text {
                     display: flex;
                     align-items: center;

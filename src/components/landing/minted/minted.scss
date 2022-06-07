@@ -140,6 +140,9 @@
             font-family: "Goldman";
         }
         .card {
+            background: #ffffff;
+            border: 1.5px solid #ffdbed;
+            border-radius: 10px;
             .card-body {
                 display: flex;
                 justify-content: space-between;
@@ -148,7 +151,6 @@
                 .text {
                     display: flex;
                     align-items: center;
-
                     h5.common {
                         font-family: "Goldman";
                         font-style: normal;
