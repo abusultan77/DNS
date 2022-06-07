@@ -1,6 +1,7 @@
 .main-Building {
-    margin-bottom: 196px;
-    margin-top: 196px;
+    padding-bottom: 196px;
+    padding-top: 196px;
+    background-color: #fff;
     .mainbuilding{
         margin-left: 120px;
         padding-right: 148px;
@@ -26,5 +27,23 @@
     }
     .lastimmgg{
         text-align: end;
+    }
+}
+
+
+@media(max-width:991px){
+   .main-Building{
+       padding-top: 100px !important;
+       padding-bottom: 100px;
+   }
+}
+
+@media (max-width:430px){
+    h2{
+        font-size: 26px !important;
+        text-align: center;
+    }
+    .main-Building p{
+        text-align: center;
     }
 }

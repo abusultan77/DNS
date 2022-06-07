@@ -262,6 +262,31 @@
             padding: 10px 10px;
         }
     }
+    .main-Minted .secinputtt .card .card-body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-Minted .secinputtt .card .card-body .text{
+        flex-direction: column;
+    }
+    .main-Minted .secinputtt .card .card-body .text .paraaa{
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+        text-align: center;
+    }
+    .main-Minted .secinputtt .card .card-body .text .MinBid{
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+        text-align: center;
+    }
+    .main-Minted .secinputtt .card .card-body .text h5.common{
+        margin-bottom: 10px;
+    }
+    .main-Minted .input-field .btn-searchbar{
+        position: unset !important;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 }
 
 .abb {

@@ -15,7 +15,7 @@ const Footer = () => {
                                         <img src="\dns-logo\DNS-logo.svg" alt="img" className="img-fluid footerimg" />
                                     </Link>
                                 </a>
-                                <button
+                                {/* <button
                                     className="navbar-toggler"
                                     type="button"
                                     data-toggle="collapse"
@@ -27,11 +27,11 @@ const Footer = () => {
                                     <span className="togg">
                                         <i class="fas fa-bars"></i>
                                     </span>
-                                </button>
-                                <div
+                                </button> */}
+                                {/* <div
                                     className="collapse navbar-collapse marg"
                                     id="navbarSupportedContent"
-                                >
+                                > */}
                                     <ul className="navbar-nav mr-auto">
                                         <li class="nav-item">
                                             Home
@@ -54,7 +54,7 @@ const Footer = () => {
                                     <a href='/' target="_blank">
                                         <img src="\adress\icon3.png" alt="img" className="img-fluid  mr-3" />
                                     </a>
-                                </div>
+                   
                             </nav>
                         </div>
                     </div>

@@ -4,7 +4,7 @@ import "./minted.scss";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import TotalSupply from "../../../hooks/totalSupply";
-
+import { Link } from "react-router-dom";
 
 const Minted = ({ supArr, objArr, setObjArr }) => {
   const [total, setTotal] = useState(0);
@@ -25,10 +25,10 @@ const Minted = ({ supArr, objArr, setObjArr }) => {
               <div className="input-field ">
                 <img src="\main-banner\search-normal-input.svg" alt="img" className="img-fluid  input-icon" />
                 <input type="text" placeholder=" tilinteas.tomi" />
-                <button class="btn-searchbar" type="button" >
+                <Link to="/opensea"><button class="btn-searchbar" type="button" >
                   <img src="\main-banner\search-normal.svg" alt="img" className="img-fluid  mr-3" />
                   Search
-                </button>
+                </button></Link>
               </div>
               <div className=" secinputtt">
                 <h5 className="secinputheading">Search Results for “fireape.tomi”</h5>
