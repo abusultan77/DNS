@@ -1,4 +1,5 @@
 .main-Computerb {
+    background-color: #FFFFFF;
      .right{
         h2{
         font-style: normal;
@@ -16,4 +17,16 @@
             color: #66718F;
         }
      }
+}
+
+@media (max-width:430px){
+    .main-Computerb .order{
+        order:  2 !important;
+    }
+    .main-Computerb .right{
+        padding-bottom: 30px;
+    }
+    .main-Computerb .right p{
+        text-align: center;
+    }
 }

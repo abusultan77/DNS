@@ -4,6 +4,7 @@ import "./mintting.scss";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import TotalSupply from "../../../hooks/totalSupply";
+import { Link } from "react-router-dom";
 
 
 const Mintting = ({ supArr, objArr, setObjArr }) => {
@@ -39,9 +40,9 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
                       <a href="#" class="btn  stretched-link"><img src="\mintting\mintting.svg" alt="img" className="img-fluid ml-2 mr-2 " /></a>
                     </div>
                     <div className="lastbutton">
-                      <button class="btn-secinputttlast" type="button" >
-                        View On Opensea
-                      </button>
+                      <Link to="/mint"><button class="btn-secinputttlast" type="button" >
+                      Mint Now
+                      </button></Link>
                     </div>
                   </div>
                 </div>

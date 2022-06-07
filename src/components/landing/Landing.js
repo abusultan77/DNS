@@ -24,7 +24,7 @@ function Landing() {
       <Computerb/>
       <Adress/>
       <Getinvolved/>
-  
+      
      
     </>
   );

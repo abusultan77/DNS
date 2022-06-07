@@ -8,7 +8,7 @@ const Computerb = () => {
           <div className="row">
             <div className="col-xl-11 m-auto">
               <div className="row">
-                <div className="col-xl-6 col-12">
+                <div className="col-xl-6 col-12 order">
                   <img
                     src="\building\computerb.svg"
                     alt="img"

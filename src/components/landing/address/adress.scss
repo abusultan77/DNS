@@ -1,9 +1,7 @@
 .main-adress{
-    margin-bottom: 213px;
-    body{
-        background-color: 
-        #FFFFFF;
-    }
+    padding-bottom: 213px;
+    padding-top: 209px;
+    background-color: #ffffff;
     .heading{
         h2{
             
@@ -13,7 +11,6 @@
                 line-height: 120%;
                 text-align: center;
                 color: #000A23;
-                margin-top: 50px;
                 margin-bottom: 28px;
         }
         p{
@@ -44,4 +41,9 @@
         justify-content: flex-start;
 
     }
+    .main-adress{
+        padding-bottom: 100px !important;
+    }
 }
+
+
