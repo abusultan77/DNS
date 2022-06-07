@@ -4,17 +4,10 @@
 
     .caarrddss {
         padding: 40px;
-        display: flex;
-        justify-content: start;
-        gap: 55px;
-        // text-align: center;
-        background: #ffffff;
-        box-shadow: 0px 10px 50px #0000000d;
-        border: 2px solid #eeeeee;
-        margin-left: 40px;
-        margin-right: 40px;
+        background: #FFFFFF !important;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05) !important;
         img.img-fluid.w-100\% {
-            margin-top: 40px;
+            // margin-top: 40px;
             margin-bottom: 30px;
         }
         .headingss {
@@ -35,11 +28,5 @@
             color: #66718f;
         }
     }
-    .line {
-        /* margin: 40px; */
-        margin-top: 40px;
-        margin-right: 55px;
-        margin-left: 55px;
-        margin-bottom: 40px;
-    }
+    
 }

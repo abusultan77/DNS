@@ -17,7 +17,7 @@ const Building = () => {
                                         <p className='buildingpara'>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br></br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut         <br></br>enim ad minim veniam, quis nostrud exercitation ullamco laboris         <br></br>nisi ut aliquip ex ea commodo consequat.
                                         </p>
-                                        <p className='buildingpara ptb20'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                        <p className='buildingpara ptb20'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu .</p>
                                     </div>
                                     <div className="col-lg-6 col-12 m-auto">
 
@@ -36,7 +36,7 @@ const Building = () => {
                     </div>
                 </div>
             </section>
-      
+
         </>
     )
 }

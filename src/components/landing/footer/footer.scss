@@ -42,7 +42,7 @@
     }
     .shdbshd {
         background: #ff0083;
-        box-shadow: 0px 28px 30px -10px rgba(255, 0, 131, 0.15);
+        box-shadow: 0px 28px 30px -10px #ff008326;
         border-radius: 5px;
         padding: 16px 40px;
         outline: none;
@@ -81,7 +81,7 @@
     }
     input {
         background: #ffffff;
-        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 16px #00000040;
         border-radius: 10px 0px 0px 10px;
         border: 1px solid #fa2189;
     }
@@ -89,7 +89,7 @@
     .input-group-text {
         background: #fa2189;
         color: #ffffff;
-        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 16px #00000040;
         border-radius: 0px 10px 10px 0px;
         padding: 10px 10px;
         border: 1px solid #fa2189;
@@ -153,10 +153,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     .sdgvsgdv {
         font-family: "Gmedium";
         font-style: normal;
-        // font-weight: 500;
+        font-weight: 500;
         font-size: 14px;
         line-height: 17px;
         text-transform: uppercase;
@@ -225,7 +227,8 @@
     }
 }
 
-.dhdhdhbsh {
-    text-transform: lowercase !important;
+.footerdns {
+    text-transform: uppercase !important;
     cursor: pointer;
+    font-weight: 500;
 }

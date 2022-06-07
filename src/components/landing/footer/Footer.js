@@ -4,9 +4,7 @@ import './footer.scss';
 const Footer = () => {
     return (
         <>
-            <section className="main-footer ptb20">
-
-
+            <section className="main-footer ">
                 <div className="container-fluid p-0">
                     <div className="row">
                         <div className="col-xl-11 col-lg-11 m-auto ">
@@ -36,28 +34,26 @@ const Footer = () => {
                                 >
                                     <ul className="navbar-nav mr-auto">
                                         <li class="nav-item">
-
                                             Home
-
                                         </li>
                                         <li className="nav-item ">
-
                                             Marketplace
-
                                         </li>
                                         <li className="nav-item">
-
                                             About
-
                                         </li>
-
                                         <li class="nav-item dropdown">
                                         </li>
                                     </ul>
-                                    <button class="btn button-hedaer " type="button">
-
-                                        Connect Wallet
-                                    </button>
+                                    <a href='/' target="_blank">
+                                        <img src="\adress\icon-1.png" alt="img" className="img-fluid  mr-3" />
+                                    </a>
+                                    <a href='/' target="_blank">
+                                        <img src="\adress\icon2.png" alt="img" className="img-fluid  mr-3" />
+                                    </a>
+                                    <a href='/' target="_blank">
+                                        <img src="\adress\icon3.png" alt="img" className="img-fluid  mr-3" />
+                                    </a>
                                 </div>
                             </nav>
                         </div>
@@ -70,7 +66,7 @@ const Footer = () => {
                     <div className='row'>
                         <div className='col-lg-11 m-auto'>
                             <div className="inner-rightsscsd ">
-                                <p className="sdgvsgdv">© 2022 <span className='common dhdhdhbsh'>tomi</span>, All Rights Reserved</p>
+                                <p className="sdgvsgdv">© 2022 <span className='common footerdns'>DNS</span>, All Rights Reserved</p>
                                 <p className='dvsgd'>Terms of use  |  Privacy policy</p>
                             </div>
                         </div>

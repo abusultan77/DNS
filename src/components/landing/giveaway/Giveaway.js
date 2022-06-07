@@ -48,11 +48,10 @@ const Giveaway = () => {
             <section className="main-give ">
                 <div className="container-fluid  ">
                     <div className="row">
-                        <div className="col-sm-12 m-auto">
+                        <div className="col-sm-11 m-auto">
                             <div className='caarrddss'>
                                 <div class="row">
-                    
-                                    <div className='col-sm-3 '>
+                                <div className='col-sm-4 '>
                                         <div className='inercards'>
                                             <img
                                                 src="\mint-cards\secrech-card.svg"
@@ -65,14 +64,14 @@ const Giveaway = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='line'>
+                                    {/* <div className='line'>
                                         <img
                                             src="\mint-cards\Line.svg"
                                             className="img-fluid w-100% "
                                             alt=""
                                         />
-                                    </div>
-                                    <div className='col-sm-3 '>
+                                    </div> */}
+                                    <div className='col-sm-4 '>
                                         <div className='inercards'>
                                             <img
                                                 src="\mint-cards\Mint.svg"
@@ -85,14 +84,14 @@ const Giveaway = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='line'>
+                                            {/* <div className='line'>
                                         <img
                                             src="\mint-cards\Line.svg"
                                             className="img-fluid w-100% "
                                             alt=""
                                         />
-                                    </div>
-                                    <div className='col-sm-3 '>
+                                    </div> */}
+                                    <div className='col-sm-4 '>
                                         <div className='inercards'>
                                             <img
                                                 src="\mint-cards\manage.svg"
