@@ -66,9 +66,11 @@
     }
 
     .wallet-modal {
+        .modal.show .modal-dialog{
+            max-width: 746px !important;
+        }
 
         .modal-content {
-            width: 746px;
             height: 343px;
             background: #FFFFFF;
             border: 1px solid #F1F1F1;
@@ -148,9 +150,7 @@ color: #ACACAC;
 span{
     font-weight: 500;
     font-size: 14px;
-    
     text-align: center;
-    
     color:  #FF0083;
 }
         }
@@ -211,7 +211,6 @@ span{
 }
 
 .signxs {
-    font-family: "Gsemibold";
     font-style: normal;
     font-size: 16px;
     line-height: 100%;
@@ -269,7 +268,6 @@ span{
     .navbar-nav {
         .nav-link {
             transition: 0.4s ease-in-out;
-            font-family: "Gmedium";
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -284,7 +282,6 @@ span{
             }
 
             &:hover {
-                font-family: "Gsemibold";
                 font-style: normal;
                 color: #000000;
                 font-size: 16px;
@@ -296,7 +293,6 @@ span{
         .nav-links {
             display: block;
             padding: 0.5rem 0px;
-            font-family: "Gsemibold";
             font-style: normal;
             text-decoration: none !important;
             color: #000000;
@@ -335,12 +331,7 @@ span{
     margin-bottom: 8px !important;
 }
 
-// .navbar-expand-xl .navbar-collapse{
-//     display: flex!important;
-//     justify-content: space-between;
-//     align-items: center;
 
-// }
 
 .main-navbar-mobile {
     transition: 0.4s ease-in-out;
@@ -363,7 +354,6 @@ span{
 
 
     .nav-item {
-        font-family: "Gellix";
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -378,7 +368,6 @@ span{
     .navbar-nav {
         .nav-link {
             transition: 0.4s ease-in-out;
-            font-family: "Gmedium";
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -393,7 +382,6 @@ span{
             }
 
             &:hover {
-                font-family: "Gsemibold";
                 font-style: normal;
                 color: #000000;
                 font-size: 16px;
@@ -406,7 +394,6 @@ span{
             transition: 0.4s ease-in-out;
             display: block;
             padding: 0.5rem 0px;
-            font-family: "Gsemibold";
             font-style: normal;
             text-decoration: none !important;
             color: #000000;
@@ -615,6 +602,20 @@ span{
     .main-navbar .button-hedaer{
         margin: 0 auto;
     }
+    .main-navbar .wallet-modal .modal-content{
+        margin: 0 auto;
+    }
+    .main-navbar .wallet-modal .button-modal1 .modal-button{
+        width: 100%;
+    }
+    .main-navbar .wallet-modal .modal-body .cross-img1 {
+        position: absolute;
+        top: 15px;
+        left: 335px;
+    }
+    .main-navbar .wallet-modal .modal-content{
+        width: 100% !important;
+    }
 }
 
 .buttonsss {
@@ -633,6 +634,11 @@ span{
 @media (max-width: 400px) {
     .modal-body .main_text .bhvchvh {
         font-size: 30px !important;
+    }
+    .main-navbar .wallet-modal .modal-body .cross-img1 {
+        position: absolute;
+        top: 15px;
+        left: 318px;
     }
 }
 

@@ -46,7 +46,6 @@
             padding-left: 60px;
             padding-top: 33px;
             padding-bottom: 33px;
-            font-family: "Gellix";
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -73,7 +72,6 @@
             background: #ff0083;
             border-radius: 5px;
             color: white;
-            font-family: "Gellix";
             font-style: normal;
             font-weight: 600;
             font-size: 16px;
@@ -121,7 +119,6 @@
             height: 60px;
             background: #ff0083;
             border-radius: 5px;
-            font-family: "Gellix";
             font-style: normal;
             font-weight: 600;
             font-size: 16px;
@@ -189,14 +186,20 @@
 
 
 @media (max-width:430px){
-    .main-banner .input-field .btn-searchbar{
-        width: 140px;
-        right: 6px;
-    }
+    
     .main-banner .input-field input{
         padding-left: 50px;
     }
     .main-banner .inner-content.main-heading.text-center h3{
         font-size: 26px !important;
+    }
+}
+
+
+@media (max-width:600px){
+    .main-banner .input-field .btn-searchbar{
+        position: unset !important;
+        margin-top: 20px;
+        width: 100%;
     }
 }
