@@ -1,19 +1,14 @@
 .main-navbar {
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 11.3915px 25.4634px rgba(73, 116, 230, 0.04), 0px 6.38599px 14.2746px rgba(0, 0, 0, 0.035),
-        0px 3.39155px 7.58112px rgba(0, 0, 0, 0.0282725), 0px 1.4113px 3.15467px rgba(185, 202, 248, 0.06);
-        padding: 35px 0;
+    padding: 26px 0;
 
     .navbar-brand {
         display: inline-block;
         font-size: 1.25rem;
         white-space: nowrap;
     }
-    box-shadow: 0px 11.3915px 25.4634px rgba(73, 116, 230, 0.04),
-    0px 6.38599px 14.2746px rgba(0, 0, 0, 0.035),
-    0px 3.39155px 7.58112px rgba(0, 0, 0, 0.0282725),
-    0px 1.4113px 3.15467px rgba(185, 202, 248, 0.06);
+
 
     .navbar-nav {
         margin-left: 79px;
@@ -66,9 +61,11 @@
     }
 
     .wallet-modal {
+        .modal.show .modal-dialog{
+            max-width: 746px !important;
+        }
 
         .modal-content {
-            width: 746px;
             height: 343px;
             background: #FFFFFF;
             border: 1px solid #F1F1F1;
@@ -148,9 +145,7 @@ color: #ACACAC;
 span{
     font-weight: 500;
     font-size: 14px;
-    
     text-align: center;
-    
     color:  #FF0083;
 }
         }
@@ -211,7 +206,6 @@ span{
 }
 
 .signxs {
-    font-family: "Gsemibold";
     font-style: normal;
     font-size: 16px;
     line-height: 100%;
@@ -269,7 +263,6 @@ span{
     .navbar-nav {
         .nav-link {
             transition: 0.4s ease-in-out;
-            font-family: "Gmedium";
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -284,7 +277,6 @@ span{
             }
 
             &:hover {
-                font-family: "Gsemibold";
                 font-style: normal;
                 color: #000000;
                 font-size: 16px;
@@ -296,7 +288,6 @@ span{
         .nav-links {
             display: block;
             padding: 0.5rem 0px;
-            font-family: "Gsemibold";
             font-style: normal;
             text-decoration: none !important;
             color: #000000;
@@ -333,14 +324,20 @@ span{
 
 .main-navbar .nav-item {
     margin-bottom: 8px !important;
+    a{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        color: #9D9D9D;
+        &:hover{
+            color: #FF0083;
+        }
+    }
 }
 
-// .navbar-expand-xl .navbar-collapse{
-//     display: flex!important;
-//     justify-content: space-between;
-//     align-items: center;
 
-// }
 
 .main-navbar-mobile {
     transition: 0.4s ease-in-out;
@@ -363,7 +360,6 @@ span{
 
 
     .nav-item {
-        font-family: "Gellix";
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -378,7 +374,6 @@ span{
     .navbar-nav {
         .nav-link {
             transition: 0.4s ease-in-out;
-            font-family: "Gmedium";
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -393,7 +388,6 @@ span{
             }
 
             &:hover {
-                font-family: "Gsemibold";
                 font-style: normal;
                 color: #000000;
                 font-size: 16px;
@@ -406,7 +400,6 @@ span{
             transition: 0.4s ease-in-out;
             display: block;
             padding: 0.5rem 0px;
-            font-family: "Gsemibold";
             font-style: normal;
             text-decoration: none !important;
             color: #000000;
@@ -615,6 +608,20 @@ span{
     .main-navbar .button-hedaer{
         margin: 0 auto;
     }
+    .main-navbar .wallet-modal .modal-content{
+        margin: 0 auto;
+    }
+    .main-navbar .wallet-modal .button-modal1 .modal-button{
+        width: 100%;
+    }
+    .main-navbar .wallet-modal .modal-body .cross-img1 {
+        position: absolute;
+        top: 15px;
+        left: 335px;
+    }
+    .main-navbar .wallet-modal .modal-content{
+        width: 100% !important;
+    }
 }
 
 .buttonsss {
@@ -633,6 +640,11 @@ span{
 @media (max-width: 400px) {
     .modal-body .main_text .bhvchvh {
         font-size: 30px !important;
+    }
+    .main-navbar .wallet-modal .modal-body .cross-img1 {
+        position: absolute;
+        top: 15px;
+        left: 318px;
     }
 }
 

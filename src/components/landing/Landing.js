@@ -7,8 +7,8 @@ import Giveaway from './giveaway/Giveaway.js';
 // import Live from './live/Live.js';
 import Building from './building/Building ';
 import Computerb from './computerb/Computerb';
-import Getinvolved from '../getinvolved/Getinvolved';
 import Adress from './address/Adress';
+import Getinvolved from './getinvolved/Getinvolved';
 
 
 
@@ -24,8 +24,6 @@ function Landing() {
       <Computerb/>
       <Adress/>
       <Getinvolved/>
-      
-     
     </>
   );
 }

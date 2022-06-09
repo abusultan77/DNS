@@ -1,0 +1,63 @@
+.getinvolved {
+  padding-top: 80px;
+  .heading-get {
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      text-align: center;
+      color: #000a23;
+      margin-bottom: 28px;
+
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #66718f;
+      margin-bottom: 60px;
+    }
+  }
+  .cards {
+    background: #ffffff;
+    width: 585px;
+    height: 175px;
+    padding-left: 55px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .inner-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 120%;
+      color: #000a23;
+      margin-bottom: 10px;
+    }
+    h5 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 120%;
+      color: #ff0083;
+    }
+  }
+}
+
+@media (max-width:430px){
+    .getinvolved .cards{
+        width: 100%;
+    }
+    .getinvolved .inner-content h3{
+        font-size: 20px;
+    }
+    .getinvolved .cards{
+        padding-left: 33px;
+    }
+}
