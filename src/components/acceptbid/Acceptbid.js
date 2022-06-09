@@ -92,8 +92,74 @@ export const Acceptbid = () => {
                                                                 </ul>
                                                             </div>
                                                             <ul className='list-inline'>
-                                                                <li className='list-inline-item'>
-                                                                    <h3 className='maintime'>4.89 ETH</h3>
+                                                                <li className='list-inline-item shoqatali'>
+                                                                    <h4 className='shoqii'>1.5 ETH</h4>
+                                                                    <p className='sectime'>= $12.246</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className='brdr'></div>
+                                                        <div className='content-history'>
+                                                            <div className='fitcont'>
+                                                                <ul className='list-inline maaiinnoonnee'>
+                                                                    <li className='list-inline-item'>
+                                                                        <img src='\adress\avatar-04.svg' className='img-fluid sfgsdfsdsdgsdg' />
+                                                                    </li>
+                                                                    <li className='list-inline-item'>
+                                                                        <div className='history-heads'>
+                                                                            <h3 className=''>Jacqueline Perry <span>place a bid</span></h3>
+                                                                            <p className='hours'>8 hours ago</p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <ul className='list-inline'>
+                                                                <li className='list-inline-item shoqatali'>
+                                                                    <h4 className='shoqii'>1.5 ETH</h4>
+                                                                    <p className='sectime'>= $12.246</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className='brdr'></div>
+                                                        <div className='content-history'>
+                                                            <div className='fitcont'>
+                                                                <ul className='list-inline maaiinnoonnee'>
+                                                                    <li className='list-inline-item'>
+                                                                        <img src='\adress\avatar-04.svg' className='img-fluid sfgsdfsdsdgsdg' />
+                                                                    </li>
+                                                                    <li className='list-inline-item'>
+                                                                        <div className='history-heads'>
+                                                                            <h3 className=''>Jacqueline Perry <span>place a bid</span></h3>
+                                                                            <p className='hours'>8 hours ago</p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <ul className='list-inline'>
+                                                                <li className='list-inline-item shoqatali'>
+                                                                    <h4 className='shoqii'>1.5 ETH</h4>
+                                                                    <p className='sectime'>= $12.246</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className='brdr'></div>
+                                                        <div className='content-history'>
+                                                            <div className='fitcont'>
+                                                                <ul className='list-inline maaiinnoonnee'>
+                                                                    <li className='list-inline-item'>
+                                                                        <img src='\adress\avatar-04.svg' className='img-fluid sfgsdfsdsdgsdg' />
+                                                                    </li>
+                                                                    <li className='list-inline-item'>
+                                                                        <div className='history-heads'>
+                                                                            <h3 className=''>Jacqueline Perry <span>place a bid</span></h3>
+                                                                            <p className='hours'>8 hours ago</p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <ul className='list-inline'>
+                                                                <li className='list-inline-item shoqatali'>
+                                                                    <h4 className='shoqii'>1.5 ETH</h4>
                                                                     <p className='sectime'>= $12.246</p>
                                                                 </li>
                                                             </ul>
@@ -102,49 +168,50 @@ export const Acceptbid = () => {
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="nav-Activity" role="tabpanel" aria-labelledby="nav-Activity-tab">
-                                                    <div className='bidhistory'>
-                                                        <div className='content-history'>
-                                                            <ul className='list-inline'>
-                                                                <li className='list-inline-item'>
-                                                                    <img src='\adress\avatar-04.svg' className='img-fluid' />
-                                                                </li>
-                                                                <li className='list-inline-item'>
-                                                                    <div className='history-heads'>
-                                                                        <h3 className=''>Jacqueline Perry <span>Jacqueline Perry</span></h3>
-                                                                    </div>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className='brdr'></div>
-                                                        <div className='bidhistory'>
-                                                            <div className='content-history'>
-                                                                <ul className='list-inline'>
+                                                    <div className='bidActivity'>
+                                                        <div className='content-Activity'>
+                                                            <div className='activittyy'>
+                                                                <ul className='list-inline maaiinnoonneeact'>
                                                                     <li className='list-inline-item'>
-                                                                        <img src='\adress\avatar-04.svg' className='img-fluid' />
+                                                                        <img src='\adress\bitavatar.svg' className='img-fluid sfgsdfsdsdgsdg' />
                                                                     </li>
                                                                     <li className='list-inline-item'>
-                                                                        <div className='history-heads'>
-                                                                            <h3 className=''>Jacqueline Perry <span>Jacqueline Perry</span></h3>
+                                                                        <div className='Activity-heads'>
+                                                                            <h3 className='transferred'>Transferred to <span>Russell Carson</span></h3>
+                                                                            <p className='secransferred'>by<span className='fst'>Russell Carson</span><span className='sec'>02/06/2022, 2:28 AM</span></p>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
+                                                                <div className='brdract'></div>
                                                             </div>
-                                                            <div className='brdr'></div>
-                                                        </div>
-                                                        <div className='bidhistory'>
-                                                            <div className='content-history'>
-                                                                <ul className='list-inline'>
+                                                            <div className='activittyy'>
+                                                                <ul className='list-inline maaiinnoonneeact'>
                                                                     <li className='list-inline-item'>
-                                                                        <img src='\adress\avatar-04.svg' className='img-fluid' />
+                                                                    <img src='\adress\bitavatar.svg' className='img-fluid sfgsdfsdsdgsdg' />
                                                                     </li>
                                                                     <li className='list-inline-item'>
-                                                                        <div className='history-heads'>
-                                                                            <h3 className=''>Jacqueline Perry <span>Jacqueline Perry</span></h3>
+                                                                        <div className='Activity-heads'>
+                                                                            <h3 className='transferred'>Bid <span>0.25 ETH</span></h3>
+                                                                            <p className='secransferred'>by<span className='fst'>Russell Carson</span><span className='sec'>02/06/2022, 2:28 AM</span></p>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
+                                                                <div className='brdract'></div>
                                                             </div>
-                                                            <div className='brdr'></div>
+                                                            <div className='activittyy'>
+                                                                <ul className='list-inline maaiinnoonneeact'>
+                                                                    <li className='list-inline-item'>
+                                                                    <img src='\adress\secbidavatar.svg' className='img-fluid sfgsdfsdsdgsdg' />
+                                                                    </li>
+                                                                    <li className='list-inline-item'>
+                                                                        <div className='Activity-heads'>
+                                                                            <h3 className='transferred'>Minted by <span>Virgil Lynch</span></h3>
+                                                                            <p className='secransferred pl-0'><span className='sec'>02/06/2022, 2:28 AM</span></p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                                <div className='brdract'></div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -201,22 +268,15 @@ export const Acceptbid = () => {
                                 </div>
                                 <div className='text-modalbid mt-5'>
                                     <h4 className='bidhead'>Bid offered</h4>
-
-
                                     <h3 className='head1 ml-2'>0.00 ETH</h3>
 
                                 </div>
                                 <div className='text-modalbid mt-2'>
                                     <h4 className='bidhead'>Bid offered</h4>
-
-
                                     <h3 className='head1 ml-2'>0.00 ETH</h3>
-
                                 </div>
                                 <button className='btnmodalbtn'>Accept Bid</button>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
