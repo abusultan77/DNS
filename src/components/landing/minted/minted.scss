@@ -106,7 +106,7 @@
         }
         .btn-searchbar {
             position: absolute !important;
-            top: 11px;
+            top: 12px;
             right: 25px;
             display: flex;
             flex-direction: row;
@@ -182,6 +182,19 @@
                         text-transform: uppercase;
                         color: #c9c9c9;
                         margin-left: 28px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        span{
+                            display: flex;
+                            justify-content: center;
+                            font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                        color: #1D1D1D;
+                        }
                     }
                 }
                 .lastbutton {

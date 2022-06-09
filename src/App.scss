@@ -125,6 +125,7 @@ p {
   // font-weight: 600 !important;
 }
 
+
 .btn-common {
   background: #ff0083;
   border-radius: 8px;
@@ -414,4 +415,21 @@ iframe {
   left: 0px !important;
   width: 0px !important;
   height: 0px !important;
+}
+
+
+.table th{
+  font-style: normal;
+font-weight: 500 !important;
+font-size: 16px;
+line-height: 100%;
+color: #777E90 !important;
+}
+
+.table td span{
+  font-style: normal;
+font-weight: 500 !important;
+font-size: 16px;
+line-height: 130%;
+color: #131524 !important;
 }
