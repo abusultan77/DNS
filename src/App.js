@@ -16,6 +16,7 @@ import Mint from './components/landing/mint-domain/Mint';
 import Acceptbid from './components/acceptbid/Acceptbid';
 import Market from './components/Marketplace/Market';
 import Profile from './components/Artistprofile/Profile';
+import Place from './components/Placebid/Place';
 
 function App() {
   // useEagerConnect()
@@ -34,6 +35,7 @@ function App() {
               <Route exact path='/acceptbid' component={Acceptbid} />
               <Route exact path='/marketplace' component={Market} />
               <Route exact path='/profile' component={Profile} />
+              <Route exact path='/place' component={Place} />
 
             </Switch>
             <Footer/>

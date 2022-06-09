@@ -2056,11 +2056,11 @@ const Profile = () => {
                     role="tabpanel"
                     aria-labelledby="pills-edit-tab"
                   >
-                    <div className="row ptb20">
-                        <div className="heading-profile p-3">
+                    <div className="heading-profile p-3">
                         <h2 className="edit-heading">Edit Profile</h2>
                           <p className="edit-para">You can set preferred display name and manage other personal settings</p>
                         </div>
+                    <div className="row ptb20">
                       <div className="col-sm-7">
                         <div className="inner-form mt-4">
                           <form>

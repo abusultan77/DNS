@@ -1,5 +1,5 @@
-import React from 'react'
-import "./acceptbid.scss"
+import React from 'react';
+import "./acceptbid.scss";
 export const Acceptbid = () => {
     return (
         <>
@@ -206,7 +206,7 @@ export const Acceptbid = () => {
                                                                     <li className='list-inline-item'>
                                                                         <div className='Activity-heads'>
                                                                             <h3 className='transferred'>Minted by <span>Virgil Lynch</span></h3>
-                                                                            <p className='secransferred pl-0'><span className='sec'>02/06/2022, 2:28 AM</span></p>
+                                                                            <p className='secransferred pl-0'><span className='sec m-0'>02/06/2022, 2:28 AM</span></p>
                                                                         </div>
                                                                     </li>
                                                                 </ul>
