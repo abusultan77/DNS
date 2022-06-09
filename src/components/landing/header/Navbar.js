@@ -34,18 +34,18 @@ const Navbar = () => {
               >
                 <ul className="navbar-nav mr-auto">
                   <li class="nav-item">
-
-               Home
+                  <a href="#">Home</a>
+               
 
                   </li>
                   <li className="nav-item ">
 
-                  Marketplace
+                 <a href="#"> Marketplace</a>
                     
                   </li>
                   <li className="nav-item">
 
-                  About
+                  <a href="#">About</a>
 
                   </li>
 

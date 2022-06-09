@@ -9,7 +9,7 @@ const Building = () => {
             <div className="col-lg-11 m-auto ">
               <div className="bannersix">
                 <div className="row">
-                  <div className="col-xl-5 col-12 p-0">
+                  <div className="col-xl-5 col-12 m-auto">
                     <h2 className="allheading">
                       Building decentralized digital identities for the
                       world

@@ -13,6 +13,7 @@ import Minted from './components/landing/minted/Minted';
 import Opensea from './components/landing/opensea/Opensea';
 import Mintting from './components/landing/mintting/Mintting';
 import Mint from './components/landing/mint-domain/Mint';
+import Acceptbid from './components/acceptbid/Acceptbid';
 
 function App() {
   // useEagerConnect()
@@ -28,7 +29,8 @@ function App() {
               <Route exact path='/opensea' component={Opensea} />
               <Route exact path='/mintting' component={Mintting} />
               <Route exact path='/mint' component={Mint} />
-          
+              <Route exact path='/acceptbid' component={Acceptbid} />
+
             </Switch>
             <Footer/>
           </Router>
