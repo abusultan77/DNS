@@ -98,7 +98,16 @@
         width: 100%;
         height: 0px;
         border: 1px solid #eceaea;
-        // margin-top: 15px;
+        margin-top: 15px;
+
+    }
+    .brdract {
+        width: 100%;
+        height: 0px;
+        border: 1px solid #eceaea;
+        margin-top: 15px;
+        margin-bottom: 17px;
+        
     }
     .heading-bid {
         h5 {
@@ -107,11 +116,13 @@
             font-size: 35px;
             line-height: 100%;
             color: #ff0083;
-            text-transform: lowercase !important;
-            // margin-top: 40px;
+            text-transform: lowercase ;
             margin-bottom: 30px;
+            font-family: "Goldman", serif ;
         }
+        
     }
+    
     .information {
         margin-bottom: 94px;
         margin-top: 27px;
@@ -150,8 +161,60 @@
         }
     }
 
-    .bidhistory {
+    .bidActivity {
         margin-top: 29px;
+        .Activity-heads {
+            margin-left: 15px;
+        }
+      .maaiinnoonneeact {
+            display: flex;
+            align-items: center;
+        }
+
+        .transferred {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 20px;
+            color: #1D1D1D;
+            margin-bottom: 3px;
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 20px;
+                color: #FF0083;
+                margin-left: 2px;
+            }
+
+        }
+        .secransferred {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+            color: #777E90;
+            span.fst {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                color: #FF0083;
+                margin-left: 2px;
+            }
+            span.sec {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                color: #777E90;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .bidhistory {
+        // margin-top: 29px;
         overflow-y: scroll;
         .content-history {
             display: flex;
@@ -188,10 +251,32 @@
         img.img-fluid.sfgsdfsdsdgsdg {
             padding-right: 16px;
         }
+        li.list-inline-item.shoqatali {
+
+            text-align: center;
+
+            h4.shoqii {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 20px;
+                /* text-align: right; */
+                color: #1D1D1D;
+            }
+            p.sectime {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
+                /* text-align: right; */
+                color: #777E90;
+            }
+        }
     }
     .lastcardbtn {
         margin: auto;
-        // position: sticky;
+        position: fixed;
+        margin-top: 41px;
 
         .main-cardsbid {
             display: flex;
