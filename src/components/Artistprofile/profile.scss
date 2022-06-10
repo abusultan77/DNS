@@ -616,6 +616,13 @@
                 color: #FFFFFF;
                 padding: 16px;
                 border: none;
+                transition: 0.7s;
+                            border: 2px solid transparent;
+                            &:hover{
+                                background: #fff;
+                                color: #ff0083;
+                                border: 2px solid #ff0083;
+                            }
            }
         }
         .form-group{
@@ -841,7 +848,15 @@
         justify-content: space-between;
         width: 99%;
         margin: 0 auto;
+        .card-style-1{
+            img{
+                object-fit: cover;
+                width: 35px;
+                height: 35px;
+            }
+        }
       }
+      
       
       .card-body-2 {
         background: #fafafa;
@@ -950,6 +965,13 @@
                 font-size: 16px;
                 line-height: 100%;
                 color: #FFFFFF;
+                transition: 0.7s;
+                border: 2px solid transparent;
+                &:hover{
+                    color: #ff0083;
+                    background: #fff;
+                    border: 2px solid #ff0083;
+                }
           }
       }
       .parent{
@@ -998,6 +1020,13 @@
                             line-height: 16px;
                             text-align: center;
                             color: #FCFCFD;
+                            transition: 0.7s;
+                            border: 2px solid transparent;
+                            &:hover{
+                                background: #fff;
+                                color: #ff0083;
+                                border: 2px solid #ff0083;
+                            }
                         }
                     }
           }
@@ -1013,7 +1042,7 @@
             margin-bottom: 20px;
           }
           .banner-upload{
-              width: 100%;
+              width: 507px;
               height: 165px;
               object-fit: cover;
               margin-bottom: 10px;
@@ -1035,6 +1064,13 @@
                     line-height: 16px;
                     text-align: center;
                     color: #FCFCFD;
+                    transition: 0.7s;
+                            border: 2px solid transparent;
+                            &:hover{
+                                background: #fff;
+                                color: #ff0083;
+                                border: 2px solid #ff0083;
+                            }
                 }
             }
       }
@@ -1142,5 +1178,13 @@
 @media (max-width:360px){
     .artitsprofile .parent{
         flex-direction: column;
+    }
+}
+
+.artitsprofile .main-Myprofile .inner-table-mb{
+    img{
+        object-fit: cover;
+        width: 46px;
+        height: 46px;
     }
 }

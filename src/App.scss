@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
 
 @font-face {
   font-family: Gregular;
@@ -34,7 +33,7 @@ body {
   background-color: #fafafa;
 }
 
-h2{
+h2 {
   font-family: Gbold;
 }
 
@@ -117,14 +116,11 @@ h1 {
   padding: 20px 0;
 }
 
-
-
 p {
   // font-size: 16px !important;
   // font-family: 'barlow', serif!important;
   // font-weight: 600 !important;
 }
-
 
 .btn-common {
   background: #ff0083;
@@ -329,7 +325,6 @@ p {
     font-size: 2.5rem !important;
   }
 
-  
   .ptb {
     padding: 30px 0;
   }
@@ -380,7 +375,6 @@ p {
     font-size: 3rem !important;
   }
 
-
   .ptb {
     padding: 20px 0;
   }
@@ -417,19 +411,57 @@ iframe {
   height: 0px !important;
 }
 
-
-.table th{
-  font-style: normal;
-font-weight: 500 !important;
-font-size: 16px;
-line-height: 100%;
-color: #777E90 !important;
+button {
+  cursor: pointer;
 }
 
-.table td span{
+.table th {
   font-style: normal;
-font-weight: 500 !important;
-font-size: 16px;
-line-height: 130%;
-color: #131524 !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+  line-height: 100%;
+  color: #777e90 !important;
+}
+
+.table td span {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px;
+  line-height: 130%;
+  color: #131524 !important;
+}
+
+.btn-loadmore button {
+  transition: 0.7s;
+  &:hover {
+    background: #f41e5e !important;
+    color: #fff !important;
+  }
+}
+
+.table .btn-blue1 {
+  transition: 0.7s;
+  &:hover {
+    background: #f41e5e !important;
+    color: #fff !important;
+  }
+}
+
+.btn-searchbar {
+  border: none !important;
+  transition: 0.7s;
+  border: 2px solid transparent !important;
+  &:hover {
+    background: #f41e5e;
+    border: 2px solid #ffffff !important;
+  }
+}
+
+.btn-pink{
+  border: 2px solid transparent !important;
+  &:hover{
+      background: #fff !important;
+      color: #ff0083 !important;
+      border: 2px solid #ff0083 !important;
+  }
 }
