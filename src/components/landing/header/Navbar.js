@@ -34,18 +34,18 @@ const Navbar = () => {
               >
                 <ul className="navbar-nav mr-auto">
                   <li class="nav-item">
-                  <Link to="/">Home</Link>
-               
+                    <Link to="/">Home</Link>
+
 
                   </li>
                   <li className="nav-item ">
 
-                 <Link to="/marketplace"> Marketplace</Link>
-                    
+                    <Link to="/marketplace"> Marketplace</Link>
+
                   </li>
                   <li className="nav-item">
 
-                  <Link to="/profile">About</Link>
+                    <Link to="/profile">About</Link>
 
                   </li>
 
@@ -53,8 +53,8 @@ const Navbar = () => {
                   </li>
                 </ul>
                 <button class="btn button-hedaer " data-toggle="modal" data-target="#exampleModal" type="button">
-             
-                Connect Wallet
+
+                  Connect Wallet
                 </button>
               </div>
             </nav>
@@ -62,37 +62,37 @@ const Navbar = () => {
         </div>
       </div>
 
-     <div className="wallet-modal">
-     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body p-0">
-            <div className="cross-icon">
-            <h3 class="modal-title text-center" id="exampleModalLabel">Connect your Wallet</h3>
-        <button type="button" class="close cross-img1" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true"><img src="\adress\cross-icon.svg" className="img-fluid "/></span>
-        </button>
+      <div className="wallet-modal">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body p-0">
+                <div className="cross-icon">
+                  <h3 class="modal-title text-center" id="exampleModalLabel">Connect your Wallet</h3>
+                  <button type="button" class="close cross-img1" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><img src="\adress\cross-icon.svg" className="img-fluid " /></span>
+                  </button>
+                </div>
+
+
+
+                <div className="button-modal1 d-flex">
+                  <button className="modal-button"><img src="\adress\metamask-icon.svg" className="img-fluid" /><h3 className=""> MetaMask</h3>
+                    <p className="">Connect to your MetaMask wallet </p>
+                  </button>
+                  <button className="modal-button"><img src="\adress\walletconnect-icon.svg" className="img-fluid" /><h3 className="">WalletConnect</h3>
+                    <p className="">Connect to your MetaMask wallet </p>
+                  </button>
+
+                </div>
+                <p className="text-center mt-3">By connecting, I accept DNS <span className="common">Terms of Service </span></p>
+
+              </div>
+
             </div>
-         
-          
-      
-        <div className="button-modal1 d-flex">
-        <button className="modal-button"><img src="\adress\metamask-icon.svg" className="img-fluid"/><h3 className=""> MetaMask</h3> 
-        <p className="">Connect to your MetaMask wallet </p>
-         </button>
-        <button className="modal-button"><img src="\adress\walletconnect-icon.svg" className="img-fluid"/><h3 className="">WalletConnect</h3> 
-        <p className="">Connect to your MetaMask wallet </p>
-         </button>
-        
+          </div>
         </div>
-        <p className="text-center mt-3">By connecting, I accept DNS <span className="common">Terms of Service </span></p>
-  
       </div>
-    
-    </div>
-  </div>
-</div>
-     </div>
     </section>
   );
 };
