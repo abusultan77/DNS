@@ -18,6 +18,15 @@
         /* margin-right: 44px; */
         li.nav-item {
             margin-right: 35px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            color: #9D9D9D;
+            transition: 0.7s;
+            &:hover{
+                color: #ff0083;
+            }
         }
     }
     .dehvdgh {

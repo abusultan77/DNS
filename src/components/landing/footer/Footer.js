@@ -33,15 +33,21 @@ const Footer = () => {
                                     id="navbarSupportedContent"
                                 > */}
                                     <ul className="navbar-nav mr-auto">
+                                        <Link to="/">
                                         <li class="nav-item">
                                             Home
                                         </li>
+                                        </Link>
+                                        <Link to="/market">
                                         <li className="nav-item ">
                                             Marketplace
                                         </li>
-                                        <li className="nav-item">
+                                        </Link>
+                                       <Link to="/profile">
+                                       <li className="nav-item">
                                             About
                                         </li>
+                                       </Link>
                                         <li class="nav-item dropdown">
                                         </li>
                                     </ul>
