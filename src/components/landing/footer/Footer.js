@@ -38,7 +38,7 @@ const Footer = () => {
                                             Home
                                         </li>
                                         </Link>
-                                        <Link to="/market">
+                                        <Link to="/marketplace">
                                         <li className="nav-item ">
                                             Marketplace
                                         </li>

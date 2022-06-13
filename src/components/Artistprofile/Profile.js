@@ -766,7 +766,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -816,7 +816,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -866,7 +866,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -916,7 +916,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -966,7 +966,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -1016,7 +1016,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -1096,7 +1096,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -1146,7 +1146,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -1196,7 +1196,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -1246,7 +1246,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -1296,7 +1296,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
@@ -1346,7 +1346,7 @@ const Profile = () => {
                                 </td>
                                 <td>
                                   <div className="inner-text-table">
-                                    <Link to="/biddetail">
+                                    <Link to="/place">
                                       <button className="btn-blue1">
                                         View Details
                                       </button>
