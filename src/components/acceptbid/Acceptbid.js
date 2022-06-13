@@ -187,7 +187,7 @@ export const Acceptbid = () => {
                                                             <div className='activittyy'>
                                                                 <ul className='list-inline maaiinnoonneeact'>
                                                                     <li className='list-inline-item'>
-                                                                    <img src='\adress\bitavatar.svg' className='img-fluid sfgsdfsdsdgsdg' />
+                                                                        <img src='\adress\bitavatar.svg' className='img-fluid sfgsdfsdsdgsdg' />
                                                                     </li>
                                                                     <li className='list-inline-item'>
                                                                         <div className='Activity-heads'>
@@ -201,7 +201,7 @@ export const Acceptbid = () => {
                                                             <div className='activittyy'>
                                                                 <ul className='list-inline maaiinnoonneeact'>
                                                                     <li className='list-inline-item'>
-                                                                    <img src='\adress\secbidavatar.svg' className='img-fluid sfgsdfsdsdgsdg' />
+                                                                        <img src='\adress\secbidavatar.svg' className='img-fluid sfgsdfsdsdgsdg' />
                                                                     </li>
                                                                     <li className='list-inline-item'>
                                                                         <div className='Activity-heads'>
