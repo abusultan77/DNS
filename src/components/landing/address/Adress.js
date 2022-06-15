@@ -11,7 +11,7 @@ export const Adress = () => {
                        <div className='row'>
                     <div className='col-sm-8 mx-auto'>
                         <div className='heading'>
-                            <h2 className=''>One name for all of your addresses</h2>
+                            <h2 className=''>One name for all of your address </h2>
                             <p className=''>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                         </div>
                     </div>

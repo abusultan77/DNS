@@ -78,6 +78,7 @@
       }
 
       h3 {
+
         font-style: normal;
         font-weight: 600;
         font-size: 22px;
@@ -104,6 +105,7 @@
         }
 
         h3 {
+          font-family: 'Gsemibold';
           font-style: normal;
           font-weight: 500;
           font-size: 18px;
@@ -119,7 +121,7 @@
           font-weight: 500;
           font-size: 14px;
           margin-bottom: 32px;
-
+          font-family: 'Gregular';
           text-align: center;
 
           color: #acacac;
@@ -129,7 +131,7 @@
     .text-center {
       font-weight: 500;
       font-size: 14px;
-
+      font-family: 'Gsemibold';
       text-align: center;
 
       color: #acacac;
@@ -138,6 +140,7 @@
         font-size: 14px;
         text-align: center;
         color: #ff0083;
+        font-family: 'Gsemibold';
       }
     }
   }
@@ -610,7 +613,7 @@
     padding: 10px 0;
   }
   .main-navbar .button-hedaer {
-    margin: 0 auto;
+    margin: 10px auto;
   }
   .main-navbar .wallet-modal .modal-content {
     margin: 0 auto;

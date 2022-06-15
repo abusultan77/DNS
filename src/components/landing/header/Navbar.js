@@ -41,20 +41,20 @@ const Navbar = () => {
                   <li className="nav-item ">
                     <Link to="/marketplace"> Marketplace</Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link to="/profile">About</Link>
-                  </li>
+                  </li> */}
 
                   <li class="nav-item dropdown"></li>
                 </ul>
-                {/* <button
-                  class="btn button-hedaer mb-2"
+                <button
+                  class="btn button-hedaer"
                   data-toggle="modal"
                   data-target="#exampleModal"
                   type="button"
                 >
                   Connect Wallet
-                </button> */}
+                </button> 
                 <div className="nav-drop">
                   <a class="dropdown">
                     <button
@@ -111,7 +111,7 @@ const Navbar = () => {
                               </li>
                             </ul>
                             <div className="bottom-text">
-                              <Link to="/myprofile">
+                              <Link to="/profile">
                                 <img
                                   src="\profile-drop.png"
                                   className="img-fluid"
@@ -122,7 +122,7 @@ const Navbar = () => {
                             </div>
                             <div class="dropdown-divider"></div>
                             <div className="bottom-text">
-                              <Link class=" " to="#">
+                              <Link class=" " to="/profile">
                                 <img
                                   src="\edit-drop.png"
                                   className="img-fluid"
