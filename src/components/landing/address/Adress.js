@@ -6,7 +6,7 @@ export const Adress = () => {
             <section className="main-adress">
                 <div className='container-fluid'>
                <div className="row">
-                   <div className="col-xl-11 col-12 m-auto">
+                   <div className="col-xl-11 col-12 m-auto p-0">
                        <div className="parent-bg">
                        <div className='row'>
                     <div className='col-sm-8 mx-auto'>

@@ -15,7 +15,7 @@ const Computerb = () => {
                     className="img-fluid left-img"
                   />
                 </div>
-                <div className="col-xl-5 col-12 m-auto">
+                <div className="col-xl-5 col-12 m-auto p-0">
                   <div className="right">
                   <h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
                   <p>
