@@ -48,7 +48,7 @@ const Navbar = () => {
                   <li class="nav-item dropdown"></li>
                 </ul>
                 <button
-                  class="btn button-hedaer mb-2"
+                  class="btn button-hedaer"
                   data-toggle="modal"
                   data-target="#exampleModal"
                   type="button"

@@ -6,7 +6,7 @@ export const Getinvolved = () => {
       <section className="getinvolved">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-sm-11 col-12 m-auto">
+            <div className="col-sm-11 col-12 m-auto p-0">
               <div className="heading-get">
                 <h2 className="">Get Involved</h2>
                 <p className="">
@@ -15,7 +15,7 @@ export const Getinvolved = () => {
                 </p>
               </div>
               <div className="row">
-                <div className="col-xl-6 col-lg-12 col-12">
+                <div className="col-xl-6 col-lg-12 col-12 padd-res">
                   <div className="cards">
                     <ul className="list-inline">
                       <div className="inner-content">
@@ -32,7 +32,7 @@ export const Getinvolved = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-12 col-12">
+                <div className="col-xl-6 col-lg-12 col-12 padd-res">
                   <div className="cards">
                     <ul className="list-inline">
                       <div className="inner-content">
@@ -49,7 +49,7 @@ export const Getinvolved = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-12 col-12">
+                <div className="col-xl-6 col-lg-12 col-12 padd-res">
                   <div className="cards">
                     <ul className="list-inline">
                       <div className="inner-content">
@@ -67,7 +67,7 @@ export const Getinvolved = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-12 col-12">
+                <div className="col-xl-6 col-lg-12 col-12 padd-res">
                   <div className="cards">
                     <ul className="list-inline">
                       <div className="inner-content">

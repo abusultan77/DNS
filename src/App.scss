@@ -465,3 +465,16 @@ button {
       border: 2px solid #ff0083 !important;
   }
 }
+
+
+@media (max-width:600px){
+  h2{
+    font-size: 30px !important;
+  }
+}
+button:focus{
+  outline: none !important;
+}
+input:focus{
+  outline: none !important;
+}

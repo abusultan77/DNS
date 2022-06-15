@@ -56,5 +56,16 @@
         padding: 0 !important;
     }
 }
+@media(max-width:600px){
+    .main-adress{
+        padding-top: 60px !important;
+    }
+    .main-adress .heading h2{
+        margin-top: 40px;
+    }
+    .main-adress .parent-bg{
+        padding-bottom: 40px !important;
+    }
+}
 
 

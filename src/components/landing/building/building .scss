@@ -37,10 +37,21 @@
        padding-bottom: 100px;
    }
 }
+@media(max-width:600px){
+    .main-Building{
+        padding-top: 60px !important;
+    }
+    .main-Building h2.allheading{
+        text-align: left;
+    }
+    .main-Building p{
+        text-align: left !important;
+    }
+ }
 
 @media (max-width:430px){
     h2{
-        font-size: 26px !important;
+        font-size: 30px !important;
         text-align: center;
     }
     .main-Building p{
