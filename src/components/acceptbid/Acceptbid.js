@@ -45,6 +45,8 @@ export const Acceptbid = () => {
                                             </nav>
                                             <div class="tab-content" id="nav-tabContent">
                                                 <div class="tab-pane fade show active" id="nav-Information" role="tabpanel" aria-labelledby="nav-Information-tab">
+                                                    
+                                                    
                                                     <div className='information'>
                                                         <div className='para'>
                                                             <p className=''>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
@@ -76,7 +78,7 @@ export const Acceptbid = () => {
                                                     </div>
                                                 </div>
                                                 <div class="tab-pane fade" id="nav-Bids History" role="tabpanel" aria-labelledby="nav-Bids History-tab">.
-                                                    <div className='bidhistory'>
+                                                    <div className='bidhistory '>
                                                         <div className='content-history'>
                                                             <div className='fitcont'>
                                                                 <ul className='list-inline maaiinnoonnee'>
