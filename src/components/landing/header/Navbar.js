@@ -54,7 +54,7 @@ const Navbar = () => {
                   type="button"
                 >
                   Connect Wallet
-                </button>
+                </button> 
                 <div className="nav-drop">
                   <a class="dropdown">
                     <button
@@ -203,9 +203,9 @@ const Navbar = () => {
                     <p className="">Connect to your MetaMask wallet </p>
                   </button>
                 </div>
-                <p className="text-center mt-3">
+                <p className="text-center mt-3  connecting">
                   By connecting, I accept DNS{" "}
-                  <span className="common">Terms of Service </span>
+                  <span className="common connectinggg">Terms of Service </span>
                 </p>
               </div>
             </div>

@@ -13,7 +13,7 @@ const Banner = () => {
             <div className="col-sm-11 m-auto">
               <div className="inner-content main-heading text-center">
                 <h3 className="">
-                  Decentralised naming for <br></br> wallets, websites, & more.
+                  Decentralised naming for  wallets, websites, & more.
                 </h3>
               </div>
               <div className="parafirst">
