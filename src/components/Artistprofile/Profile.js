@@ -193,7 +193,7 @@ const Profile = () => {
 
                 <div class="tab-content" id="pills-tabContent">
                   <div
-                    class="tab-pane fade  "
+                    class="tab-pane fade show active "
                     id="pills-Owned"
                     role="tabpanel"
                     aria-labelledby="pills-Owned-tab"
@@ -702,7 +702,51 @@ const Profile = () => {
                     role="tabpanel"
                     aria-labelledby="pills-Created-tab"
                   >
-                    <h1>Activity Tab</h1>
+                   <div className="row cardsss ptb-20">
+                   <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <Link to="/resell">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                          <div class="card-body-2">
+                            <h6 class="card-heading-3">Auction Ends</h6>
+                            <h5 class="card-heading-4">04 : 23 : 10 : 39</h5>
+                          </div>
+                        </div>
+                        </Link>
+                      </div>
+                   </div>
                   </div>
                   <div
                     class="tab-pane fade"

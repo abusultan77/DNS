@@ -979,7 +979,7 @@
           justify-content: center;
           align-items: center;
           .profile-show{
-             width: 200px;
+             width: 266px;
               p{
                 font-style: normal;
                 font-weight: 600;
@@ -1075,6 +1075,11 @@
             }
       }
 }
+@media (max-width:1199px){
+    .artitsprofile .parent .profile-show{
+        width: 440px;
+    }
+}
 @media (max-width:991px){
     .text-right{
         text-align: left !important;
@@ -1104,6 +1109,9 @@
     .artitsprofile .mainpills{
         flex-wrap: unset !important;
         overflow-x: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
     }
     .artitsprofile .main-Myprofile .nav-link{
         white-space: nowrap;
@@ -1139,6 +1147,9 @@
         display: flex;
         justify-content: center;
     }
+    .artitsprofile .edit-heading{
+        text-align: left;
+    }
 }
 
 
@@ -1173,11 +1184,22 @@
     .artitsprofile .main-Myprofile .mainwrap button#dropdownMenu3{
         margin: 0 ;
     }
+    .artitsprofile .parent .profile-show{
+        width: 170px;
+    }
 
+}
+@media (max-width:380px){
+    .artitsprofile .parent .profile-show{
+        width: 210px;
+    }
 }
 @media (max-width:360px){
     .artitsprofile .parent{
         flex-direction: column;
+    }
+    .artitsprofile .parent .profile-show{
+        width: 250px;
     }
 }
 

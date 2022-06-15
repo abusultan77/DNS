@@ -107,7 +107,7 @@
         .btn-searchbar {
             position: absolute !important;
             top: 12px;
-            right: 25px;
+            right: 14px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -142,8 +142,10 @@
             .card-body {
                 display: flex;
                 justify-content: space-between;
-
-                align-items: baseline;
+                align-items: center;
+                padding: 0;
+                height: 82px;
+                padding: 0 25px;
                 .text {
                     display: flex;
                     align-items: center;
@@ -295,6 +297,10 @@
         position: unset !important;
         margin: 0 auto;
         margin-top: 20px;
+    }
+    .main-Minted .secinputtt .card .card-body{
+        padding: 1.25rem !important;
+        height: unset !important;
     }
 }
 

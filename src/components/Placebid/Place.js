@@ -10,14 +10,14 @@ export const Place = () => {
             <div className="col-xl-11 col-12 m-auto">
               <div className="botton">
                 <Link to="/">
-                <button className="btn-back">
-                  <img
-                    src="\adress\arrow-left.svg"
-                    className="img-fluid "
-                    alt="img"
-                  />
-                  Back
-                </button>
+                  <button className="btn-back">
+                    <img
+                      src="\adress\arrow-left.svg"
+                      className="img-fluid "
+                      alt="img"
+                    />
+                    Back
+                  </button>
                 </Link>
               </div>
               <div className="row">
@@ -25,7 +25,7 @@ export const Place = () => {
                   <div className="maincard">
                     <h3 className="cardinnerheading">fireape.tomi</h3>
                     <div className="cardimgg">
-                      <img src="\adress\cardds.svg" className="img-fluid " />
+                      <img src="\adress\cardds.svg" className="img-fluid" />
                     </div>
                   </div>
                   <div className="bid-card ">
@@ -44,23 +44,23 @@ export const Place = () => {
                     </div>
                     <div className="bid-tabs">
                       <nav>
-                        <div class="nav nav-tabs" id="nav-tab">
+                        <div className="nav nav-tabs" id="nav-tab">
                           <a
-                            class="nav-link active pl-0"
+                            className="nav-link active pl-0"
                             data-toggle="tab"
                             href="#nav-Information"
                           >
                             Information
                           </a>
                           <a
-                            class="nav-link"
+                            className="nav-link"
                             data-toggle="tab"
                             href="#nav-Bids"
                           >
                             Bids History
                           </a>
                           <a
-                            class="nav-link"
+                            className="nav-link"
                             data-toggle="tab"
                             href="#nav-Activity"
                           >
@@ -68,9 +68,9 @@ export const Place = () => {
                           </a>
                         </div>
                       </nav>
-                      <div class="tab-content" id="nav-tabContent">
+                      <div className="tab-content" id="nav-tabContent">
                         <div
-                          class="tab-pane fade show active"
+                          className="tab-pane fade show active"
                           id="nav-Information"
                         >
                           <div className="information">
@@ -91,7 +91,7 @@ export const Place = () => {
                               <div className="avtarfirst">
                                 <div className="">
                                   <img
-                                    src="\adress\avatarf.svg"
+                                    src="\adress\avatarf.png"
                                     className="img-fluid "
                                   />
                                 </div>
@@ -105,7 +105,7 @@ export const Place = () => {
                               <div className="avtarfirst ml-3">
                                 <div className="">
                                   <img
-                                    src="\adress\avatarsec.svg"
+                                    src="\adress\avatarf.png"
                                     className="img-fluid "
                                   />
                                 </div>
@@ -119,14 +119,14 @@ export const Place = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-Bids">
+                        <div className="tab-pane fade" id="nav-Bids">
                           <div className="bidhistory">
                             <div className="content-history">
                               <div className="fitcont">
                                 <ul className="list-inline maaiinnoonnee">
                                   <li className="list-inline-item">
                                     <img
-                                      src="\adress\avatar-04.svg"
+                                      src="\adress\avatarf.png"
                                       className="img-fluid sfgsdfsdsdgsdg"
                                     />
                                   </li>
@@ -154,7 +154,7 @@ export const Place = () => {
                                 <ul className="list-inline maaiinnoonnee">
                                   <li className="list-inline-item">
                                     <img
-                                      src="\adress\avatar-04.svg"
+                                      src="\adress\avatarf.png"
                                       className="img-fluid sfgsdfsdsdgsdg"
                                     />
                                   </li>
@@ -182,7 +182,7 @@ export const Place = () => {
                                 <ul className="list-inline maaiinnoonnee">
                                   <li className="list-inline-item">
                                     <img
-                                      src="\adress\avatar-04.svg"
+                                      src="\adress\avatarf.png"
                                       className="img-fluid sfgsdfsdsdgsdg"
                                     />
                                   </li>
@@ -210,7 +210,91 @@ export const Place = () => {
                                 <ul className="list-inline maaiinnoonnee">
                                   <li className="list-inline-item">
                                     <img
-                                      src="\adress\avatar-04.svg"
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="history-heads">
+                                      <h3 className="">
+                                        Jacqueline Perry{" "}
+                                        <span>place a bid</span>
+                                      </h3>
+                                      <p className="hours">8 hours ago</p>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <ul className="list-inline">
+                                <li className="list-inline-item shoqatali">
+                                  <h4 className="shoqii">1.5 ETH</h4>
+                                  <p className="sectime">= $12.246</p>
+                                </li>
+                              </ul>
+                            </div>
+                            <div className="brdr"></div>
+                            <div className="content-history">
+                              <div className="fitcont">
+                                <ul className="list-inline maaiinnoonnee">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="history-heads">
+                                      <h3 className="">
+                                        Jacqueline Perry{" "}
+                                        <span>place a bid</span>
+                                      </h3>
+                                      <p className="hours">8 hours ago</p>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <ul className="list-inline">
+                                <li className="list-inline-item shoqatali">
+                                  <h4 className="shoqii">1.5 ETH</h4>
+                                  <p className="sectime">= $12.246</p>
+                                </li>
+                              </ul>
+                            </div>
+                            <div className="brdr"></div>
+                            <div className="content-history">
+                              <div className="fitcont">
+                                <ul className="list-inline maaiinnoonnee">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="history-heads">
+                                      <h3 className="">
+                                        Jacqueline Perry{" "}
+                                        <span>place a bid</span>
+                                      </h3>
+                                      <p className="hours">8 hours ago</p>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                              <ul className="list-inline">
+                                <li className="list-inline-item shoqatali">
+                                  <h4 className="shoqii">1.5 ETH</h4>
+                                  <p className="sectime">= $12.246</p>
+                                </li>
+                              </ul>
+                            </div>
+                            <div className="brdr"></div>
+                            <div className="content-history">
+                              <div className="fitcont">
+                                <ul className="list-inline maaiinnoonnee">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
                                       className="img-fluid sfgsdfsdsdgsdg"
                                     />
                                   </li>
@@ -235,14 +319,14 @@ export const Place = () => {
                             <div className="brdr"></div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-Activity">
+                        <div className="tab-pane fade" id="nav-Activity">
                           <div className="bidActivity">
                             <div className="content-Activity">
                               <div className="activittyy">
                                 <ul className="list-inline maaiinnoonneeact">
                                   <li className="list-inline-item">
                                     <img
-                                      src="\adress\bitavatar.svg"
+                                      src="\adress\avatarf.png"
                                       className="img-fluid sfgsdfsdsdgsdg"
                                     />
                                   </li>
@@ -270,7 +354,7 @@ export const Place = () => {
                                 <ul className="list-inline maaiinnoonneeact">
                                   <li className="list-inline-item">
                                     <img
-                                      src="\adress\bitavatar.svg"
+                                      src="\adress\avatarf.png"
                                       className="img-fluid sfgsdfsdsdgsdg"
                                     />
                                   </li>
@@ -297,7 +381,7 @@ export const Place = () => {
                                 <ul className="list-inline maaiinnoonneeact">
                                   <li className="list-inline-item">
                                     <img
-                                      src="\adress\secbidavatar.svg"
+                                      src="\adress\avatarf.png"
                                       className="img-fluid sfgsdfsdsdgsdg"
                                     />
                                   </li>
@@ -328,7 +412,7 @@ export const Place = () => {
                             <h5 className="">Highest Bid</h5>
                             <div className="history-inner">
                               <img
-                                src="\adress\Group.svg"
+                                src="\adress\eth1.png"
                                 className="img-fluid ethimg"
                               />
                               <p className="">1.5 ETH</p>
@@ -365,22 +449,22 @@ export const Place = () => {
       </section>
       <section className="placebid-modal">
         <div
-          class="modal fade"
+          className="modal fade"
           id="placebid"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog ">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h3 class="modal-title text-center" id="exampleModalLabel">
+          <div className="modal-dialog ">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h3 className="modal-title text-center" id="exampleModalLabel">
                   Place a Bid
                 </h3>
 
                 <button
                   type="button"
-                  class="close"
+                  className="close"
                   data-dismiss="modal"
                   aria-label="Close"
                 >
@@ -389,7 +473,7 @@ export const Place = () => {
                   </span>
                 </button>
               </div>
-              <div class="modal-body">
+              <div className="modal-body">
                 <p className="">
                   You are about to Place a Bid on<span>fireape.tomi</span> by{" "}
                   <span> Leslie Alexander </span>{" "}
@@ -416,7 +500,53 @@ export const Place = () => {
                   <h4 className="bidhead">Total Bid amount</h4>
                   <h3 className="head1 ml-2">0.00 ETH</h3>
                 </div>
-                <button className="btnmodalbtn">Accept Bid</button>
+                <button
+                  className="btnmodalbtn"
+                  data-toggle="modal"
+                  data-target="#accept"
+                >
+                  Accept Bid
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="placebid2-modal">
+        <div
+          class="modal fade"
+          id="accept"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div className="modal-header">
+                <h3 className="modal-title text-center" id="exampleModalLabel">
+                  Place a Bid
+                </h3>
+                <button
+                  type="button"
+                  className="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">
+                    <img src="\adress\g3763.png" className="img-fluid" />
+                  </span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img
+                  src="\adress\success.png"
+                  alt="img"
+                  className="img-fluid"
+                />
+                <p>
+                  Your Bid has been <br /> successfully submitted
+                </p>
+                <button>Okay</button>
               </div>
             </div>
           </div>

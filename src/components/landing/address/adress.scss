@@ -47,6 +47,9 @@
     .main-adress .parent-img{
         overflow-x: scroll;
         justify-content: flex-start;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
     }
     .main-adress{

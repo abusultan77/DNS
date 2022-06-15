@@ -478,3 +478,7 @@ button:focus{
 input:focus{
   outline: none !important;
 }
+
+.form-control:focus{
+  box-shadow: unset;
+}

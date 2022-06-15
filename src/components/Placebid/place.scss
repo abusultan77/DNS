@@ -212,6 +212,11 @@
 
     .bidhistory {
         overflow-y: scroll;
+        height: 200px;
+        margin-top: 30px;
+        &::-webkit-scrollbar{
+            display: none;
+        }
         .content-history {
             display: flex;
             justify-content: space-between;
@@ -470,6 +475,78 @@
             }
     }
     }
+}
+.placebid2-modal{
+    .modal-content{
+        width:100%;
+        padding: 0px 0px 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    .modal-header{
+        background: #FAFAFA;
+        padding-bottom: 30px;
+        h3{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 100%;
+            text-align: center !important;
+            text-transform: uppercase;
+            width: 100%;
+            color: #121212;
+        }
+        .close{
+            span{
+                position: absolute;
+                top:10px;
+                right: 30px;
+            }
+        }
+    }
+    .modal-body{
+        h6{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #121212;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+        p{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #121212;
+            margin-top: 21px;
+        }
+        button{
+            background: #FF0083;
+            box-shadow: 0px 18px 30px -10px rgba(255, 0, 131, 0.15);
+            border-radius: 5px;
+            padding: 16px 0;
+            width: 100%;
+            border: none;
+            outline: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 100%;
+            color: #FFFFFF;
+            margin-top: 40px;
+        }
+    }
+   
+    
+}
 }
 
 @media (max-width: 1070px) {
