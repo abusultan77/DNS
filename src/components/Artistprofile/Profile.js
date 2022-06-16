@@ -12,7 +12,7 @@ const Profile = () => {
         <div className="row">
           <div className="col-sm-12 p-0">
             <div className="">
-              <img src="\profile-bg.png" class="img-fluid w100p" alt=""></img>
+              <img src="\profile-bg.png" class="img-fluid w100p cover-pic" alt=""></img>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ const Profile = () => {
                     <div className="inner-content text-center">
                       <a className="proimg">
                         <img
-                          src="\avatar-03.svg"
+                          src="\avatar-pf.png"
                           className="img-fluid main-img"
                           alt=""
                         />
@@ -1883,7 +1883,7 @@ const Profile = () => {
                                   <span className="therate"><i class="fas fa-at"></i></span>
                                   <input
                                     type="email"
-                                    class="form-control form-abs"
+                                    class="form-control form-abs twitter-un"
                                     id="exampleFormControlInput1"
                                     placeholder="Enter your name in Twitter"
                                   />
@@ -1901,7 +1901,7 @@ const Profile = () => {
                                   </label>
                                   <input
                                     type="email"
-                                    class="form-control form-abs"
+                                    class="form-control form-abs email-input"
                                     id="exampleFormControlInput1"
                                     placeholder="Enter your email address"
                                   />
@@ -1916,7 +1916,7 @@ const Profile = () => {
                                   </label>
                                   <input
                                     type="email"
-                                    class="form-control form-abs"
+                                    class="form-control form-abs walllet-add email-input"
                                     id="exampleFormControlInput1"
                                     placeholder="0x1B92ABFC520D4210EC3D6EB5173988C6AE066231"
                                   />

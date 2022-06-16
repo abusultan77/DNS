@@ -9,7 +9,7 @@ export const Place = () => {
           <div className="row">
             <div className="col-xl-11 col-12 m-auto">
               <div className="botton">
-                <Link to="/">
+                <Link to="/profile">
                   <button className="btn-back">
                     <img
                       src="\adress\arrow-left.svg"
@@ -333,7 +333,7 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                        Transferred to{" "}
+                                        Transferred to
                                         <span>Russell Carson</span>
                                       </h3>
                                       <p className="secransferred">
@@ -369,6 +369,121 @@ export const Place = () => {
                                           Russell Carson
                                         </span>
                                         <span className="sec">
+                                          02/06/2022, 2:28 AM
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div className="brdract"></div>
+                              </div>
+                              <div className="activittyy">
+                                <ul className="list-inline maaiinnoonneeact">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="Activity-heads">
+                                      <h3 className="transferred">
+                                        Minted by <span>Virgil Lynch</span>
+                                      </h3>
+                                      <p className="secransferred pl-0">
+                                        <span className="sec m-0">
+                                          02/06/2022, 2:28 AM
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div className="brdract"></div>
+                              </div>
+                              <div className="activittyy">
+                                <ul className="list-inline maaiinnoonneeact">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="Activity-heads">
+                                      <h3 className="transferred">
+                                        Minted by <span>Virgil Lynch</span>
+                                      </h3>
+                                      <p className="secransferred pl-0">
+                                        <span className="sec m-0">
+                                          02/06/2022, 2:28 AM
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div className="brdract"></div>
+                              </div>
+                              <div className="activittyy">
+                                <ul className="list-inline maaiinnoonneeact">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="Activity-heads">
+                                      <h3 className="transferred">
+                                        Minted by <span>Virgil Lynch</span>
+                                      </h3>
+                                      <p className="secransferred pl-0">
+                                        <span className="sec m-0">
+                                          02/06/2022, 2:28 AM
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div className="brdract"></div>
+                              </div>
+                              <div className="activittyy">
+                                <ul className="list-inline maaiinnoonneeact">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="Activity-heads">
+                                      <h3 className="transferred">
+                                        Minted by <span>Virgil Lynch</span>
+                                      </h3>
+                                      <p className="secransferred pl-0">
+                                        <span className="sec m-0">
+                                          02/06/2022, 2:28 AM
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <div className="brdract"></div>
+                              </div>
+                              <div className="activittyy">
+                                <ul className="list-inline maaiinnoonneeact">
+                                  <li className="list-inline-item">
+                                    <img
+                                      src="\adress\avatarf.png"
+                                      className="img-fluid sfgsdfsdsdgsdg"
+                                    />
+                                  </li>
+                                  <li className="list-inline-item">
+                                    <div className="Activity-heads">
+                                      <h3 className="transferred">
+                                        Minted by <span>Virgil Lynch</span>
+                                      </h3>
+                                      <p className="secransferred pl-0">
+                                        <span className="sec m-0">
                                           02/06/2022, 2:28 AM
                                         </span>
                                       </p>
@@ -455,7 +570,7 @@ export const Place = () => {
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div className="modal-dialog ">
+          <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header">
                 <h3 className="modal-title text-center" id="exampleModalLabel">
@@ -505,14 +620,14 @@ export const Place = () => {
                   data-toggle="modal"
                   data-target="#accept"
                 >
-                  Accept Bid
+                 Place a Bid
                 </button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="placebid2-modal">
+      <section className="placebid2-modal modal-dialog-centered">
         <div
           class="modal fade"
           id="accept"
@@ -520,7 +635,7 @@ export const Place = () => {
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog">
+          <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <div className="modal-header">
                 <h3 className="modal-title text-center" id="exampleModalLabel">

@@ -58,6 +58,9 @@
   }
 
   .wallet-modal {
+    .modal-dialog{
+      margin: 16.75rem auto;
+    }
     .modal.show .modal-dialog {
       max-width: 746px !important;
     }
@@ -73,7 +76,7 @@
     .modal-body {
       .cross-img1 {
         position: absolute;
-        top: 0px;
+        top: 21px;
         left: 679px;
       }
 
@@ -86,7 +89,7 @@
         margin-top: 29px;
 
         text-align: center;
-        text-transform: uppercase;
+        // text-transform: uppercase;
 
         color: #121212;
       }
@@ -634,6 +637,9 @@
 .nav-drop .dropdown-menu.show .boxy{
     right: 138px !important;
 }
+.main-navbar .wallet-modal .modal-dialog{
+  margin: 11.75rem auto;
+}
 }
 
 .buttonsss {
@@ -672,6 +678,9 @@
   }
   .nav-drop .dropdown-menu.show{
       width: 256px !important;
+  }
+  .main-navbar .wallet-modal .modal-body .cross-img1{
+    left: 287px;
   }
 }
 
