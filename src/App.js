@@ -38,7 +38,6 @@ function App() {
               <Route exact path='/profile' component={Profile} />
               <Route exact path='/place' component={Place} />
               <Route exact path='/resell' component={Resell} />
-
             </Switch>
             <Footer/>
           </Router>

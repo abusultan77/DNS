@@ -112,3 +112,10 @@
         padding-top: 40px;
     }
 }
+
+.main-mint .right .input-field textarea{
+    &:focus{
+        border: none !important;
+        box-shadow: unset !important;
+    }
+}

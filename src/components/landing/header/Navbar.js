@@ -113,7 +113,7 @@ const Navbar = () => {
                             <div className="bottom-text">
                               <Link to="/profile">
                                 <img
-                                  src="\profile-drop.png"
+                                  src="\profile-drop.svg"
                                   className="img-fluid"
                                   alt=""
                                 />
@@ -124,7 +124,7 @@ const Navbar = () => {
                             <div className="bottom-text">
                               <Link class=" " to="/profile">
                                 <img
-                                  src="\edit-drop.png"
+                                  src="\edit-drop.svg"
                                   className="img-fluid"
                                   alt=""
                                 />
@@ -135,7 +135,7 @@ const Navbar = () => {
                             <div className="bottom-text">
                               <Link class=" " to="#">
                                 <img
-                                  src="\disconnect-drop.png"
+                                  src="\disconnect-drop.svg"
                                   className="img-fluid"
                                   alt=""
                                 />
