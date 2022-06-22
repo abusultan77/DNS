@@ -47,6 +47,9 @@
     .main-adress .parent-img{
         overflow-x: scroll;
         justify-content: flex-start;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
     }
     .main-adress{
@@ -54,6 +57,18 @@
     }
     .main-adress .parent-bg{
         padding: 0 !important;
+    }
+}
+@media(max-width:600px){
+    .main-adress{
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .main-adress .heading h2{
+        margin-top: 40px;
+    }
+    .main-adress .parent-bg{
+        padding-bottom: 40px !important;
     }
 }
 

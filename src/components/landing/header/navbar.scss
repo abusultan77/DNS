@@ -15,6 +15,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
+    margin-top: 15px;
 
     &:hover {
       color: #ff0083 !important;
@@ -36,7 +37,6 @@
       padding: 0px 15px;
       display: inline-block;
     }
-
     .btn-common-nav {
       font-style: normal;
       font-weight: 600;
@@ -58,6 +58,9 @@
   }
 
   .wallet-modal {
+    .modal-dialog{
+      margin: 16.75rem auto;
+    }
     .modal.show .modal-dialog {
       max-width: 746px !important;
     }
@@ -73,11 +76,12 @@
     .modal-body {
       .cross-img1 {
         position: absolute;
-        top: 0px;
+        top: 21px;
         left: 679px;
       }
 
       h3 {
+
         font-style: normal;
         font-weight: 600;
         font-size: 22px;
@@ -85,7 +89,7 @@
         margin-top: 29px;
 
         text-align: center;
-        text-transform: uppercase;
+        // text-transform: uppercase;
 
         color: #121212;
       }
@@ -104,6 +108,7 @@
         }
 
         h3 {
+          font-family: 'Gsemibold';
           font-style: normal;
           font-weight: 500;
           font-size: 18px;
@@ -119,7 +124,7 @@
           font-weight: 500;
           font-size: 14px;
           margin-bottom: 32px;
-
+          font-family: 'Gregular';
           text-align: center;
 
           color: #acacac;
@@ -129,7 +134,7 @@
     .text-center {
       font-weight: 500;
       font-size: 14px;
-
+      font-family: 'Gsemibold';
       text-align: center;
 
       color: #acacac;
@@ -138,6 +143,7 @@
         font-size: 14px;
         text-align: center;
         color: #ff0083;
+        font-family: 'Gsemibold';
       }
     }
   }
@@ -432,10 +438,9 @@
 }
 
 @media (max-width: 1199px) {
-  .navbar-collapse {
-    box-shadow: 2px 7px 13px rgba(0, 0, 0, 0.09) !important;
+  .main-navbar{
+    margin-bottom: 40px;
   }
-
   .main-navbar-mobile .navbar-nav .nav-link:hover {
     border: none !important;
   }
@@ -523,7 +528,6 @@
   }
   .main-navbar-mobile .nav-item{
       margin: 0 !important;
-      margin-bottom: 20px !important;
   }
   .nav-drop .dropdown-menu.show{
       left: unset !important;
@@ -610,7 +614,7 @@
     padding: 10px 0;
   }
   .main-navbar .button-hedaer {
-    margin: 0 auto;
+    margin: 10px auto;
   }
   .main-navbar .wallet-modal .modal-content {
     margin: 0 auto;
@@ -632,6 +636,9 @@
 }
 .nav-drop .dropdown-menu.show .boxy{
     right: 138px !important;
+}
+.main-navbar .wallet-modal .modal-dialog{
+  margin: 11.75rem auto;
 }
 }
 
@@ -671,6 +678,9 @@
   }
   .nav-drop .dropdown-menu.show{
       width: 256px !important;
+  }
+  .main-navbar .wallet-modal .modal-body .cross-img1{
+    left: 287px;
   }
 }
 

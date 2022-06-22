@@ -3,7 +3,7 @@
     padding-top: 100px;
 
     .right{
-        margin-top: 33px;
+     
         .input-field{
             margin-bottom: 25px;
             label{
@@ -22,6 +22,7 @@
                 outline: none;
                 padding: 22px;
                 width: 100%;
+                margin-bottom: 25px;
                 &::placeholder{
                     font-style: normal;
                     font-weight: 500;
@@ -35,8 +36,9 @@
                 border: 1px solid #FFDBED;
                 border-radius: 10px;
                 width: 100%;
-                height: 160px;
+                height: 222px;
                 padding: 22px;
+                margin-bottom: 41px;
                 &::placeholder{
                     font-style: normal;
                     font-weight: 500;
@@ -66,6 +68,14 @@
 }
 
 .minting-modal{
+    .modalfade1{
+
+    }
+    .modal-content{
+        width: 385px;
+    height: 256px;
+  
+    }
     h6{
         font-style: normal;
         font-weight: 600;
@@ -104,5 +114,18 @@
         line-height: 100%;
         color: #FFFFFF;
         margin-top: 40px;
+    }
+}
+
+@media (max-width:600px){
+    .main-mint{
+        padding-top: 40px;
+    }
+}
+
+.main-mint .right .input-field textarea{
+    &:focus{
+        border: none !important;
+        box-shadow: unset !important;
     }
 }

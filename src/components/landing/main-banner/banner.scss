@@ -109,7 +109,7 @@
         .btn-searchbar {
             position: absolute !important;
             top: 11px;
-            right: 25px;
+            right: 14px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -177,6 +177,12 @@
             padding: 10px 10px;
         }
     }
+    .main-banner .parafirst p{
+        margin: unset !important;
+        margin-bottom: 56px !important;
+        font-size: 15px !important;
+    }
+    
 }
 
 .abb {
@@ -193,6 +199,10 @@
     .main-banner .inner-content.main-heading.text-center h3{
         font-size: 26px !important;
     }
+    .main-banner .inner-content.main-heading.text-center h3{
+        font-size: 24px !important;
+    }
+    
 }
 
 
@@ -201,5 +211,8 @@
         position: unset !important;
         margin-top: 20px;
         width: 100%;
+    }
+    .main-banner{
+        padding-bottom: 39px;
     }
 }

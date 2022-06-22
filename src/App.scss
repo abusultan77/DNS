@@ -31,6 +31,7 @@ html {
 body {
   font-family: Gregular !important;
   background-color: #fafafa;
+  height: 100vh;
 }
 
 h2 {
@@ -117,6 +118,7 @@ h1 {
 }
 
 p {
+  font-family: 'Gregular';
   // font-size: 16px !important;
   // font-family: 'barlow', serif!important;
   // font-weight: 600 !important;
@@ -136,12 +138,12 @@ p {
 
   &:hover {
     color: #ff0083;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px #00000040;
     background-color: #fff;
   }
   &:active {
     color: #ff0083;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px #00000040;
     background-color: #fff;
   }
   &:focus {
@@ -181,7 +183,7 @@ p {
 
 .btn-red {
   background: #f41e5e;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px #00000040;
   border-radius: 10px;
   box-sizing: border-box;
   color: #fff !important;
@@ -464,4 +466,21 @@ button {
       color: #ff0083 !important;
       border: 2px solid #ff0083 !important;
   }
+}
+
+
+@media (max-width:600px){
+  h2{
+    font-size: 30px !important;
+  }
+}
+button:focus{
+  outline: none !important;
+}
+input:focus{
+  outline: none !important;
+}
+
+.form-control:focus{
+  box-shadow: unset;
 }

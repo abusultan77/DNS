@@ -83,7 +83,7 @@
         height: 348px;
         margin-top: 50px;
         border: 1px solid #30304A;
-        backdrop-filter: blur(20px);
+        // backdrop-filter: blur(20px);
         border-radius: 10px;
 
         .inner-img {
@@ -880,10 +880,14 @@
       .card {
         padding: 20px;
         background: #ffffff;
-        border: 1.5px solid #ff0083;
-        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+        border: 1.5px solid #fafafa;
+        box-shadow: 0px 10px 50px #0000000d;
         border-radius: 10px;
         margin-bottom: 25px;
+        &:hover {
+            border: 1.5px solid #ff0083;
+            
+          }
         .card-img-top{
             margin-bottom: 23px;
         }
@@ -979,7 +983,7 @@
           justify-content: center;
           align-items: center;
           .profile-show{
-             width: 200px;
+             width: 266px;
               p{
                 font-style: normal;
                 font-weight: 600;
@@ -1074,6 +1078,14 @@
                 }
             }
       }
+      .email-input{
+        padding-left: 20px !important;
+      }
+}
+@media (max-width:1199px){
+    .artitsprofile .parent .profile-show{
+        width: 440px;
+    }
 }
 @media (max-width:991px){
     .text-right{
@@ -1104,6 +1116,9 @@
     .artitsprofile .mainpills{
         flex-wrap: unset !important;
         overflow-x: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
     }
     .artitsprofile .main-Myprofile .nav-link{
         white-space: nowrap;
@@ -1121,8 +1136,12 @@
         margin-top: 20px;
         width: 100%;
     }
+    .cover-pic{
+        height: 170px;
+    }
 
 }
+
 
 @media (max-width:430px){
     .artitsprofile .list-inline-drop{
@@ -1138,6 +1157,17 @@
     .artitsprofile .right-tab{
         display: flex;
         justify-content: center;
+    }
+    .artitsprofile .edit-heading{
+        text-align: left;
+    }
+    .twitter-un{
+        padding-left: 40px !important;
+    }
+    .walllet-add::placeholder{
+        width: 200px;
+        overflow: hidden;
+        text-overflow: scroll;
     }
 }
 
@@ -1173,11 +1203,22 @@
     .artitsprofile .main-Myprofile .mainwrap button#dropdownMenu3{
         margin: 0 ;
     }
+    .artitsprofile .parent .profile-show{
+        width: 170px;
+    }
 
+}
+@media (max-width:380px){
+    .artitsprofile .parent .profile-show{
+        width: 210px;
+    }
 }
 @media (max-width:360px){
     .artitsprofile .parent{
         flex-direction: column;
+    }
+    .artitsprofile .parent .profile-show{
+        width: 250px;
     }
 }
 

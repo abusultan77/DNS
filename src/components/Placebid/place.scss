@@ -38,7 +38,6 @@
             text-align: center;
             justify-content: center;
             align-items: center;
-            // margin-top: 135px;
             position: absolute;
             left: 128.51px;
             top: 135.93px;
@@ -51,9 +50,7 @@
             line-height: 120%;
             text-align: center;
             color: #ff0083;
-            // padding-top: 237px;
             position: absolute;
-            // right: 60px;
             left: 102px;
             top: 237px;
         }
@@ -163,6 +160,22 @@
 
     .bidActivity {
         margin-top: 29px;
+        .content-Activity{
+            height: 195px;
+            overflow-y: scroll;
+            &::-webkit-scrollbar{
+                width: 3px;
+            }
+            &::-webkit-scrollbar-track{
+                background: #EEEEEE;
+                border-radius: 5px;
+            
+            }
+            &::-webkit-scrollbar-thumb{
+                background: #FF0083;
+                border-radius: 100px;
+            }
+        }
         .Activity-heads {
             margin-left: 15px;
         }
@@ -214,16 +227,34 @@
     }
 
     .bidhistory {
-        // margin-top: 29px;
         overflow-y: scroll;
+        height: 200px;
+        margin-top: 30px;
+        &::-webkit-scrollbar{
+            width: 3px;
+            height: 31px;
+            
+        }
+        &::-webkit-scrollbar-track{
+            background: #EEEEEE;
+            border-radius: 5px;
+        
+        }
+        &::-webkit-scrollbar-thumb{
+            background: #FF0083;
+            border-radius: 100px;
+            width: 3px;
+            height: 31px;
+        }
+        &::-webkit-scrollbar-track-piece{
+            height: 31px;
+        }
         .content-history {
             display: flex;
             justify-content: space-between;
         }
         ul.list-inline.maaiinnoonnee {
             display: flex;
-            // justify-content: center;
-            // text-align: start;
         }
 
         h3 {
@@ -252,15 +283,12 @@
             padding-right: 16px;
         }
         li.list-inline-item.shoqatali {
-
             text-align: center;
-
             h4.shoqii {
                 font-style: normal;
                 font-weight: 600;
                 font-size: 13px;
                 line-height: 20px;
-                /* text-align: right; */
                 color: #1D1D1D;
             }
             p.sectime {
@@ -268,7 +296,6 @@
                 font-weight: 400;
                 font-size: 13px;
                 line-height: 20px;
-                /* text-align: right; */
                 color: #777E90;
             }
         }
@@ -276,16 +303,13 @@
     .lastcardbtn {
         margin: auto;
         position: fixed;
-        margin-top: 41px;
-
+        margin-top: 65px;
         .main-cardsbid {
             display: flex;
-
             align-items: center;
             .history-cards {
                 width: 100%;
                 height: auto;
-                // margin-top: 88px;
                 background: #fafafa;
                 border: 1px solid #ffdbed;
                 border-radius: 10px;
@@ -304,8 +328,6 @@
                         font-weight: 500;
                         font-size: 14px;
                         line-height: 100%;
-                        /* identical to box height, or 14px */
-
                         color: #777e90;
                     }
                     .history-inner {
@@ -373,9 +395,9 @@
 .placebid-modal{
     .modal-content{
         width:100%;
-    padding: 0px 0px 30px;
-    background: #FFFFFF;
-    border-radius: 10px;
+        padding: 0px 0px 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
     .modal-header{
         background: #FAFAFA;
         padding-bottom: 30px;
@@ -384,7 +406,6 @@
             font-weight: 600;
             font-size: 22px;
             line-height: 100%;
-            /* identical to box height, or 22px */
             text-align: center !important;
             text-transform: uppercase;
             width: 100%;
@@ -412,10 +433,9 @@
                 box-shadow: 0px 18px 30px -10px rgba(255, 0, 131, 0.15);
                 border-radius: 5px;
                 font-weight: 600;
-    font-size: 16px;
-    line-height: 100%;
-    /* identical to box height, or 16px */
-    color: #FFFFFF;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FFFFFF;
              }
              .input-field{
                  position: relative;
@@ -468,19 +488,17 @@
                 }
                 .head1{
                     font-style: normal;
-    font-weight: 500;
-    font-size: 16px !important;
-    line-height: 120%;
-    /* or 19px */
-    text-align: right;
-    /* blueGray/900 */
-    color: #0F172A;
+                    font-weight: 500;
+                    font-size: 16px !important;
+                    line-height: 120%;
+                    text-align: right;
+                    color: #0F172A;
                 }
                 .bidhead{
                     font-style: normal;
                     font-weight: 600;
                     font-size: 16px;
-color: #475569;
+                    color: #475569;
                 }
                 .innertext-modalbid{
                     display: flex;
@@ -489,6 +507,78 @@ color: #475569;
             }
     }
     }
+}
+.placebid2-modal{
+    .modal-content{
+        width:100%;
+        padding: 0px 0px 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    .modal-header{
+        background: #FAFAFA;
+        padding-bottom: 30px;
+        h3{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 100%;
+            text-align: center !important;
+            text-transform: uppercase;
+            width: 100%;
+            color: #121212;
+        }
+        .close{
+            span{
+                position: absolute;
+                top:10px;
+                right: 30px;
+            }
+        }
+    }
+    .modal-body{
+        h6{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #121212;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-top: 60px;
+        }
+        p{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #121212;
+            margin-top: 21px;
+        }
+        button{
+            background: #FF0083;
+            box-shadow: 0px 18px 30px -10px rgba(255, 0, 131, 0.15);
+            border-radius: 5px;
+            padding: 16px 0;
+            width: 100%;
+            border: none;
+            outline: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 100%;
+            color: #FFFFFF;
+            margin-top: 40px;
+        }
+    }
+   
+    
+}
 }
 
 @media (max-width: 1070px) {

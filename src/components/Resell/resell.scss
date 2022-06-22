@@ -38,7 +38,6 @@
             text-align: center;
             justify-content: center;
             align-items: center;
-            // margin-top: 135px;
             position: absolute;
             left: 128.51px;
             top: 135.93px;
@@ -51,9 +50,7 @@
             line-height: 120%;
             text-align: center;
             color: #ff0083;
-            // padding-top: 237px;
             position: absolute;
-            // right: 60px;
             left: 102px;
             top: 237px;
         }
@@ -214,16 +211,18 @@
     }
 
     .bidhistory {
-        // margin-top: 29px;
         overflow-y: scroll;
+        height: 200px;
+        margin-top: 30px;
+        &::-webkit-scrollbar{
+            display: none;
+        }
         .content-history {
             display: flex;
             justify-content: space-between;
         }
         ul.list-inline.maaiinnoonnee {
             display: flex;
-            // justify-content: center;
-            // text-align: start;
         }
 
         h3 {
@@ -252,15 +251,12 @@
             padding-right: 16px;
         }
         li.list-inline-item.shoqatali {
-
             text-align: center;
-
             h4.shoqii {
                 font-style: normal;
                 font-weight: 600;
                 font-size: 13px;
                 line-height: 20px;
-                /* text-align: right; */
                 color: #1D1D1D;
             }
             p.sectime {
@@ -268,7 +264,6 @@
                 font-weight: 400;
                 font-size: 13px;
                 line-height: 20px;
-                /* text-align: right; */
                 color: #777E90;
             }
         }
@@ -277,15 +272,12 @@
         margin: auto;
         position: fixed;
         margin-top: 41px;
-
         .main-cardsbid {
             display: flex;
-
             align-items: center;
             .history-cards {
                 width: 100%;
                 height: auto;
-                // margin-top: 88px;
                 background: #fafafa;
                 border: 1px solid #ffdbed;
                 border-radius: 10px;
@@ -304,8 +296,6 @@
                         font-weight: 500;
                         font-size: 14px;
                         line-height: 100%;
-                        /* identical to box height, or 14px */
-
                         color: #777e90;
                     }
                     .history-inner {
@@ -369,6 +359,122 @@
         border-bottom: 3px solid #ff0083;
     }
    
+}
+.placebid-modal{
+    .modal-content{
+        width:100%;
+        padding: 0px 0px 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    .modal-header{
+        background: #FAFAFA;
+        padding-bottom: 30px;
+        h3{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 100%;
+            text-align: center !important;
+            text-transform: uppercase;
+            width: 100%;
+            color: #121212;
+        }
+        .close{
+            span{
+                position: absolute;
+                top:10px;
+                right: 30px;
+            }
+        }
+    }
+        .modal-body{
+           padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            .btnmodalbtn{
+                padding: 16px 40px;
+                gap: 10px;
+                margin-top: 26px;
+                width: 100%;
+                border: none;
+                background: #FF0083;
+                box-shadow: 0px 18px 30px -10px rgba(255, 0, 131, 0.15);
+                border-radius: 5px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FFFFFF;
+             }
+             .input-field{
+                 position: relative;
+                 .upper-text{
+                     display: flex;
+                     justify-content: space-between;
+                     margin-top: 26px;
+                     p{
+                         &:first-child{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            color: #121212;
+                         }
+                     }
+                     margin-bottom: 12px;
+                 }
+                 input{
+                    background: #FFFFFF;
+                    border: 1px solid #FFDBED;
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 50px;
+                    padding: 14px;
+                 }
+                 .input-inner{
+                     position: absolute;
+                     top: 48px;
+                     right: 30px;
+                     font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #121212;
+                 }
+             }
+            span{
+                color:#FF0083;
+            }
+            .text-modalbid{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .head{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 130%;
+                    /* or 31px */
+                }
+                .head1{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px !important;
+                    line-height: 120%;
+                    text-align: right;
+                    color: #0F172A;
+                }
+                .bidhead{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #475569;
+                }
+                .innertext-modalbid{
+                    display: flex;
+                    align-items: baseline;
+                }
+            }
+    }
+    }
 }
 
 @media (max-width: 1070px) {

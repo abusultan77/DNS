@@ -56,7 +56,7 @@ const Mint = () => {
                     aria-labelledby="exampleModalLabel"
                     aria-hidden="true"
                 >
-                    <div class="modal-dialog">
+                    <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-body">
                                 <h6>MintING</h6>
@@ -75,11 +75,11 @@ const Mint = () => {
                     aria-labelledby="exampleModalLabel"
                     aria-hidden="true"
                 >
-                    <div class="modal-dialog">
+                    <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-body">
                                 <h6>MintING</h6>
-                                <img src="\adress\success.png" alt="img" className="img-fluid" />
+                                <img src="\adress\layer1.svg" alt="img" className="img-fluid" />
                                 <p>Your NFT is being mint</p>
                                 <button>Go checkout on your profile</button>
                             </div>
