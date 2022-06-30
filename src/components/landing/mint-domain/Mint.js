@@ -35,8 +35,6 @@ const Mint = () => {
                                         </div>
                                         <button
                                             className="btn-pink"
-                                            data-toggle="modal"
-                                            data-target="#minting-modal"
                                         >
                                             MINT NOW
                                         </button>
@@ -48,45 +46,7 @@ const Mint = () => {
                 </div>
             </section>
 
-            <section className="minting-modal">
-                <div
-                    class="modal fade"
-                    id="minting-modal"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                >
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <h6>MintING</h6>
-                                <img src="\adress\mint-modal.png" alt="img" className="img-fluid" />
-                                <p>Your NFT is being mint</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="minting-modal">
-                <div
-                    class="modal fade"
-                    id="minting-success"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                >
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <h6>MintING</h6>
-                                <img src="\adress\layer1.svg" alt="img" className="img-fluid" />
-                                <p>Your NFT is being mint</p>
-                                <button>Go checkout on your profile</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
         </>
     );
 };

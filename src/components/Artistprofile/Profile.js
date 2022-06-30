@@ -12,7 +12,11 @@ const Profile = () => {
         <div className="row">
           <div className="col-sm-12 p-0">
             <div className="">
-              <img src="\profile-bg.png" class="img-fluid w100p cover-pic" alt=""></img>
+              <img
+                src="\profile-bg.png"
+                class="img-fluid w100p cover-pic"
+                alt=""
+              ></img>
             </div>
           </div>
         </div>
@@ -121,7 +125,7 @@ const Profile = () => {
                       aria-controls="pills-Created"
                       aria-selected="false"
                     >
-                      Created
+                      Minted
                     </a>
                   </li>
                   <li class="nav-item">
@@ -693,8 +697,8 @@ const Profile = () => {
                       </div>
                     </div>
                     <div className="btn-loadmore">
-                          <button>Loading More</button>
-                      </div>
+                      <button>Loading More</button>
+                    </div>
                   </div>
                   <div
                     class="tab-pane fade show "
@@ -702,9 +706,8 @@ const Profile = () => {
                     role="tabpanel"
                     aria-labelledby="pills-Created-tab"
                   >
-                   <div className="row cardsss ptb-20">
-                   <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                        <Link to="/resell">
+                    <div className="row cardsss ptb-20">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div class="card">
                           <img
                             src="assets\Frame 9300.svg"
@@ -744,9 +747,48 @@ const Profile = () => {
                             <h5 class="card-heading-4">04 : 23 : 10 : 39</h5>
                           </div>
                         </div>
-                        </Link>
                       </div>
-                   </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                      <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Put On Marketplace</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div
                     class="tab-pane fade"
@@ -779,7 +821,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -829,7 +871,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -879,7 +921,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -929,7 +971,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -979,7 +1021,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1029,7 +1071,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1068,12 +1110,11 @@ const Profile = () => {
                                   </div>
                                 </td>
                               </tr>
-                             
                             </tbody>
                           </table>
                         </div>
                         <div className="btn-loadmore">
-                            <button>Loading More</button>
+                          <button>Loading More</button>
                         </div>
                       </div>
                     </div>
@@ -1084,7 +1125,7 @@ const Profile = () => {
                     role="tabpanel"
                     aria-labelledby="pills-following-tab"
                   >
-                   <div className="row ptb20">
+                    <div className="row ptb20">
                       <div className="col-sm-12 p-0">
                         <div className="table-responsive">
                           <table class="table">
@@ -1093,7 +1134,7 @@ const Profile = () => {
                                 <th className="white">Item</th>
                                 <th className="white">Highest Bid</th>
                                 <th className="white">USD Price</th>
-                                <th className="white">Total Offers</th>
+                                <th className="white">My Offer</th>
                                 <th className="white">Details</th>
                               </tr>
                             </thead>
@@ -1109,7 +1150,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1134,8 +1175,14 @@ const Profile = () => {
                                   </div>
                                 </td>
                                 <td>
-                                  <div className="inner-text-table">
-                                    <span className="white mt-10">20</span>
+                                  <div className="inner-table-img inner-table-sec">
+                                    <img
+                                      src="\table-diamond.png"
+                                      className="img-fluid"
+                                    />
+                                    <span className="white mt-10">
+                                      1 ETH
+                                    </span>
                                   </div>
                                 </td>
                                 <td>
@@ -1159,7 +1206,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1184,8 +1231,14 @@ const Profile = () => {
                                   </div>
                                 </td>
                                 <td>
-                                  <div className="inner-text-table">
-                                    <span className="white mt-10">20</span>
+                                  <div className="inner-table-img inner-table-sec">
+                                    <img
+                                      src="\table-diamond.png"
+                                      className="img-fluid"
+                                    />
+                                    <span className="white mt-10">
+                                      1 ETH
+                                    </span>
                                   </div>
                                 </td>
                                 <td>
@@ -1209,7 +1262,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1234,8 +1287,14 @@ const Profile = () => {
                                   </div>
                                 </td>
                                 <td>
-                                  <div className="inner-text-table">
-                                    <span className="white mt-10">20</span>
+                                  <div className="inner-table-img inner-table-sec">
+                                    <img
+                                      src="\table-diamond.png"
+                                      className="img-fluid"
+                                    />
+                                    <span className="white mt-10">
+                                      1 ETH
+                                    </span>
                                   </div>
                                 </td>
                                 <td>
@@ -1259,7 +1318,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1284,8 +1343,14 @@ const Profile = () => {
                                   </div>
                                 </td>
                                 <td>
-                                  <div className="inner-text-table">
-                                    <span className="white mt-10">20</span>
+                                  <div className="inner-table-img inner-table-sec">
+                                    <img
+                                      src="\table-diamond.png"
+                                      className="img-fluid"
+                                    />
+                                    <span className="white mt-10">
+                                      1 ETH
+                                    </span>
                                   </div>
                                 </td>
                                 <td>
@@ -1309,7 +1374,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1334,8 +1399,14 @@ const Profile = () => {
                                   </div>
                                 </td>
                                 <td>
-                                  <div className="inner-text-table">
-                                    <span className="white mt-10">20</span>
+                                  <div className="inner-table-img inner-table-sec">
+                                    <img
+                                      src="\table-diamond.png"
+                                      className="img-fluid"
+                                    />
+                                    <span className="white mt-10">
+                                      1 ETH
+                                    </span>
                                   </div>
                                 </td>
                                 <td>
@@ -1359,7 +1430,7 @@ const Profile = () => {
                                         />
                                         &nbsp; &nbsp;
                                         <span className="common">
-                                        fireape.tomi
+                                          fireape.tomi
                                         </span>
                                       </div>
                                     </li>
@@ -1384,8 +1455,14 @@ const Profile = () => {
                                   </div>
                                 </td>
                                 <td>
-                                  <div className="inner-text-table">
-                                    <span className="white mt-10">20</span>
+                                  <div className="inner-table-img inner-table-sec">
+                                    <img
+                                      src="\table-diamond.png"
+                                      className="img-fluid"
+                                    />
+                                    <span className="white mt-10">
+                                      1 ETH
+                                    </span>
                                   </div>
                                 </td>
                                 <td>
@@ -1403,7 +1480,7 @@ const Profile = () => {
                           </table>
                         </div>
                         <div className="btn-loadmore">
-                            <button>Loading More</button>
+                          <button>Loading More</button>
                         </div>
                       </div>
                     </div>
@@ -1414,191 +1491,455 @@ const Profile = () => {
                     role="tabpanel"
                     aria-labelledby="pills-collection-tab"
                   >
-                 <div class="row cardsss">
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-            </div>
-        </div>
-        </div>
-        <div className="btn-loadmore">
-                          <button>Loading More</button>
+                    <div class="row cardsss">
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                                1.5 ETH
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="btn-loadmore">
+                      <button>Loading More</button>
+                    </div>
                   </div>
                   <div
                     class="tab-pane activity fade"
@@ -1606,227 +1947,492 @@ const Profile = () => {
                     role="tabpanel"
                     aria-labelledby="pills-activity-tab"
                   >
-                   <div class="row cardsss">
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <div class="card">
-              <img src="assets\Frame 9300.svg" className="card-img-top" alt="img"/>
-              <div class="card-body-1">
-                  <div class="card-style-1">
-                      <figure><img src="assets\avatar-04.svg" class="img-fluid" alt=""/><img class="img-fluid img-1" src="assets\avatar-03.svg" alt=""/></figure>
-                      <figure></figure>
-                  </div>
-                  <div class="card-style-2">
-                      <h5 class="card-heading-1">Highest Bid</h5>
-                      <p class="card-heading-2"><img class="img-fluid" src="assets\Group.png" alt=""/>1.5 ETH</p>
-                  </div>
-              </div>
-             <div className="inner-card-btn">
-                 <button>Claim</button>
-             </div>
-            </div>
-        </div>
-        </div>
-        <div className="btn-loadmore">
-                          <button>Loading More</button>
+                    <div class="row cardsss">
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button data-toggle="modal" data-target="#claim-modal">Claim</button>
+                          </div>
+                        </div>
                       </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                          <img
+                            src="assets\Frame 9300.svg"
+                            className="card-img-top"
+                            alt="img"
+                          />
+                          <div class="card-body-1">
+                            <div class="card-style-1">
+                              <figure>
+                                <img
+                                  src="assets\avatar-04.svg"
+                                  class="img-fluid"
+                                  alt=""
+                                />
+                                <img
+                                  class="img-fluid img-1"
+                                  src="assets\avatar-03.svg"
+                                  alt=""
+                                />
+                              </figure>
+                              <figure></figure>
+                            </div>
+                            <div class="card-style-2">
+                              <h5 class="card-heading-1">Highest Bid</h5>
+                              <p class="card-heading-2">
+                                <img
+                                  class="img-fluid"
+                                  src="assets\Group.png"
+                                  alt=""
+                                />
+                              -- --
+                              </p>
+                            </div>
+                          </div>
+                          <div className="inner-card-btn">
+                            <button>Claim</button>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div className="btn-loadmore">
+                      <button>Loading More</button>
+                    </div>
                   </div>
                   <div
                     class="tab-pane fade"
@@ -1835,9 +2441,12 @@ const Profile = () => {
                     aria-labelledby="pills-edit-tab"
                   >
                     <div className="heading-profile p-3">
-                        <h2 className="edit-heading">Edit Profile</h2>
-                          <p className="edit-para">You can set preferred display name and manage other personal settings</p>
-                        </div>
+                      <h2 className="edit-heading">Edit Profile</h2>
+                      <p className="edit-para">
+                        You can set preferred display name and manage other
+                        personal settings
+                      </p>
+                    </div>
                     <div className="row ptb20">
                       <div className="col-sm-7">
                         <div className="inner-form mt-4">
@@ -1849,7 +2458,7 @@ const Profile = () => {
                                     for="exampleFormControlInput1"
                                     className="white"
                                   >
-                                   Display Name
+                                    Display Name
                                   </label>
                                   <input
                                     type="email"
@@ -1874,64 +2483,72 @@ const Profile = () => {
                               ></textarea>
                             </div>
                             <div class="form-group">
-                                  <label
-                                    for="exampleFormControlInput1"
-                                    className="white"
-                                  >
-                                   Twitter username
-                                  </label>
-                                  <span className="therate"><i class="fas fa-at"></i></span>
-                                  <input
-                                    type="email"
-                                    class="form-control form-abs twitter-un"
-                                    id="exampleFormControlInput1"
-                                    placeholder="Enter your name in Twitter"
-                                  />
-                                  <a href="#" className="link-input">Link</a>
-                                  <button className="addmore">
+                              <label
+                                for="exampleFormControlInput1"
+                                className="white"
+                              >
+                                Twitter username
+                              </label>
+                              <span className="therate">
+                                <i class="fas fa-at"></i>
+                              </span>
+                              <input
+                                type="email"
+                                class="form-control form-abs twitter-un"
+                                id="exampleFormControlInput1"
+                                placeholder="Enter your name in Twitter"
+                              />
+                              <a href="#" className="link-input">
+                                Link
+                              </a>
+                              <button className="addmore">
                                 Add more social link
-                                </button>
-                                </div>
-                                <div class="form-group">
-                                  <label
-                                    for="exampleFormControlInput1"
-                                    className="white"
-                                  >
-                                   Email
-                                  </label>
-                                  <input
-                                    type="email"
-                                    class="form-control form-abs email-input"
-                                    id="exampleFormControlInput1"
-                                    placeholder="Enter your email address"
-                                  />
-                                  <a href="#" className="link-input">Confirm</a>
-                                </div>
-                                <div class="form-group">
-                                  <label
-                                    for="exampleFormControlInput1"
-                                    className="white"
-                                  >
-                                   Wallet Address
-                                  </label>
-                                  <input
-                                    type="email"
-                                    class="form-control form-abs walllet-add email-input"
-                                    id="exampleFormControlInput1"
-                                    placeholder="0x1B92ABFC520D4210EC3D6EB5173988C6AE066231"
-                                  />
-                                  <a href="#" className="link-input">Copy</a>
-                                </div>
+                              </button>
+                            </div>
+                            <div class="form-group">
+                              <label
+                                for="exampleFormControlInput1"
+                                className="white"
+                              >
+                                Email
+                              </label>
+                              <input
+                                type="email"
+                                class="form-control form-abs email-input"
+                                id="exampleFormControlInput1"
+                                placeholder="Enter your email address"
+                              />
+                              <a href="#" className="link-input">
+                                Confirm
+                              </a>
+                            </div>
+                            <div class="form-group">
+                              <label
+                                for="exampleFormControlInput1"
+                                className="white"
+                              >
+                                Wallet Address
+                              </label>
+                              <input
+                                type="email"
+                                class="form-control form-abs walllet-add email-input"
+                                id="exampleFormControlInput1"
+                                placeholder="0x1B92ABFC520D4210EC3D6EB5173988C6AE066231"
+                              />
+                              <a href="#" className="link-input">
+                                Copy
+                              </a>
+                            </div>
                           </form>
 
-                        <div className="update-btn">
+                          <div className="update-btn">
                             <button>Update Profile</button>
-                        </div>
+                          </div>
                         </div>
                       </div>
                       <div className="col-sm-5 mt-3">
                         <div className="parent">
-                        <div className="profile-show">
+                          <div className="profile-show">
                             <p>Profile Photo</p>
                             <img
                               src="\profile-inner.png"
@@ -1939,20 +2556,31 @@ const Profile = () => {
                             />
                           </div>
                           <div className="right-text">
-                              <h6>We recommend an image of at least 300x300. Gifs work too. Max 5mb.</h6>
-                              <div className="btn-upload">
-                                  <button>Upload</button>
-                                  <button className="btn-delete"><img src="\delete.png" alt="img" className="" /></button>
-                              </div>
+                            <h6>
+                              We recommend an image of at least 300x300. Gifs
+                              work too. Max 5mb.
+                            </h6>
+                            <div className="btn-upload">
+                              <button>Upload</button>
+                              <button className="btn-delete">
+                                <img src="\delete.png" alt="img" className="" />
+                              </button>
+                            </div>
                           </div>
                         </div>
                         <div className="banner-img">
-                            <h6>Banner Image</h6>
-                            <img src="\banner-edit-profile.png" alt="img" className="img-fluid banner-upload" />
-                            <div className="btn-upload">
-                                  <button>Upload</button>
-                                  <button className="btn-delete"><img src="\delete.png" alt="img" className="" /></button>
-                              </div>
+                          <h6>Banner Image</h6>
+                          <img
+                            src="\banner-edit-profile.png"
+                            alt="img"
+                            className="img-fluid banner-upload"
+                          />
+                          <div className="btn-upload">
+                            <button>Upload</button>
+                            <button className="btn-delete">
+                              <img src="\delete.png" alt="img" className="" />
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1962,6 +2590,35 @@ const Profile = () => {
             </div>
           </div>
         </section>
+      </section>
+      <section className="claim-modal">
+      <div
+          class="modal fade"
+          id="claim-modal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+              <h6>Claim</h6>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                 <img src="\close-icon.png" alt="img" className="img-fluid" />
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>NFT will be transferred only to highest bidder</p>
+                <button>Claim</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
