@@ -56,7 +56,7 @@ export const Place = () => {
                             data-toggle="tab"
                             href="#nav-Activity"
                           >
-                            Activity
+                            List of Owners 
                           </a>
                         </div>
                       </nav>
@@ -306,18 +306,9 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                        Transferred to
+                                      Owned by
                                         <span>Russell Carson</span>
                                       </h3>
-                                      <p className="secransferred">
-                                        by
-                                        <span className="fst">
-                                          Russell Carson
-                                        </span>
-                                        <span className="sec">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
                                     </div>
                                   </li>
                                 </ul>
@@ -334,17 +325,9 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                        Bid <span>0.25 ETH</span>
+                                      Previously Owned by
+                                        <span>Darin Walker</span>
                                       </h3>
-                                      <p className="secransferred">
-                                        by
-                                        <span className="fst">
-                                          Russell Carson
-                                        </span>
-                                        <span className="sec">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
                                     </div>
                                   </li>
                                 </ul>
@@ -361,13 +344,9 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                        Minted by <span>Virgil Lynch</span>
+                                      Previously Owned by
+                                        <span>Billy Bowen</span>
                                       </h3>
-                                      <p className="secransferred pl-0">
-                                        <span className="sec m-0">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
                                     </div>
                                   </li>
                                 </ul>
@@ -384,105 +363,9 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                        Minted by <span>Virgil Lynch</span>
+                                      Previously Owned by
+                                        <span>Kay Curry</span>
                                       </h3>
-                                      <p className="secransferred pl-0">
-                                        <span className="sec m-0">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
-                                    </div>
-                                  </li>
-                                </ul>
-                                <div className="brdract"></div>
-                              </div>
-                              <div className="activittyy">
-                                <ul className="list-inline maaiinnoonneeact">
-                                  <li className="list-inline-item">
-                                    <img
-                                      src="\adress\avatarf.png"
-                                      className="img-fluid sfgsdfsdsdgsdg"
-                                    />
-                                  </li>
-                                  <li className="list-inline-item">
-                                    <div className="Activity-heads">
-                                      <h3 className="transferred">
-                                        Minted by <span>Virgil Lynch</span>
-                                      </h3>
-                                      <p className="secransferred pl-0">
-                                        <span className="sec m-0">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
-                                    </div>
-                                  </li>
-                                </ul>
-                                <div className="brdract"></div>
-                              </div>
-                              <div className="activittyy">
-                                <ul className="list-inline maaiinnoonneeact">
-                                  <li className="list-inline-item">
-                                    <img
-                                      src="\adress\avatarf.png"
-                                      className="img-fluid sfgsdfsdsdgsdg"
-                                    />
-                                  </li>
-                                  <li className="list-inline-item">
-                                    <div className="Activity-heads">
-                                      <h3 className="transferred">
-                                        Minted by <span>Virgil Lynch</span>
-                                      </h3>
-                                      <p className="secransferred pl-0">
-                                        <span className="sec m-0">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
-                                    </div>
-                                  </li>
-                                </ul>
-                                <div className="brdract"></div>
-                              </div>
-                              <div className="activittyy">
-                                <ul className="list-inline maaiinnoonneeact">
-                                  <li className="list-inline-item">
-                                    <img
-                                      src="\adress\avatarf.png"
-                                      className="img-fluid sfgsdfsdsdgsdg"
-                                    />
-                                  </li>
-                                  <li className="list-inline-item">
-                                    <div className="Activity-heads">
-                                      <h3 className="transferred">
-                                        Minted by <span>Virgil Lynch</span>
-                                      </h3>
-                                      <p className="secransferred pl-0">
-                                        <span className="sec m-0">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
-                                    </div>
-                                  </li>
-                                </ul>
-                                <div className="brdract"></div>
-                              </div>
-                              <div className="activittyy">
-                                <ul className="list-inline maaiinnoonneeact">
-                                  <li className="list-inline-item">
-                                    <img
-                                      src="\adress\avatarf.png"
-                                      className="img-fluid sfgsdfsdsdgsdg"
-                                    />
-                                  </li>
-                                  <li className="list-inline-item">
-                                    <div className="Activity-heads">
-                                      <h3 className="transferred">
-                                        Minted by <span>Virgil Lynch</span>
-                                      </h3>
-                                      <p className="secransferred pl-0">
-                                        <span className="sec m-0">
-                                          02/06/2022, 2:28 AM
-                                        </span>
-                                      </p>
                                     </div>
                                   </li>
                                 </ul>
@@ -530,13 +413,15 @@ export const Place = () => {
                         <button className="increase" data-toggle="modal" data-target="#increase-bid">Increase Bid</button>
                       </div>
                       {/* My domain component data is here...................... */}
-                      <div className="subscription-text d-none">
+                      {/* <div className="subscription-text d-none">
                             <p>Subscription Ends in</p>
                             <h6>362 : 24 : 35 : 02</h6>
-                      </div>
-                      <div className="mydomain-btns d-none">
+                      </div> */}
+                      <div className="mydomain-btns w-100">
+                        <Link className="w-100">
                         <button className="putonmarket">Put On Marketplace</button>
-                        <button className="setting" data-toggle="modal" data-target="#setting">Setting</button>
+                        </Link>
+                        {/* <button className="setting" data-toggle="modal" data-target="#setting">Setting</button> */}
                       </div>
                     </div>
                   </div>

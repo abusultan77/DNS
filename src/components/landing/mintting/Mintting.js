@@ -27,7 +27,7 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
                   className="img-fluid  input-icon"
                 />
                 <input type="text" placeholder=" tilinteas.tomi" />
-                <Link to="/mint">
+                <Link to="/">
                   <button class="btn-searchbar " type="button">
                     <img
                       src="\main-banner\search-normal.svg"
@@ -99,11 +99,7 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
                 </div>
                 <div className="mid">
                   <div className="text">
-                    <p className="para1">Subscription Period</p>
-                    <p className="para2">1 Year</p>
-                  </div>
-                  <div className="text">
-                    <p className="para1">Subscription Fee</p>
+                    <p className="para1">Maintenance Fee</p>
                     <p className="para2">0.01 ETH</p>
                   </div>
                 </div>

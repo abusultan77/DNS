@@ -2480,6 +2480,7 @@ const Profile = () => {
                               <textarea
                                 class="form-control"
                                 id="exampleFormControlTextarea1"
+                                placeholder="Tell about yourself in a few words"
                               ></textarea>
                             </div>
                             <div class="form-group">
@@ -2498,12 +2499,56 @@ const Profile = () => {
                                 id="exampleFormControlInput1"
                                 placeholder="Enter your name in Twitter"
                               />
-                              <a href="#" className="link-input">
-                                Link
-                              </a>
-                              <button className="addmore">
-                                Add more social link
-                              </button>
+                             
+
+                            </div>
+                            <div class="form-group">
+                              <label
+                                for="exampleFormControlInput1"
+                                className="white"
+                              >
+                                Instagram 
+                              </label>
+                              <input
+                                type="email"
+                                class="form-control pl-3 form-abs twitter-un"
+                                id="exampleFormControlInput1"
+                                placeholder="YourInstagramHandle"
+                              />
+                             
+                              
+                            </div>
+                            <div class="form-group">
+                              <label
+                                for="exampleFormControlInput1"
+                                className="white"
+                              >
+                                Telegram 
+                              </label>
+                              <input
+                                type="email"
+                                class="form-control pl-3 form-abs twitter-un"
+                                id="exampleFormControlInput1"
+                                placeholder="https://t.me/abcdef "
+                              />
+                            
+                              
+                            </div>
+                            <div class="form-group">
+                              <label
+                                for="exampleFormControlInput1"
+                                className="white"
+                              >
+                                Your Site 
+                              </label>
+                              <input
+                                type="email"
+                                class="form-control pl-3 form-abs twitter-un"
+                                id="exampleFormControlInput1"
+                                placeholder="e.g yoursite.io "
+                              />
+                            
+                              
                             </div>
                             <div class="form-group">
                               <label

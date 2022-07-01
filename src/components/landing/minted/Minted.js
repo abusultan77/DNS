@@ -25,7 +25,7 @@ const Minted = ({ supArr, objArr, setObjArr }) => {
               <div className="input-field ">
                 <img src="\main-banner\search-normal-input.svg" alt="img" className="img-fluid  input-icon" />
                 <input type="text" placeholder=" tilinteas.tomi" />
-                <Link to="/opensea"><button class="btn-searchbar" type="button" >
+                <Link to="/"><button class="btn-searchbar" type="button" >
                   <img src="\main-banner\search-normal.svg" alt="img" className="img-fluid  mr-3" />
                   Search
                 </button></Link>
@@ -37,12 +37,15 @@ const Minted = ({ supArr, objArr, setObjArr }) => {
                    <div className="text">
                    <h5 className="common">tilinteas.tomi</h5>
                     <h5 className="paraaa">Auction Ends <span className="black">0d 21h 20m 30s</span></h5>
-                    <h5 className="MinBid">Min Bid <span className="black"> <img src="\minted\eth.svg" alt="img" className="img-fluid ml-2 mr-2 " />1.5 ETH</span></h5>
+                    <h5 className="MinBid">Highest Bid <span className="black"> <img src="\minted\eth.svg" alt="img" className="img-fluid ml-2 mr-2 " />1.5 ETH</span></h5>
                    </div>
                     <div className="lastbutton">
+                      <Link to="/place">
+
                     <button class="btn-secinputttlast" type="button" >
                       View Details
                     </button>
+                      </Link>
                     </div>
               
                   </div>
