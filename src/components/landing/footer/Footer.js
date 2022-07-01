@@ -12,7 +12,7 @@ const Footer = () => {
 
                                 <a href="#" className="navbar-brand ">
                                     <Link to="/">
-                                        <img src="\dns-logo\DNS-logo.svg" alt="img" className="img-fluid footerimg" />
+                                        <img src="\dns-logo\logo-new.png" alt="img" className="img-fluid footerimg" />
                                     </Link>
                                 </a>
                                 {/* <button
