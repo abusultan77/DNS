@@ -125,6 +125,7 @@
 
         .avtars {
             margin-top: 29px;
+            margin-bottom: 58px;
             display: flex;
             .avtarfirst {
                 display: flex;
@@ -153,7 +154,7 @@
     .bidActivity {
         margin-top: 29px;
         .content-Activity{
-            height: 195px;
+            height: 230px;
             overflow-y: scroll;
             &::-webkit-scrollbar{
                 width: 3px;
@@ -244,6 +245,7 @@
         .content-history {
             display: flex;
             justify-content: space-between;
+            padding-right: 17px;
         }
         ul.list-inline.maaiinnoonnee {
             display: flex;
@@ -295,7 +297,7 @@
     .lastcardbtn {
         margin: auto;
         position: fixed;
-        margin-top: 65px;
+        margin-top: 33px;
         .main-cardsbid {
             display: flex;
             align-items: center;
@@ -457,6 +459,9 @@
    
 
 .placebid-modal{
+    .modal-dialog{
+        max-width: 414px;
+    }
     .modal-content{
         width:100%;
         padding: 0px 0px 30px;
@@ -633,7 +638,7 @@
             border: none;
             outline: none;
             font-style: normal;
-            font-weight: 600;
+            font-family: Gsemibold;
             font-size: 16px;
             line-height: 100%;
             color: #FFFFFF;
@@ -962,6 +967,9 @@
     .main-place .bid-card{
         margin-bottom: 30px !important;
     }
+    .main-place .maincard{
+        margin-bottom: 45px;
+    }
 }
 
 
@@ -970,4 +978,10 @@
         font-size: 35px;
         left: 42px;
     }
+}
+.placebid-modal .modal-content .modal-body .text-modalbid .bidhead{
+    margin-bottom: 5px;
+}
+.placebid-modal .modal-content{
+    padding: 0px 0px 20px !important;
 }

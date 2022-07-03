@@ -6,7 +6,7 @@ const Giveaway = () => {
             <section className="main-give">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-xl-11 m-auto">
+                        <div className="col-xl-11 m-auto p-0">
                             <div className="all-cards">
                                 <div className="main-card">
                                     <img src="\mint-cards\secrech-card.svg" alt="img" className='img-fluid' />

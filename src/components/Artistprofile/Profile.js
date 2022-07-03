@@ -20,10 +20,10 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <section className="main-Myprofile ptb ">
+        <section className="main-Myprofile ptb padd">
           <div className="container-fluid">
             <div className="row ">
-              <div className="col-sm-12 m-auto">
+              <div className="col-sm-12 m-auto p-0">
                 <div className="row">
                   <div className="col-sm-12">
                     <div className="inner-content text-center">
@@ -2440,7 +2440,7 @@ const Profile = () => {
                     role="tabpanel"
                     aria-labelledby="pills-edit-tab"
                   >
-                    <div className="heading-profile p-3">
+                    <div className="heading-profile p-3 mt-4">
                       <h2 className="edit-heading">Edit Profile</h2>
                       <p className="edit-para">
                         You can set preferred display name and manage other

@@ -525,9 +525,11 @@
   }
   .main-navbar .button-hedaer{
       margin: 0 auto;
+      margin-bottom: 15px;
   }
   .main-navbar-mobile .nav-item{
       margin: 0 !important;
+      margin-bottom: 15px !important;
   }
   .nav-drop .dropdown-menu.show{
       left: unset !important;
@@ -614,7 +616,7 @@
     padding: 10px 0;
   }
   .main-navbar .button-hedaer {
-    margin: 10px auto;
+    margin: 10px auto !important;
   }
   .main-navbar .wallet-modal .modal-content {
     margin: 0 auto;
@@ -639,6 +641,9 @@
 }
 .main-navbar .wallet-modal .modal-dialog{
   margin: 11.75rem auto;
+}
+.main-navbar-mobile .nav-item{
+  margin: 0 !important;
 }
 }
 

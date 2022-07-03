@@ -1011,6 +1011,7 @@
           }
           .right-text{
               margin-left: 27px;
+              margin-top: 15px;
               h6{
                 font-style: normal;
                 font-weight: 500;
@@ -1061,6 +1062,7 @@
               height: 165px;
               object-fit: cover;
               margin-bottom: 10px;
+              border-radius: 10px;
               
           }
           .btn-delete{
@@ -1150,7 +1152,9 @@
     .cover-pic{
         height: 170px;
     }
-
+    .artitsprofile .padd{
+        padding: 0 !important;
+    }
 }
 
 

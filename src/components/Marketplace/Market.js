@@ -8,7 +8,7 @@ const Market = () => {
       <section class="market">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-11 col-12 m-auto ">
+            <div class="col-sm-11 col-12 m-auto p-0">
               <div class="main-heading mt-5 mb-5">
                 <h1>
                   <span>Search</span> for a domain name or scroll <br />
@@ -16,7 +16,7 @@ const Market = () => {
                 </h1>
               </div>
               <div className="row">
-                <div className="col-xl-9 col-12">
+                <div className="col-xl-9 col-12 p-0">
                   <div className="input-field">
                     <img
                       src="\assets\vuesax\linear\search-normal.svg"
@@ -26,7 +26,7 @@ const Market = () => {
                     <input type="text" placeholder="Search domain names" />
                   </div>
                 </div>
-                <div className="col-xl-3 col-12 ">
+                <div className="col-xl-3 col-12 p-0">
                   <div className="right-items">
                     <div class="btns">
                       <div class="dropdown drop1">
@@ -65,7 +65,7 @@ const Market = () => {
                 </div>
               </div>
               <div class="row cardsss">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -108,7 +108,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -151,7 +151,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -194,7 +194,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -237,7 +237,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -280,7 +280,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -323,7 +323,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -366,7 +366,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -409,7 +409,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -452,7 +452,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -495,7 +495,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img
@@ -538,7 +538,7 @@ const Market = () => {
                   </div>
                  </Link>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 padd">
                  <Link to="/place">
                  <div class="card">
                     <img

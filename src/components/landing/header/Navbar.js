@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container-fluid p-0">
         <div className="row">
           <div className="col-xl-11 col-lg-11 m-auto ">
-            <nav className="navbar  navbar-expand-xl ">
+            <nav className="navbar  navbar-expand-xl p-0">
               <a href="#" className="navbar-brand ">
                 <Link to="/">
                   <img

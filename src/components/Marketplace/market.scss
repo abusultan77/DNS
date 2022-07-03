@@ -36,6 +36,11 @@
         justify-content: space-between;
         margin: 0 !important;
         padding: 21px 11px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 100%;
+        color: #3F3F3F;
+        font-family: 'Gsemibold';
       }
       
      
@@ -203,7 +208,14 @@
         font-size: 34px !important;
     }
    }
-
+   @media (max-width:600px){
+    .market .padd{
+      padding: 0;
+    }
+    .market .btn-2{
+      margin-bottom: 100px;
+    }
+   }
    @media (max-width:430px){
     .market .main-heading h1{
         font-size: 20px !important;

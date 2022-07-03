@@ -6,7 +6,7 @@ const Building = () => {
       <section className="main-Building ">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-11 m-auto ">
+            <div className="col-lg-11 m-auto p-0">
               <div className="bannersix">
                 <div className="row">
                   <div className="col-xl-5 col-12 m-auto p-0">

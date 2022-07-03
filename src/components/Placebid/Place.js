@@ -7,7 +7,7 @@ export const Place = () => {
       <section className="main-place">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-11 col-12 m-auto">
+            <div className="col-xl-11 col-12 m-auto p-0">
               <div className="botton">
                 <Link to="/profile">
                   <button className="btn-back">
@@ -417,7 +417,7 @@ export const Place = () => {
                             <p>Subscription Ends in</p>
                             <h6>362 : 24 : 35 : 02</h6>
                       </div> */}
-                      <div className="mydomain-btns w-100">
+                      <div className="mydomain-btns w-100 d-none">
                         <Link className="w-100">
                         <button className="putonmarket">Put On Marketplace</button>
                         </Link>
@@ -473,7 +473,7 @@ export const Place = () => {
                   <input type="text" placeholder="Enter Bid" />
                   <span className="input-inner">ETH</span>
                 </div>
-                <div className="text-modalbid mt-5">
+                <div className="text-modalbid mt-4">
                   <h4 className="bidhead">Your Balance</h4>
                   <h3 className="head1 ml-2">6.323 ETH</h3>
                 </div>

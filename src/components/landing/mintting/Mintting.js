@@ -19,7 +19,7 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
       <section className="main-mintting ">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-sm-11 m-auto">
+            <div className="col-sm-11 m-auto p-0">
               <div className="input-field ">
                 <img
                   src="\main-banner\search-normal-input.svg"

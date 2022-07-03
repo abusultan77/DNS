@@ -6,7 +6,7 @@ const Computerb = () => {
       <section className="main-Computerb ">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-11 m-auto">
+            <div className="col-xl-11 m-auto p-0">
               <div className="row">
                 <div className="col-xl-7 col-12 order">
                   <img

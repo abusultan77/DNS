@@ -21,7 +21,7 @@ const Minted = ({ supArr, objArr, setObjArr }) => {
       <section className="main-Minted ">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-sm-11 m-auto">
+            <div className="col-sm-11 m-auto p-0">
               <div className="input-field ">
                 <img src="\main-banner\search-normal-input.svg" alt="img" className="img-fluid  input-icon" />
                 <input type="text" placeholder=" tilinteas.tomi" />
