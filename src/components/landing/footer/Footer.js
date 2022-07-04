@@ -12,7 +12,7 @@ const Footer = () => {
 
                                 <a href="#" className="navbar-brand ">
                                     <Link to="/">
-                                        <img src="\dns-logo\logo-new.png" alt="img" className="img-fluid footerimg" />
+                                        <img src="\dns-logo\dns-logo.svg" alt="img" className="img-fluid footerimg" />
                                     </Link>
                                 </a>
                                 {/* <button
@@ -58,7 +58,7 @@ const Footer = () => {
                                         <img src="\adress\icon2.png" alt="img" className="img-fluid  mr-3" />
                                     </a>
                                     <a href='/' target="_blank">
-                                        <img src="\adress\icon3.png" alt="img" className="img-fluid  mr-3" />
+                                        <img src="\adress\icon3.png" alt="img" className="img-fluid " />
                                     </a>
                    
                             </nav>

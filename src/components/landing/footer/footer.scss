@@ -243,6 +243,29 @@
     cursor: pointer;
     font-weight: 500;
 }
+@media (max-width:991px){
+    .main-footer{
+        background: #ffffff !important;
+        margin-top: unset !important;
+    }
+    .main-footer .navbar-brand{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+   .main-footer  .navbar-nav{
+        display: block;
+        width: 100%;
+        margin: 20px auto !important;
+        text-align: center;
+    }
+    .main-footer .navbar{
+        justify-content: center;
+    }
+    .main-footer ul.navbar-nav.mr-auto li.nav-item{
+        width: 100%;
+    }
+}
 
 @media (max-width:600px){
     .main-footer{

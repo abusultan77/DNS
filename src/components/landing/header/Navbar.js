@@ -11,7 +11,7 @@ const Navbar = () => {
               <a href="#" className="navbar-brand ">
                 <Link to="/">
                   <img
-                    src="\dns-logo\logo-new.png"
+                    src="\dns-logo\dns-logo.svg"
                     alt="img"
                     className="img-fluid"
                   />

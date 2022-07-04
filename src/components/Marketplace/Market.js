@@ -16,7 +16,7 @@ const Market = () => {
                 </h1>
               </div>
               <div className="row">
-                <div className="col-xl-9 col-12 p-0">
+                <div className="col-xl-9 col-12">
                   <div className="input-field">
                     <img
                       src="\assets\vuesax\linear\search-normal.svg"
@@ -26,7 +26,7 @@ const Market = () => {
                     <input type="text" placeholder="Search domain names" />
                   </div>
                 </div>
-                <div className="col-xl-3 col-12 p-0">
+                <div className="col-xl-3 col-12">
                   <div className="right-items">
                     <div class="btns">
                       <div class="dropdown drop1">

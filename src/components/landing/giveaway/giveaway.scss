@@ -46,6 +46,13 @@
     }
     .main-give .all-cards .main-card{
         margin-bottom: 30px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-give .all-cards .main-card p{
+        text-align: center;
     }
 }
 @media (max-width:600px){
