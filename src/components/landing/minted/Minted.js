@@ -25,7 +25,7 @@ const Minted = ({ supArr, objArr, setObjArr }) => {
               <div className="input-field ">
                 <img src="\main-banner\search-normal-input.svg" alt="img" className="img-fluid  input-icon" />
                 <input type="text" placeholder=" tilinteas.tomi" />
-                <Link to="/"><button class="btn-searchbar" type="button" >
+                <Link to="/mintting"><button class="btn-searchbar" type="button" >
                   <img src="\main-banner\search-normal.svg" alt="img" className="img-fluid  mr-3" />
                   Search
                 </button></Link>

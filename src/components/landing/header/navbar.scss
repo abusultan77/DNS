@@ -74,10 +74,11 @@
     }
 
     .modal-body {
+      position: relative;
       .cross-img1 {
         position: absolute;
         top: 21px;
-        left: 679px;
+        right: 21px;
       }
 
       h3 {
@@ -603,6 +604,8 @@
     width: 167px;
   }
 
+ 
+
   .modal-body .main_text .bhvchvh {
     font-size: 43px !important;
   }
@@ -624,11 +627,11 @@
   .main-navbar .wallet-modal .button-modal1 .modal-button {
     width: 100%;
   }
-  .main-navbar .wallet-modal .modal-body .cross-img1 {
-    position: absolute;
-    top: 15px;
-    left: 335px;
-  }
+  // .main-navbar .wallet-modal .modal-body .cross-img1 {
+  //   position: absolute;
+  //   top: 15px;
+  //   left: 335px;
+  // }
   .main-navbar .wallet-modal .modal-content {
     width: 100% !important;
   }
@@ -664,11 +667,11 @@
   .modal-body .main_text .bhvchvh {
     font-size: 30px !important;
   }
-  .main-navbar .wallet-modal .modal-body .cross-img1 {
-    position: absolute;
-    top: 15px;
-    left: 318px;
-  }
+  // .main-navbar .wallet-modal .modal-body .cross-img1 {
+  //   position: absolute;
+  //   top: 15px;
+  //   left: 318px;
+  // }
   .nav-drop .dropdown-menu.show{
     left: unset !important;
     right: 0px !important;

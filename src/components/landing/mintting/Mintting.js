@@ -107,7 +107,9 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
                   <p className="para1">Total Amount</p>
                   <p className="para2">1.123 ETH</p>
                 </div>
-                <button className="mint">Mint</button>
+                <Link to="/marketplace">
+                  <button className="mint">Mint</button>
+                </Link>
               </div>
             </div>
           </div>

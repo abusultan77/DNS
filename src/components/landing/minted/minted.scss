@@ -150,6 +150,7 @@
                 .text {
                     display: flex;
                     align-items: center;
+                    
                     h5.common {
                         font-family: "Goldman";
                         font-style: normal;
@@ -167,6 +168,7 @@
                         line-height: 100%;
                         text-transform: uppercase;
                         color: #c9c9c9;
+                     
                         span.black {
                             font-style: normal;
                             font-weight: 600;
@@ -188,6 +190,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                    
                         span{
                             display: flex;
                             justify-content: center;
@@ -306,7 +309,23 @@
         height: unset !important;
     }
 }
+.main-Minted .secinputtt .card .card-body .text .MinBid{
+    width: 100px;
+    margin-right: 25px;
+    white-space: nowrap;
+    overflow: hidden;
 
+    text-overflow: ellipsis;
+}
+
+.main-Minted .secinputtt .card .card-body .text .paraaa {
+    
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
 .abb {
     outline: none !important;
     box-shadow: none !important;
