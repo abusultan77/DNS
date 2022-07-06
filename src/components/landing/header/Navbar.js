@@ -160,14 +160,14 @@ const Navbar = () => {
                             </div>
                             <div class="dropdown-divider"></div>
                             <div className="bottom-text">
-                              {/* <Link class=" " to="/profile">
+                              <Link class=" " to="/editprofile">
                                 <img
                                   src="\edit-drop.svg"
                                   className="img-fluid"
                                   alt=""
                                 />
                                 <p> Edit Profile</p>
-                              </Link> */}
+                              </Link>
                             </div>
                             <div class="dropdown-divider"></div>
                             <div className="bottom-text">

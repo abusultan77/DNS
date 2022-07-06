@@ -18,6 +18,7 @@ import Market from './components/Marketplace/Market';
 import Profile from './components/Artistprofile/Profile';
 import Place from './components/Placebid/Place';
 import Resell from './components/Resell/Resell';
+import EditProfile from './components/edit-profile/EditProfile';
 
 function App() {
   // useEagerConnect()
@@ -38,6 +39,7 @@ function App() {
               <Route exact path='/profile' component={Profile} />
               <Route exact path='/place' component={Place} />
               <Route exact path='/resell' component={Resell} />
+              <Route exact path='/editprofile' component={EditProfile} />
             </Switch>
             <Footer/>
           </Router>

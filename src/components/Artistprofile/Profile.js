@@ -180,7 +180,7 @@ const Profile = () => {
                       Unsold
                     </a>
                   </li>
-                  <li class="nav-item">
+                  {/* <li class="nav-item">
                     <a
                       class="nav-link  "
                       id="pills-edit-tab"
@@ -192,7 +192,7 @@ const Profile = () => {
                     >
                       Edit Profile
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
 
                 <div class="tab-content" id="pills-tabContent">
@@ -2434,7 +2434,7 @@ const Profile = () => {
                       <button>Loading More</button>
                     </div>
                   </div>
-                  <div
+                  {/* <div
                     class="tab-pane fade"
                     id="pills-edit"
                     role="tabpanel"
@@ -2629,7 +2629,7 @@ const Profile = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
