@@ -66,7 +66,7 @@ const Navbar = () => {
                     >
                       <img
                         src="\dropuser.png"
-                        className="img-fluid rounded-circle w20 mr-2"
+                        className="img-fluid rounded-circle w20 mr-2 img200"
                         data-toggle="modal"
                         data-target="#exampleModal"
                         alt=""
@@ -80,16 +80,14 @@ const Navbar = () => {
                             <div className="boxy"></div>
                             <h3 className="">Roderick Ryan</h3>
                             <span className="d-flex align-items-center">
-                              <a class="text-truncate" href="#">
+                              <p class="text-truncate" >
                                 0xD39C15BC5...83CF
-                              </a>
+                             </p>
                               <img
                                 src="\copy-fav.png"
                                 className="img-fluid "
-                                data-toggle="modal"
-                                data-target="#exampleModal"
                                 alt=""
-                              />
+                              /> 
                             </span>
                             <ul className="list-inline">
                               <li className="list-inline-item">
@@ -122,14 +120,14 @@ const Navbar = () => {
                             </div>
                             <div class="dropdown-divider"></div>
                             <div className="bottom-text">
-                              <Link class=" " to="/profile">
+                              {/* <Link class=" " to="/profile">
                                 <img
                                   src="\edit-drop.svg"
                                   className="img-fluid"
                                   alt=""
                                 />
                                 <p> Edit Profile</p>
-                              </Link>
+                              </Link> */}
                             </div>
                             <div class="dropdown-divider"></div>
                             <div className="bottom-text">

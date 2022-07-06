@@ -127,10 +127,14 @@
       .cardsss{
           margin-top: 50px;
       }
-      
+  
       .img-1 {
         position: relative;
         left: -15px;
+        width: 35px;
+        height: 35.7px;
+        object-fit: cover;
+        border-radius: 50%;
       }
       
       .card {
@@ -231,3 +235,11 @@
         font-size: 16px !important;
     }
    }
+
+   .imgfigure{
+    width: 35.7px;
+    height: 32.9px !important;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
