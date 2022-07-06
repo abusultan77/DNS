@@ -678,7 +678,8 @@
   //   left: 318px;
   // }
   .nav-drop .dropdown-menu.show{
-    left: unset !important;
+    left: 30px !important;
+    top: 0;
     right: 0px !important;
   }
 }
@@ -778,5 +779,14 @@
                 color: #ff0083;
             }
       }
+  }
+}
+
+
+@media (max-width:600px){
+  .nav-drop .dropdown-menu.show{
+    left: 30px !important;
+    top: 0 !important;
+    right: 0px !important;
   }
 }
