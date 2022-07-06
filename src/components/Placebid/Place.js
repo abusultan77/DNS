@@ -9,7 +9,7 @@ export const Place = () => {
           <div className="row">
             <div className="col-xl-11 col-12 m-auto p-0">
               <div className="botton">
-                <Link to="/profile">
+                <Link to="/marketplace">
                   <button className="btn-back">
                     <img
                       src="\adress\arrow-left.svg"

@@ -1,0 +1,9 @@
+let Environment = {
+  factoryContarct: "0xe4b6c0d10bc208aCD562F4792c3E0A2b59109825",
+  StakeBNBtoBNB: "0xe9C59acf9B6fe130279261538F22303A653b67e8",
+  StakeBNBtoToken: "0x3EA5aa42d9B2A83f24e4662aF1C308A9f13f479D",
+  StaktTokentoBNB: "0x5C0277B41c944bF8FC38F88a59B5B47dB2A56E1c",
+  StakeTokentoToken: "0x2fe75f25b31D26bEDbF78400921741C8CC90EFB9",
+};
+
+export default Environment;
