@@ -35,6 +35,10 @@
         align-items: center;
         img{
             margin-right: 31px;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
             &:last-child{
                 margin: 0 !important;
             }

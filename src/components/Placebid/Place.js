@@ -21,7 +21,7 @@ export const Place = () => {
                 </Link>
               </div>
               <div className="row">
-                <div className=" col-xl-6 col-md-6 col-sm-12 p-0">
+                <div className=" col-xl-6 col-md-6 col-sm-12">
                   <div className="maincard">
                     <h3 className="cardinnerheading">fireape.tomi</h3>
                     <div className="cardimgg">
@@ -29,7 +29,7 @@ export const Place = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-6 col-md-6 col-sm-12 p-0">
+                <div className="col-xl-6 col-md-6 col-sm-12">
                   <div className="bittingpills">
                     <div className="heading-bid">
                       <h5 className="">fireape.tomi</h5>
@@ -390,7 +390,7 @@ export const Place = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="history-cards">
+                        <div className="history-cards2">
                           <div className="history-content">
                             <h5 className="">Auction Ends in</h5>
                             <div className="history-inner">
@@ -399,14 +399,19 @@ export const Place = () => {
                           </div>
                         </div>
                       </div>
-                      {/* place a bid button show on place a bid component */}
-                      <button
-                        className="btnbtnbid"
-                        data-toggle="modal"
-                        data-target="#placebid"
-                      >
-                        Place a Bid
-                      </button>
+                      <div className="row">
+                        <div className="col-sm-12 p-0">
+                          {/* place a bid button show on place a bid component */}
+                          <button
+                            className="btnbtnbid"
+                            data-toggle="modal"
+                            data-target="#placebid"
+                          >
+                            Place a Bid
+                          </button>
+                          
+                        </div>
+                      </div>
                       {/* this two button are display on offer sent component and hide the place a bid button */}
                       <div className="withdraw-increase d-none">
                         <button className="withdraw" data-toggle="modal" data-target="#withdraw">Withdraw Bid</button>
