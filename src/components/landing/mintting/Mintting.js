@@ -5,15 +5,20 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import TotalSupply from "../../../hooks/totalSupply";
 import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const Mintting = ({ supArr, objArr, setObjArr }) => {
+  const history = useHistory();
   const [total, setTotal] = useState(0);
   const [word, setWord] = useState("");
   const [loader, setLoader] = useState(false);
   const [avail, setAvail] = useState("");
   const [supArr2, setSupArr2] = useState([]);
   const [search, setSearch] = useState(false);
-
+  const mintfun =()=>{
+    window.$("#minting-modal1").modal("hide")
+    history.push("/marketplace");
+  }
   return (
     <>
       <section className="main-mintting ">
@@ -107,9 +112,9 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
                   <p className="para1">Total Amount</p>
                   <p className="para2">1.123 ETH</p>
                 </div>
-                <Link to="/marketplace">
-                  <button className="mint">Mint</button>
-                </Link>
+              
+                  <button className="mint" id="mint" onClick={mintfun}>Mint</button>
+              
               </div>
             </div>
           </div>

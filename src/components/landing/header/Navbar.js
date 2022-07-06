@@ -1,7 +1,32 @@
 import "./navbar.scss";
 import { Link } from "react-router-dom";
+import { useWeb3React } from "@web3-react/core";
+import useAuth from "../../../hooks/useAuth";
 
 const Navbar = () => {
+  const { account } = useWeb3React();
+  const { login, logout } = useAuth();
+
+  const connectMetamask = () => {
+    localStorage.setItem("connectorId", "injected");
+    login("injected");
+    localStorage.setItem("flag", "true");
+    window.$('#exampleModal').modal('hide')
+  };
+
+  const trustWallet = async () => {
+    localStorage.setItem("connectorId", "walletconnect");
+    if (account) {
+      logout();
+    } else {
+      login("walletconnect");
+    }
+  };
+
+  const logout1 = () => {
+    localStorage.clear();
+    // history.push("/");
+  }
   return (
     <section className="main-navbar-mobile main-navbar">
       <div className="container-fluid p-0">
@@ -47,15 +72,30 @@ const Navbar = () => {
 
                   <li class="nav-item dropdown"></li>
                 </ul>
-                <button
-                  class="btn button-hedaer"
-                  data-toggle="modal"
-                  data-target="#exampleModal"
-                  type="button"
-                >
-                  Connect Wallet
-                </button> 
-                <div className="nav-drop">
+
+                {account ?
+                  <button
+                    class="btn button-hedaer"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
+                    type="button"
+                  >
+                    Connected
+                  </button> 
+                  :
+                  <button
+                    class="btn button-hedaer"
+                    data-toggle="modal"
+                    data-target="#exampleModal"
+                    type="button"
+                  >
+                    Connect Wallet
+                  </button>
+
+                }
+
+                {account ? 
+                  <div className="nav-drop">
                   <a class="dropdown">
                     <button
                       class="btn button-hedaer dropdown-toggle"
@@ -66,7 +106,7 @@ const Navbar = () => {
                     >
                       <img
                         src="\dropuser.png"
-                        className="img-fluid rounded-circle w20 mr-2"
+                        className="img-fluid rounded-circle w20 mr-2 img200"
                         data-toggle="modal"
                         data-target="#exampleModal"
                         alt=""
@@ -80,14 +120,12 @@ const Navbar = () => {
                             <div className="boxy"></div>
                             <h3 className="">Roderick Ryan</h3>
                             <span className="d-flex align-items-center">
-                              <a class="text-truncate" href="#">
+                              <p class="text-truncate" >
                                 0xD39C15BC5...83CF
-                              </a>
+                              </p>
                               <img
                                 src="\copy-fav.png"
                                 className="img-fluid "
-                                data-toggle="modal"
-                                data-target="#exampleModal"
                                 alt=""
                               />
                             </span>
@@ -122,14 +160,14 @@ const Navbar = () => {
                             </div>
                             <div class="dropdown-divider"></div>
                             <div className="bottom-text">
-                              <Link class=" " to="/profile">
+                              {/* <Link class=" " to="/profile">
                                 <img
                                   src="\edit-drop.svg"
                                   className="img-fluid"
                                   alt=""
                                 />
                                 <p> Edit Profile</p>
-                              </Link>
+                              </Link> */}
                             </div>
                             <div class="dropdown-divider"></div>
                             <div className="bottom-text">
@@ -148,6 +186,9 @@ const Navbar = () => {
                     </div>
                   </a>
                 </div>
+                : ''
+                }
+              
               </div>
             </nav>
           </div>
@@ -186,7 +227,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="button-modal1 d-flex">
-                  <button className="modal-button">
+                  <button className="modal-button" onClick={connectMetamask}>
                     <img
                       src="\adress\metamask-icon.svg"
                       className="img-fluid"
@@ -194,7 +235,7 @@ const Navbar = () => {
                     <h3 className=""> MetaMask</h3>
                     <p className="">Connect to your MetaMask wallet </p>
                   </button>
-                  <button className="modal-button">
+                  <button className="modal-button" onClick={trustWallet}>
                     <img
                       src="\adress\walletconnect-icon.svg"
                       className="img-fluid"
