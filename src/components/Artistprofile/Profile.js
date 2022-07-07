@@ -204,6 +204,7 @@ const Profile = () => {
                   >
                     <div class="row cardsss ptb20">
                       <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <Link to="/place">
                         <div class="card">
                           <img
                             src="assets\Frame 9300.svg"
@@ -226,6 +227,8 @@ const Profile = () => {
                               </figure>
                               <figure></figure>
                             </div>
+                     
+                           
                             <div class="card-style-2">
                               <h5 class="card-heading-1">Highest Bid</h5>
                               <p class="card-heading-2">
@@ -243,6 +246,7 @@ const Profile = () => {
                             <h5 class="card-heading-4">04 : 23 : 10 : 39</h5>
                           </div>
                         </div>
+                        </Link>
                       </div>
                       <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                         <div class="card">
