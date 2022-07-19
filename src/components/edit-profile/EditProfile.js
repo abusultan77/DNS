@@ -176,7 +176,8 @@ export const EditProfile = () => {
                                             work too. Max 5mb.
                                         </h6>
                                         <div className="btn-upload">
-                                            <button>Upload</button>
+                                            <label className='upload-btn' for="upload">Upload</label>
+                                            <input id="upload" type="file" className='d-none'/>
                                             <button className="btn-delete">
                                                 <img src="\delete.png" alt="img" className="" />
                                             </button>

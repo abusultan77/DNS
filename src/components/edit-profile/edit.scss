@@ -323,7 +323,26 @@
       .email-input{
         padding-left: 20px !important;
       }
-    
+      .upload-btn{
+        background: #FF0083;
+        border-radius: 5px;
+        padding: 12px 16px;
+        border: none !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        line-height: 16px !important;
+        text-align: center;
+        color: #FCFCFD !important;
+        transition: 0.7s;
+        border: 2px solid transparent;
+        cursor: pointer;
+        &:hover{
+            background: #fff;
+            color: #ff0083 !important;
+            border: 2px solid #ff0083 !important;
+        }
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -337,3 +356,4 @@
         width: 425px;
     }
 }
+
