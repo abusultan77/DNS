@@ -1,6 +1,50 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 import "./edit.scss";
 export const EditProfile = () => {
+    const [profileImg, setProfileImg] = useState();
+    const [myProfile, setMyProfile] = useState({});
+    const [bannerImg, setBannerImg] = useState();
+    const [myBanner, setMyBanner] = useState({});
+    const [inputs, setInputs] = useState({
+        name: '',
+        bio: '',
+        twitter: '',
+        telegram: '',
+        website: '',
+        instagram: '',
+        email: '',
+        walletAddress:''
+    })
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setInputs(inputs => ({ ...inputs, [name]: value }));
+    }
+
+    const handleFileSelectProfile = (evt) => {
+        if (evt.target.files) {
+            const filesarray = Array.from(evt.target.files).map((file) => URL.createObjectURL(file));
+
+            setProfileImg(filesarray[0]);
+            // Array.from(evt.target.files).map((file) => URL.createObjectURL(file))
+        }
+        var files = evt.target.files;
+        var file = files[0];
+        setMyProfile(file)
+    }
+
+    const handleFileSelectBanner = (evt) => {
+        if (evt.target.files) {
+            const filesarray = Array.from(evt.target.files).map((file) => URL.createObjectURL(file));
+
+            setBannerImg(filesarray[0]);
+            // Array.from(evt.target.files).map((file) => URL.createObjectURL(file))
+        }
+        var files = evt.target.files;
+        var file = files[0];
+        setMyBanner(file)
+    }
+
     return (
         <>
             <section className='main-edit-profile'>
@@ -83,7 +127,7 @@ export const EditProfile = () => {
                                                 type="email"
                                                 class="form-control pl-3 form-abs twitter-un"
                                                 id="exampleFormControlInput1"
-                                                placeholder="YourInstagramHandle"
+                                                placeholder="Your Instagram UserName"
                                             />
 
 
@@ -99,7 +143,7 @@ export const EditProfile = () => {
                                                 type="email"
                                                 class="form-control pl-3 form-abs twitter-un"
                                                 id="exampleFormControlInput1"
-                                                placeholder="https://t.me/abcdef "
+                                                placeholder="Telegram link "
                                             />
 
 
@@ -115,7 +159,7 @@ export const EditProfile = () => {
                                                 type="email"
                                                 class="form-control pl-3 form-abs twitter-un"
                                                 id="exampleFormControlInput1"
-                                                placeholder="e.g yoursite.io "
+                                                placeholder="Your Site link "
                                             />
 
 
@@ -133,9 +177,9 @@ export const EditProfile = () => {
                                                 id="exampleFormControlInput1"
                                                 placeholder="Enter your email address"
                                             />
-                                            <a href="#" className="link-input">
+                                            {/* <a href="#" className="link-input">
                                                 Confirm
-                                            </a>
+                                            </a> */}
                                         </div>
                                         <div class="form-group">
                                             <label
@@ -150,9 +194,9 @@ export const EditProfile = () => {
                                                 id="exampleFormControlInput1"
                                                 placeholder="0x1B92ABFC520D4210EC3D6EB5173988C6AE066231"
                                             />
-                                            <a href="#" className="link-input">
+                                            {/* <a href="#" className="link-input">
                                                 Copy
-                                            </a>
+                                            </a> */}
                                         </div>
                                     </form>
 

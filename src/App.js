@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/landing/header/Navbar.js';
 import Footer from './components/landing/footer/Footer.js';
-// import useEagerConnect from './hooks/useEagerConnect'
+import useEagerConnect from './hooks/useEagerConnect'
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -21,7 +21,7 @@ import Resell from './components/Resell/Resell';
 import EditProfile from './components/edit-profile/EditProfile';
 
 function App() {
-  // useEagerConnect()
+  useEagerConnect()
   return (
     <>
         <ToastContainer style={{ fontSize: 20 }} />

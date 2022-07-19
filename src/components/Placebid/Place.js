@@ -9,7 +9,7 @@ export const Place = () => {
           <div className="row">
             <div className="col-xl-11 col-12 m-auto p-0">
               <div className="botton">
-                <Link to="/profile">
+                <Link to="/marketplace">
                   <button className="btn-back">
                     <img
                       src="\adress\arrow-left.svg"
@@ -56,7 +56,7 @@ export const Place = () => {
                             data-toggle="tab"
                             href="#nav-Activity"
                           >
-                            List of Owners 
+                            List of Owners
                           </a>
                         </div>
                       </nav>
@@ -306,7 +306,7 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                      Owned by
+                                        Owned by
                                         <span>Russell Carson</span>
                                       </h3>
                                     </div>
@@ -325,7 +325,7 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                      Previously Owned by
+                                        Previously Owned by
                                         <span>Darin Walker</span>
                                       </h3>
                                     </div>
@@ -344,7 +344,7 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                      Previously Owned by
+                                        Previously Owned by
                                         <span>Billy Bowen</span>
                                       </h3>
                                     </div>
@@ -363,7 +363,7 @@ export const Place = () => {
                                   <li className="list-inline-item">
                                     <div className="Activity-heads">
                                       <h3 className="transferred">
-                                      Previously Owned by
+                                        Previously Owned by
                                         <span>Kay Curry</span>
                                       </h3>
                                     </div>
@@ -409,7 +409,7 @@ export const Place = () => {
                           >
                             Place a Bid
                           </button>
-                          
+
                         </div>
                       </div>
                       {/* this two button are display on offer sent component and hide the place a bid button */}
@@ -424,7 +424,7 @@ export const Place = () => {
                       </div> */}
                       <div className="mydomain-btns w-100 d-none">
                         <Link className="w-100">
-                        <button className="putonmarket">Put On Marketplace</button>
+                          <button className="putonmarket">Put On Marketplace</button>
                         </Link>
                         {/* <button className="setting" data-toggle="modal" data-target="#setting">Setting</button> */}
                       </div>
@@ -556,7 +556,7 @@ export const Place = () => {
             <div class="modal-content">
               <div className="modal-header">
                 <h3 className="modal-title text-center" id="exampleModalLabel">
-                Withdraw Bid
+                  Withdraw Bid
                 </h3>
                 <button
                   type="button"
@@ -571,20 +571,20 @@ export const Place = () => {
               </div>
               <div class="modal-body">
                 <div className="withdraw-body">
-                <p className="withdraw-para">
-                Are you Sure to <br /> Withdraw your Bid
-                </p>
-               <div className="withdraw-btn">
-               <button className="cancel">Cancel</button>
-               <button className="confirm">Confirm</button>
-               </div>
+                  <p className="withdraw-para">
+                    Are you Sure to <br /> Withdraw your Bid
+                  </p>
+                  <div className="withdraw-btn">
+                    <button className="cancel">Cancel</button>
+                    <button className="confirm">Confirm</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-       {/* offer sent component show two button withdraw and increase bid if click on increase bid button open this modal  */}
+      {/* offer sent component show two button withdraw and increase bid if click on increase bid button open this modal  */}
       <section className="placebid-modal">
         <div
           className="modal fade"
@@ -597,7 +597,7 @@ export const Place = () => {
             <div className="modal-content">
               <div className="modal-header">
                 <h3 className="modal-title text-center" id="exampleModalLabel">
-                Increase Bid
+                  Increase Bid
                 </h3>
 
                 <button
@@ -616,7 +616,7 @@ export const Place = () => {
                   <div className="upper-text">
                     <p>You Bid</p>
                     <p>
-                    Previous Bid: <span> 1.20 ETH </span>
+                      Previous Bid: <span> 1.20 ETH </span>
                     </p>
                   </div>
                   <input type="text" placeholder="Enter Bid" />
@@ -637,7 +637,7 @@ export const Place = () => {
                 <button
                   className="btnmodalbtn"
                 >
-                 Increase Bid
+                  Increase Bid
                 </button>
               </div>
             </div>
@@ -646,7 +646,7 @@ export const Place = () => {
       </section>
       {/* In a my domain component two button show put on market place and setting if click on setting to open this modal */}
       <section className="setting-modal">
-      <div
+        <div
           class="modal fade"
           id="setting"
           tabindex="-1"
@@ -655,24 +655,24 @@ export const Place = () => {
         >
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-            <div class="modal-header">
-              <h6>MintING</h6>
+              <div class="modal-header">
+                <h6>MintING</h6>
                 <button
                   type="button"
                   class="close"
                   data-dismiss="modal"
                   aria-label="Close"
                 >
-                 <img src="\close-icon.png" alt="img" className="img-fluid" />
+                  <img src="\close-icon.png" alt="img" className="img-fluid" />
                 </button>
               </div>
               <div class="modal-body">
                 <p className="upper-para">No. of years</p>
                 <div className="upper">
-                    <div className="left"><button><img src="\minus.png" alt="img" className="img-fluid" /></button></div>
-                    <div className="mid">1</div>
-                    <div className="right"><button><img src="\plus.png" alt="img" className="img-fluid" /></button></div>
-               
+                  <div className="left"><button><img src="\minus.png" alt="img" className="img-fluid" /></button></div>
+                  <div className="mid">1</div>
+                  <div className="right"><button><img src="\plus.png" alt="img" className="img-fluid" /></button></div>
+
                 </div>
                 <div className="mid">
                   <div className="text">
