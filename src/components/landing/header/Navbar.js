@@ -6,6 +6,7 @@ import useAuth from "../../../hooks/useAuth";
 const Navbar = () => {
   const { account } = useWeb3React();
   const { login, logout } = useAuth();
+console.log("acccc",account)
 
   const connectMetamask = () => {
     localStorage.setItem("connectorId", "injected");
@@ -20,12 +21,14 @@ const Navbar = () => {
       logout();
     } else {
       login("walletconnect");
+      window.$('#exampleModal').modal('hide')
     }
   };
 
   const logout1 = () => {
-    localStorage.clear();
-    // history.push("/");
+    localStorage.setItem("flag", "false");
+    // localStorage.clear();
+    logout()
   }
   return (
     <section className="main-navbar-mobile main-navbar">
@@ -121,13 +124,16 @@ const Navbar = () => {
                             <h3 className="">Roderick Ryan</h3>
                             <span className="d-flex align-items-center">
                               <p class="text-truncate" >
-                                0xD39C15BC5...83CF
+                                {account}
                               </p>
+                              <button className="copybutton"  onClick={() =>  navigator.clipboard.writeText(`${account}`)}>
                               <img
                                 src="\copy-fav.png"
                                 className="img-fluid "
                                 alt=""
                               />
+                              </button>
+                             
                             </span>
                             <ul className="list-inline">
                               <li className="list-inline-item">
@@ -170,15 +176,13 @@ const Navbar = () => {
                               </Link>
                             </div>
                             <div class="dropdown-divider"></div>
-                            <div className="bottom-text">
-                              <Link class=" " to="#">
+                            <div className="bottom-text" onClick={logout1}>
                                 <img
                                   src="\disconnect-drop.svg"
                                   className="img-fluid"
                                   alt=""
                                 />
                                 <p> Disconnect</p>
-                              </Link>
                             </div>
                           </div>
                         </div>
