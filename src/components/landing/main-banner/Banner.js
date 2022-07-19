@@ -19,14 +19,14 @@ const Banner = () => {
               <div className="parafirst">
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br></br> laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
               </div>
-              <div className="input-field">
+              {/* <div className="input-field">
               <img src="\main-banner\search-normal-input.svg" alt="img" className="img-fluid  input-icon" />
               <input type="text" placeholder="Search domain names" />
               <Link to="/minted"><button class="btn-searchbar" type="button" >
                       <img src="\main-banner\search-normal.svg" alt="img" className="img-fluid  mr-3" />
                       Search
                     </button></Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

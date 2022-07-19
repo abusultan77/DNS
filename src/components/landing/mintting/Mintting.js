@@ -15,7 +15,7 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
   const [avail, setAvail] = useState("");
   const [supArr2, setSupArr2] = useState([]);
   const [search, setSearch] = useState(false);
-  const mintfun =()=>{
+  const mintfun = () => {
     window.$("#minting-modal1").modal("hide")
     history.push("/marketplace");
   }
@@ -114,12 +114,145 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
                 </div>
               
                   <button className="mint" id="mint" onClick={mintfun}>Mint</button>
+                  
               
               </div>
             </div>
           </div>
         </div>
       </section>
+      {/* <section className="minting-modal">
+        <div
+          class="modal fade"
+          id="minting-modal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6>Register & Mint</h6>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <img src="\close-icon.png" alt="img" className="img-fluid" />
+                </button>
+              </div>
+              <div class="modal-body">
+                <div className="img-text d-flex">
+                  <img
+                    src="\assets\Frame92.svg"
+                    alt="img"
+                    className="img-fluid mr-2"
+                  />
+                  <h4 className="">Request to Register</h4>
+
+                </div>
+                <p className="pararegister">Your wallet will open and you will be asked to confirm the first of two transactions required for registration. If the second transaction is not processed within 7 days of the first, you will need to start again from step 1.</p>
+                <div className="img-text d-flex">
+                  <img
+                    src="\assets\Frame929.svg"
+                    alt="img"
+                    className="img-fluid mr-2"
+                  />
+                  <h4 className="">Wait for 1 minute</h4>
+
+                </div>
+                <p className="pararegister">The waiting period is required to ensure another person hasn’t tried to register the same name and protect you after your request.</p>
+                <div className="img-text d-flex">
+                  <img
+                    src="\assets\Frame9295.png"
+                    alt="img"
+                    className="img-fluid mr-2"
+                  />
+                  <h4 className="">Complete Registration</h4>
+
+                </div>
+                <p className="pararegister">Click ‘register’ and your wallet will re-open. Only after the 2nd transaction is confirmed you'll know if you got the name.</p>
+                <div className="lastbutton">
+                      <button
+                        class="btn-common w-100"
+                        type="button"
+                       
+                      >
+                       Register
+                      </button>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+       {/* <section className="minting-modal">
+        <div
+          class="modal fade"
+          id="minting-modal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6>Register & Mint</h6>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <img src="\close-icon.png" alt="img" className="img-fluid" />
+                </button>
+              </div>
+              <div class="modal-body">
+                <div className="img-text d-flex">
+                  <img
+                    src="\assets\Frame92.svg"
+                    alt="img"
+                    className="img-fluid mr-2"
+                  />
+                  <h4 className="">Request to Register</h4>
+
+                </div>
+                <p className="pararegister">Your wallet will open and you will be asked to confirm the first of two transactions required for registration. If the second transaction is not processed within 7 days of the first, you will need to start again from step 1.</p>
+                <div className="img-text d-flex">
+                  <img
+                    src="\assets\Frame295.png"
+                    alt="img"
+                    className="img-fluid mr-2"
+                  />
+                  <h4 className="">Wait for 1 minute</h4>
+
+                </div>
+                <p className="pararegister">The waiting period is required to ensure another person hasn’t tried to register the same name and protect you after your request.</p>
+                <div className="img-text d-flex">
+                  <img
+                    src="\assets\Frame9295.png"
+                    alt="img"
+                    className="img-fluid mr-2"
+                  />
+                  <h4 className="">Complete Registration</h4>
+
+                </div>
+                <p className="pararegister">Click ‘register’ and your wallet will re-open. Only after the 2nd transaction is confirmed you'll know if you got the name.</p>
+                <div className="lastbutton">
+                      <button
+                        class="btn-common w-100"
+                        type="button"
+                       
+                      >
+                       Register
+                      </button>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
       <section className="minting-modal">
         <div
           class="modal fade"
@@ -130,15 +263,15 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
         >
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-            <div class="modal-header">
-              <h6>MintING</h6>
+              <div class="modal-header">
+                <h6>MintING</h6>
                 <button
                   type="button"
                   class="close"
                   data-dismiss="modal"
                   aria-label="Close"
                 >
-                 <img src="\close-icon.png" alt="img" className="img-fluid" />
+                  <img src="\close-icon.png" alt="img" className="img-fluid" />
                 </button>
               </div>
               <div class="modal-body">
@@ -164,14 +297,14 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header">
-              <h6>MintING</h6>
+                <h6>MintING</h6>
                 <button
                   type="button"
                   class="close"
                   data-dismiss="modal"
                   aria-label="Close"
                 >
-                 <img src="\close-icon.png" alt="img" className="img-fluid" />
+                  <img src="\close-icon.png" alt="img" className="img-fluid" />
                 </button>
               </div>
               <div class="modal-body">
