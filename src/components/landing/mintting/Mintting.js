@@ -112,10 +112,7 @@ const Mintting = ({ supArr, objArr, setObjArr }) => {
                   <p className="para1">Total Amount</p>
                   <p className="para2">1.123 ETH</p>
                 </div>
-              
-                  <button className="mint" id="mint" onClick={mintfun}>Mint</button>
-                  
-              
+                  <button className="mint" id="mint" onClick={mintfun}>Mint</button>              
               </div>
             </div>
           </div>
