@@ -1,19 +1,48 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./profile.scss";
+import Loader from "../../hooks/loader";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import OwlCarousel from "react-owl-carousel";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
+import {API_URL} from '../../utils/ApiUrl'
+import { useWeb3React } from "@web3-react/core";
+import axios from "axios";
 
 const Profile = () => {
+  const { account } = useWeb3React();
+  const [inputs, setInputs] = useState();
+  const [profileImg, setProfileImg] = useState();
+  const [bannerImg, setBannerImg] = useState();
+  const [open, setOpen] = useState(false);
+  const getUser = async () => {
+    setOpen(true)
+        axios.post(API_URL + "users/getUser", {walletAddress:account} )
+            .then((response) => {
+                setOpen(false)
+                setInputs(response.data.user)
+                setProfileImg(response.data.user.picture)
+                setBannerImg(response.data.user.bannerPicture)
+            }).catch((err) => {
+                setOpen(false)
+                // toast.error(err.response.data.msg, {
+                //     position: "top-center",
+                //     autoClose: 2000,
+                // });
+            })
+}
+
+useEffect(() => {
+
+    getUser();
+  
+}, []);
   return (
     <>
+    {open && <Loader text={'....Loading!!'} />}
       <section className="artitsprofile">
         <div className="row">
           <div className="col-sm-12 p-0">
             <div className="">
               <img
-                src="\profile-bg.png"
+                src={bannerImg ? bannerImg : ''}
                 class="img-fluid w100p cover-pic"
                 alt=""
               ></img>
@@ -29,19 +58,22 @@ const Profile = () => {
                     <div className="inner-content text-center">
                       <a className="proimg">
                         <img
-                          src="\avatar-pf.png"
+                          src={profileImg ? profileImg : ''}
                           className="img-fluid main-img"
                           alt=""
                         />
                       </a>
                       <div className="mt-4">
                         <h3 className="white">
-                          <strong>Martin Knight</strong>{" "}
+                          <strong>{inputs?.userName}</strong>{" "}
                         </h3>
                       </div>
-                      <div className=" ">
-                        <button className=" btn-common11  btn-profile-top">
-                          0x7a86c0b0641710...a63e{" "}
+                      <div className=" " >
+                        <button className=" btn-common11 copybutton  btn-profile-top"
+                                  onClick={() =>
+                                    navigator.clipboard.writeText(`${account}`)
+                                  }>
+                                    {account}
                           <img
                             src="\copy-fav.png"
                             className="img-fluid p-2"
@@ -51,12 +83,7 @@ const Profile = () => {
                       </div>
                       <div className="">
                         <p className="Greyp">
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudantium, totam
-                          <br></br> rem aperiam, eaque ipsa quae ab illo
-                          inventore veritatis et quasi architecto beatae vitae
-                          dicta sunt<br></br> explicabo. Nemo enim ipsam
-                          voluptatem quia voluptas sit aspernatur aut odit aut.
+                         {inputs?.bio}
                         </p>
                       </div>
                       <ul className="list-inline mt-5 fav-icons">

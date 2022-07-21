@@ -23,8 +23,7 @@ function Loader({ text }) {
               <img
                 width={150}
                 style={{
-                  filter:
-                    "invert(99%) sepia(1%) saturate(2%) hue-rotate(168deg) brightness(120%) contrast(100%)",
+                  filter: 'invert(22%) sepia(97%) saturate(6775%) hue-rotate(321deg) brightness(98%) contrast(108%)'
                 }}
                 src="https://v.fastcdn.co/u/430e104e/57579327-0-Loaders-3.svg"
                 alt="loader"
